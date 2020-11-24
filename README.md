@@ -1,4 +1,4 @@
-# Action-jd-scripts
+# 请不要Fork这个仓库
 
 - [jd_scripts](https://github.com/lxk0301/jd_scripts) 的action模板
 - [Action 参数说明](https://github.com/lxk0301/jd_scripts/blob/master/githubAction.md)

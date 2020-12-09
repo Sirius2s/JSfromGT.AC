@@ -31,7 +31,7 @@ inputs:
     - timer: # 直播红包
         parameters:
           name: jd_live_redrain
-          cronExpression: "0 0 0,9,11,13,15,17,19,20,21,23 * * * *"
+          cronExpression: "0 0 0,9-23/2 * * * *"
           enable: true
           argument: jd_live_redrain
     - timer: # 直播红包2

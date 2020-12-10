@@ -38,7 +38,7 @@ inputs:
         parameters:
           name: jd_live_redrain2
           cronExpression: "0 30 20-23/1 * * * *"
-          enable: true
+          enable: false
           argument: jd_live_redrain2
     - timer: # 宠汪汪积分兑换奖品# 宠汪汪偷好友积分与狗# 点点券
         parameters:

@@ -18,18 +18,23 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: "安装依赖和serverless工具"
-        run: |
-          npm install
-          sudo npm install serverless -g
+      # - name: "安装依赖和serverless工具"
+      #   run: |
+      #     npm install
+      #     sudo npm install serverless -g
 
-      - name: "scf test"
+      - name: "替换文件"
         run: |
-          pwd
+          # pwd
           # /usr/bin/find /home -name severless.yml
-          wget -O severless2.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
+          # wget -O severless2.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           # find /home -name severless2.yml
-          cat severless2.yml
+          # cat severless2.yml
+          wget https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
+          cat severless.yml
+          wget https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+          cat index.js
+          
 
       - name: "将Secrets里面配置的变量添加到severless.yml里面作为环境变量"
         run: |

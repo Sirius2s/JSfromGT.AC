@@ -13,6 +13,11 @@ jobs:
         with:
           repository: Sirius2s/JSfromGT
 
+      - name: "替换文件"
+        run: |
+          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
+          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:

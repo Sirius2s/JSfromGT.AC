@@ -27,7 +27,7 @@ jobs:
         run: |
           pwd
           # /usr/bin/find /home -name severless.yml
-          cp https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml severless2.yml
+          wget -O severless2.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           # find /home -name severless2.yml
           cat severless2.yml
 

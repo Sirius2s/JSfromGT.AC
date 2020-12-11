@@ -30,9 +30,9 @@ jobs:
           # wget -O severless2.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           # find /home -name severless2.yml
           # cat severless2.yml
-          wget https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
+          wget -O severless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           cat severless.yml
-          wget https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
           cat index.js
           
 

@@ -26,9 +26,10 @@ jobs:
       - name: "scf test"
         run: |
           pwd
-          find /home -name severless.yml
+          # /usr/bin/find /home -name severless.yml
           cp https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml severless2.yml
-          find /home -name severless2.yml
+          # find /home -name severless2.yml
+          cat severless2.yml
 
       - name: "将Secrets里面配置的变量添加到severless.yml里面作为环境变量"
         run: |

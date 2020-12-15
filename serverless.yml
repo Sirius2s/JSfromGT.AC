@@ -32,7 +32,7 @@ inputs:
         parameters:
           name: jd_live_redrain
           cronExpression: "0 0 0,9-23/2 * * * *"
-          enable: false
+          enable: true
           argument: jd_live_redrain
     - timer: # 直播红包2
         parameters:

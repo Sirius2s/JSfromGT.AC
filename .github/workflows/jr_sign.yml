@@ -2,11 +2,11 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: jr_sign
-
+# (2020.12.31活动过期)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 22 * * *'
+    - cron: '13 22 1-31 12 *'
   # watch:
   #   types: started
   repository_dispatch:

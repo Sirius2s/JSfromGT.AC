@@ -16,8 +16,11 @@ def JoinPool(url):
     return rslt.json()['message']
 
 for purl in poolurls:
-    rs_text = JoinPool(purl) + '\n\n' + rs_text + '\n\n'
-    
+    if len(rs_text) > 0:
+        rs_text = JoinPool(purl) + '\n\n' + rs_text + '\n\n'
+    if len(rs_text) = 0:
+        rs_text = JoinPool(purl) + '\n\n'
+        
 def serverJ(title, content):
     if "PUSH_KEY" in os.environ:
         sckey = os.environ["PUSH_KEY"]
@@ -33,5 +36,5 @@ def serverJ(title, content):
     response = requests.post(f"https://sc.ftqq.com/{sckey}.send", data=data)
     print(response.text)
     
-serverJ("JoinPool", rs_text)    
+# serverJ("JoinPool", rs_text)    
 print(rs_text)

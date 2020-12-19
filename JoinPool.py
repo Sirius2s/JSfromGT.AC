@@ -36,5 +36,5 @@ def serverJ(title, content):
     response = requests.post(f"https://sc.ftqq.com/{sckey}.send", data=data)
     print(response.text)
     
-# serverJ("JoinPool", rs_text)    
+serverJ("JoinPool", rs_text)    
 print(rs_text)

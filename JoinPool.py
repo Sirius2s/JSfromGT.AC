@@ -17,7 +17,7 @@ def JoinPool(url):
 
 for purl in poolurls:
     if len(rs_text) > 0:
-        rs_text = JoinPool(purl) + '\n\n' + rs_text + '\n\n'
+        rs_text = JoinPool(purl) + '\n\n' + rs_text
     if len(rs_text) == 0:
         rs_text = JoinPool(purl) + '\n\n'
         

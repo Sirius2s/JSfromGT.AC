@@ -6,7 +6,7 @@ poolurls = ['http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYa
         'http://api.turinglabs.net/api/v1/jd/jxfactory/create/R0xgDZpumLgWjxq6jCH9Mg==/',
         'http://api.turinglabs.net/api/v1/jd/farm/create/c9cfb4f9c5634c0dabd3a328a5230f87/',
         'http://api.turinglabs.net/api/v1/jd/bean/create/twfaqwk2rzgw35t66avsmxlb6u/',
-        'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwMzM4MTUyNDc=/']        ]
+        'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwMzM4MTUyNDc=/']
 
 def JoinPool(url):
     rslt = requests.get(url)

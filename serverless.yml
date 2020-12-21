@@ -19,7 +19,7 @@ inputs:
     - timer: # 签到
         parameters:
           name: jd_bean_sign
-          cronExpression: "0 0 0,12,18 * * * *"
+          cronExpression: "0 5 0,12,18 * * * *"
           enable: true
           argument: jd_bean_sign
     - timer: # 京小超兑换奖品# 摇京豆

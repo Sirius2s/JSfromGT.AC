@@ -17,7 +17,7 @@ def JoinPool(url):
     rslt = requests.get(url)
     # js = rslt.json()['message']
     # js = json.loads(ret)
-    if url.__contains__('jdzz'):
+    if url.__contains__('jdzz', 'jdcrazyjoy'):
         return rslt.json()['msg']
     else:
         return rslt.json()['message']

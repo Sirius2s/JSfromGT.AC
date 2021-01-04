@@ -22,18 +22,18 @@ inputs:
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
           argument: jd_bean_sign
-    - timer: # 京小超兑换奖品# 摇京豆
+    - timer: # 京小超兑换奖品# 京东汽车
         parameters:
-          name: jd_blueCoin_jd_club_lottery
+          name: jd_blueCoin_jd_car
           cronExpression: "0 0 0 * * * *"
           enable: true
-          argument: jd_blueCoin&jd_club_lottery
-    - timer: # 直播红包
+          argument: jd_blueCoin&jd_car
+    - timer: # 摇京豆
         parameters:
-          name: jd_live_redrain
-          cronExpression: "0 1 0,20,9-23/2 15-31 12 * *"
+          name: jd_club_lottery
+          cronExpression: "0 5 0 * * * *"
           enable: true
-          argument: jd_live_redrain
+          argument: jd_club_lottery
     - timer: # 直播红包2
         parameters:
           name: jd_live_redrain2

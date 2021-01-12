@@ -10,7 +10,8 @@ poolurls = ['http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYa
             'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwMzM4MTUyNDc=/',
             'https://code.chiang.fun/api/v1/jd/jdzz/create/S3aQxGVta9xc/',
             'https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/NTqJ2nWDjUarfc3eWGgXhA==/',
-            'https://code.chiang.fun/api/v1/jd/jdzz/create/AaGwUxujTz3Y/']
+            'https://code.chiang.fun/api/v1/jd/jdzz/create/AaGwUxujTz3Y/'
+            'https://code.chiang.fun/api/v1/jd/jdcash/create/QEJ1NanxZL8/']
 rs_text = ''
 
 def JoinPool(url):

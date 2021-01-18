@@ -5,12 +5,13 @@ name: jd_crazy_joy_coin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 23 * * *'
+    - cron: '12 */6 * * *'
   # watch:
   #   types: started
   repository_dispatch:
     types: jd_crazy_joy_coin
 jobs:
+  timeout-minutes: 240
   build:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
@@ -19,6 +20,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Sirius2s/JSfromGT
+          # repository: LXK9301/jd_scripts
+          path: backup
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -34,6 +37,7 @@ jobs:
         run: |
           npm install
       - name: '运行 【jd_crazy_joy_coin】'
+        # timeout-minutes: 240
         run: |
           node jd_crazy_joy_coin.js
         env:

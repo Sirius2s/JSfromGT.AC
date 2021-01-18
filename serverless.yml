@@ -52,13 +52,13 @@ inputs:
           cronExpression: "0 10 0 * * * *"
           enable: true
           argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_lotteryMachine&jd_small_home
-    - timer: # 京东天天加速
+    - timer: # 京东天天加速#京东炸年兽
         parameters:
-          name: jd_speed
+          name: jd_speed_nian
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed
-    - timer: #东东超市 #京东家庭号#京东炸年兽
+          argument: jd_speed&jd_nian
+    - timer: #东东超市 #京东家庭号##炸年兽领爆竹
         parameters:
           name: superMarket_family_nianCollect
           cronExpression: "0 15 * * * * *"

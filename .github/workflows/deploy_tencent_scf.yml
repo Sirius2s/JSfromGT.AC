@@ -15,7 +15,7 @@ jobs:
         with:
           # repository: Sirius2s/JSfromGT
           repository: LXK9301/jd_scripts
-          path: master
+          ref: master
 
       - name: "替换文件"
         run: |

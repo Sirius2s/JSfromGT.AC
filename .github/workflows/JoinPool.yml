@@ -4,8 +4,8 @@ name: JoinPool
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '6 0 1,10,20 * *'    
+  # schedule:
+  #   - cron: '6 0 1,10,20 * *'    
   # watch:
   #   types: started
   repository_dispatch:

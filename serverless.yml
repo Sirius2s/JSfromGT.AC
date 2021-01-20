@@ -58,12 +58,12 @@ inputs:
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed&jd_nian
-    - timer: #东东超市 #京东家庭号##炸年兽领爆竹
+    - timer: #东东超市 #炸年兽领爆竹
         parameters:
-          name: superMarket_family_nianCollect
+          name: superMarket_nianCollect
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_family&jd_nianCollect
+          argument: jd_superMarket&jd_nianCollect
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #京东年货节
         parameters:
           name: bean_change_crazy_joy_rankingList_bean_home_nh

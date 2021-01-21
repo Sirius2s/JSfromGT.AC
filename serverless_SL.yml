@@ -22,12 +22,24 @@ inputs:
           cronExpression: "2 8,9 14-31/1 1 *"
           enable: true
           argument: jd_bj
+    - timer: # 东东爱消除
+        parameters:
+          name: jd_xxl
+          cronExpression: "2 * * * *"
+          enable: true
+          argument: jd_xxl
     - timer: # 工业品爱消除
         parameters:
           name: jd_gyec
           cronExpression: "22 * * * *"
           enable: true
           argument: jd_gyec
+    - timer: # 个护爱消除
+        parameters:
+          name: jd_xxl_gh
+          cronExpression: "42 * * * *"
+          enable: true
+          argument: jd_xxl_gh
     - timer: # 直播间红包雨
         parameters:
           name: jd_live_redrain2
@@ -52,30 +64,18 @@ inputs:
           cronExpression: "1 0,9-23/2 * * *"
           enable: true
           argument: jd_live_redrain_offical
-    - timer: # 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖
+    - timer: # 京东粉丝专享# 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖
         parameters:
-          name: mh_ms_xg_sx
+          name: wechat_sign_mh_ms_xg_sx
           cronExpression: "11 7 * * *"
           enable: true
-          argument: jd_mh&jd_ms&jd_xg&jd_sx
-    - timer: # 京东粉丝专享
+          argument: jd_wechat_sign&jd_mh&jd_ms&jd_xg&jd_sx
+    - timer: # 临时运行用
         parameters:
-          name: jd_wechat_sign
-          cronExpression: "10 0 * * *"
+          name: temp
+          cronExpression: "15 * * * *"
           enable: true
-          argument: jd_wechat_sign
-    - timer: # 东东爱消除
-        parameters:
-          name: jd_xxl
-          cronExpression: "2 * * * *"
-          enable: true
-          argument: jd_xxl
-    - timer: # 个护爱消除
-        parameters:
-          name: jd_xxl_gh
-          cronExpression: "42 * * * *"
-          enable: true
-          argument: jd_xxl_gh
+          argument: jd_opencard&jd_sx&jd_nian_sign&jd_firecrackers&jd_immortal&jd_nian_ar
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

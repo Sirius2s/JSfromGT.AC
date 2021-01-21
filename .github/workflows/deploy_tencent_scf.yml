@@ -180,6 +180,7 @@ jobs:
           wget -O jd_xg.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
           wget -O jd_xxl.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl.js
           wget -O jd_xxl_gh.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl_gh.js
+          wget -O jd_sx.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_sx.js
 
       - name: "Secrets环境变量 SL"
         run: |

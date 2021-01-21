@@ -52,12 +52,12 @@ inputs:
           cronExpression: "1 0,9-23/2 * * *"
           enable: true
           argument: jd_live_redrain_offical
-    - timer: # 盲盒抽京豆# 京东秒秒币# 小鸽有礼
+    - timer: # 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖
         parameters:
-          name: mh_ms_xg
+          name: mh_ms_xg_sx
           cronExpression: "11 7 * * *"
           enable: true
-          argument: jd_mh&jd_ms&jd_xg
+          argument: jd_mh&jd_ms&jd_xg&jd_sx
     - timer: # 京东粉丝专享
         parameters:
           name: jd_wechat_sign

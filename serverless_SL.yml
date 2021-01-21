@@ -73,7 +73,7 @@ inputs:
     - timer: # 临时运行用
         parameters:
           name: temp
-          cronExpression: "15 * * * *"
+          cronExpression: "15 8 * * *"
           enable: true
           argument: jd_opencard&jd_sx&jd_nian_sign&jd_firecrackers&jd_immortal&jd_nian_ar
   environment: #  环境变量

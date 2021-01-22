@@ -74,7 +74,7 @@ inputs:
         parameters:
           name: temp
           cronExpression: "15 8 * * *"
-          enable: true
+          enable: false
           argument: jd_opencard&jd_sx&jd_nian_sign&jd_firecrackers&jd_immortal&jd_nian_ar
   environment: #  环境变量
     variables: #  环境变量对象

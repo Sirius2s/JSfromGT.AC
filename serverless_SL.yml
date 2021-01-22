@@ -26,19 +26,19 @@ inputs:
         parameters:
           name: jd_xxl
           cronExpression: "2 * * * *"
-          enable: true
+          enable: false
           argument: jd_xxl
     - timer: # 工业品爱消除
         parameters:
           name: jd_gyec
           cronExpression: "22 * * * *"
-          enable: true
+          enable: false
           argument: jd_gyec
     - timer: # 个护爱消除
         parameters:
           name: jd_xxl_gh
           cronExpression: "42 * * * *"
-          enable: true
+          enable: false
           argument: jd_xxl_gh
     - timer: # 直播间红包雨
         parameters:

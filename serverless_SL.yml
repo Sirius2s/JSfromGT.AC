@@ -51,7 +51,7 @@ inputs:
           name: jd_live_redrain_half
           cronExpression: "30,31 12-23/1 * * *"
           enable: true
-          argument: jd_live_redrain_half
+          argument: jd_live_redrain_half&jd_live_redrain
     - timer: # 年货直播红包雨
         parameters:
           name: jd_live_redrain_nian

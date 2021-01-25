@@ -168,7 +168,7 @@ jobs:
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
           wget -O jd_bj.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js
           wget -O jd_gyec.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js
-          # wget -O jd_live_redrain.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain.js
+          wget -O jd_live_redrain.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain.js
           wget -O jd_live_redrain2.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js
           wget -O jd_live_redrain_half.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_half.js
           wget -O jd_live_redrain_nian.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js

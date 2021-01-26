@@ -107,20 +107,20 @@ jobs:
           JD_DEBUG: ${{ secrets.JD_DEBUG}}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT}}
           PUSH_KEY: ${{ secrets.PUSH_KEY}}
-          BARK_PUSH: ${{ secrets.BARK_PUSH}}
-          BARK_SOUND: ${{ secrets.BARK_SOUND}}
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN}}
-          TG_USER_ID: ${{ secrets.TG_USER_ID}}
-          DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN}}
-          DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET}}
-          QYWX_KEY: ${{ secrets.QYWX_KEY}}
-          IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY}}
-          QQ_SKEY: ${{ secrets.QQ_SKEY}}
-          QQ_MODE: ${{ secrets.QQ_MODE}}
-          PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN}}
-          PUSH_PLUS_USER: ${{ secrets.PUSH_PLUS_USER}}
-          TG_PROXY_HOST: ${{ secrets.TG_PROXY_HOST}}
-          TG_PROXY_PORT: ${{ secrets.TG_PROXY_PORT}}
+          # BARK_PUSH: ${{ secrets.BARK_PUSH}}
+          # BARK_SOUND: ${{ secrets.BARK_SOUND}}
+          # TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN}}
+          # TG_USER_ID: ${{ secrets.TG_USER_ID}}
+          # DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN}}
+          # DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET}}
+          # QYWX_KEY: ${{ secrets.QYWX_KEY}}
+          # IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY}}
+          # QQ_SKEY: ${{ secrets.QQ_SKEY}}
+          # QQ_MODE: ${{ secrets.QQ_MODE}}
+          # PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN}}
+          # PUSH_PLUS_USER: ${{ secrets.PUSH_PLUS_USER}}
+          # TG_PROXY_HOST: ${{ secrets.TG_PROXY_HOST}}
+          # TG_PROXY_PORT: ${{ secrets.TG_PROXY_PORT}}
           FRUITSHARECODES: ${{ secrets.FRUITSHARECODES}}
           PETSHARECODES: ${{ secrets.PETSHARECODES}}
           PLANT_BEAN_SHARECODES: ${{ secrets.PLANT_BEAN_SHARECODES}}
@@ -135,19 +135,19 @@ jobs:
           JDNIAN_SHARECODES: ${{ secrets.JDNIAN_SHARECODES}}
           JDSXSY_SHARECODES: ${{ secrets.JDSXSY_SHARECODES}}
           JD_BEAN_STOP: ${{ secrets.JD_BEAN_STOP}}
-          JD_BEAN_SIGN_STOP_NOTIFY: ${{ secrets.JD_BEAN_SIGN_STOP_NOTIFY}}
-          JD_BEAN_SIGN_NOTIFY_SIMPLE: ${{ secrets.JD_BEAN_SIGN_NOTIFY_SIMPLE}}
-          PET_NOTIFY_CONTROL: ${{ secrets.PET_NOTIFY_CONTROL}}
-          FRUIT_NOTIFY_CONTROL: ${{ secrets.FRUIT_NOTIFY_CONTROL}}
-          JD_JOY_REWARD_NOTIFY: ${{ secrets.JD_JOY_REWARD_NOTIFY}}
+          # JD_BEAN_SIGN_STOP_NOTIFY: ${{ secrets.JD_BEAN_SIGN_STOP_NOTIFY}}
+          # JD_BEAN_SIGN_NOTIFY_SIMPLE: ${{ secrets.JD_BEAN_SIGN_NOTIFY_SIMPLE}}
+          # PET_NOTIFY_CONTROL: ${{ secrets.PET_NOTIFY_CONTROL}}
+          # FRUIT_NOTIFY_CONTROL: ${{ secrets.FRUIT_NOTIFY_CONTROL}}
+          # JD_JOY_REWARD_NOTIFY: ${{ secrets.JD_JOY_REWARD_NOTIFY}}
           JOY_FEED_COUNT: ${{ secrets.JOY_FEED_COUNT}}
           JOY_HELP_FEED: ${{ secrets.JOY_HELP_FEED}}
           JOY_RUN_FLAG: ${{ secrets.JOY_RUN_FLAG}}
           JOY_TEAM_LEVEL: ${{ secrets.JOY_TEAM_LEVEL}}
-          JOY_RUN_NOTIFY: ${{ secrets.JOY_RUN_NOTIFY}}
+          # JOY_RUN_NOTIFY: ${{ secrets.JOY_RUN_NOTIFY}}
           JD_JOY_REWARD_NAME: ${{ secrets.JD_JOY_REWARD_NAME}}
           MARKET_COIN_TO_BEANS: ${{ secrets.MARKET_COIN_TO_BEANS}}
-          MARKET_REWARD_NOTIFY: ${{ secrets.MARKET_REWARD_NOTIFY}}
+          # MARKET_REWARD_NOTIFY: ${{ secrets.MARKET_REWARD_NOTIFY}}
           JOIN_PK_TEAM: ${{ secrets.JOIN_PK_TEAM}}
           SUPERMARKET_UPGRADE: ${{ secrets.SUPERMARKET_UPGRADE}}
           BUSINESS_CIRCLE_JUMP: ${{ secrets.BUSINESS_CIRCLE_JUMP}}
@@ -278,20 +278,20 @@ jobs:
           JD_DEBUG: ${{ secrets.JD_DEBUG}}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT}}
           PUSH_KEY: ${{ secrets.PUSH_KEY}}
-          BARK_PUSH: ${{ secrets.BARK_PUSH}}
-          BARK_SOUND: ${{ secrets.BARK_SOUND}}
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN}}
-          TG_USER_ID: ${{ secrets.TG_USER_ID}}
-          DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN}}
-          DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET}}
-          QYWX_KEY: ${{ secrets.QYWX_KEY}}
-          IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY}}
-          QQ_SKEY: ${{ secrets.QQ_SKEY}}
-          QQ_MODE: ${{ secrets.QQ_MODE}}
-          PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN}}
-          PUSH_PLUS_USER: ${{ secrets.PUSH_PLUS_USER}}
-          TG_PROXY_HOST: ${{ secrets.TG_PROXY_HOST}}
-          TG_PROXY_PORT: ${{ secrets.TG_PROXY_PORT}}
+          # BARK_PUSH: ${{ secrets.BARK_PUSH}}
+          # BARK_SOUND: ${{ secrets.BARK_SOUND}}
+          # TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN}}
+          # TG_USER_ID: ${{ secrets.TG_USER_ID}}
+          # DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN}}
+          # DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET}}
+          # QYWX_KEY: ${{ secrets.QYWX_KEY}}
+          # IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY}}
+          # QQ_SKEY: ${{ secrets.QQ_SKEY}}
+          # QQ_MODE: ${{ secrets.QQ_MODE}}
+          # PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN}}
+          # PUSH_PLUS_USER: ${{ secrets.PUSH_PLUS_USER}}
+          # TG_PROXY_HOST: ${{ secrets.TG_PROXY_HOST}}
+          # TG_PROXY_PORT: ${{ secrets.TG_PROXY_PORT}}
           FRUITSHARECODES: ${{ secrets.FRUITSHARECODES}}
           PETSHARECODES: ${{ secrets.PETSHARECODES}}
           PLANT_BEAN_SHARECODES: ${{ secrets.PLANT_BEAN_SHARECODES}}
@@ -306,19 +306,19 @@ jobs:
           JDNIAN_SHARECODES: ${{ secrets.JDNIAN_SHARECODES}}
           JDSXSY_SHARECODES: ${{ secrets.JDSXSY_SHARECODES}}
           JD_BEAN_STOP: ${{ secrets.JD_BEAN_STOP}}
-          JD_BEAN_SIGN_STOP_NOTIFY: ${{ secrets.JD_BEAN_SIGN_STOP_NOTIFY}}
-          JD_BEAN_SIGN_NOTIFY_SIMPLE: ${{ secrets.JD_BEAN_SIGN_NOTIFY_SIMPLE}}
-          PET_NOTIFY_CONTROL: ${{ secrets.PET_NOTIFY_CONTROL}}
-          FRUIT_NOTIFY_CONTROL: ${{ secrets.FRUIT_NOTIFY_CONTROL}}
-          JD_JOY_REWARD_NOTIFY: ${{ secrets.JD_JOY_REWARD_NOTIFY}}
+          # JD_BEAN_SIGN_STOP_NOTIFY: ${{ secrets.JD_BEAN_SIGN_STOP_NOTIFY}}
+          # JD_BEAN_SIGN_NOTIFY_SIMPLE: ${{ secrets.JD_BEAN_SIGN_NOTIFY_SIMPLE}}
+          # PET_NOTIFY_CONTROL: ${{ secrets.PET_NOTIFY_CONTROL}}
+          # FRUIT_NOTIFY_CONTROL: ${{ secrets.FRUIT_NOTIFY_CONTROL}}
+          # JD_JOY_REWARD_NOTIFY: ${{ secrets.JD_JOY_REWARD_NOTIFY}}
           JOY_FEED_COUNT: ${{ secrets.JOY_FEED_COUNT}}
           JOY_HELP_FEED: ${{ secrets.JOY_HELP_FEED}}
           JOY_RUN_FLAG: ${{ secrets.JOY_RUN_FLAG}}
           JOY_TEAM_LEVEL: ${{ secrets.JOY_TEAM_LEVEL}}
-          JOY_RUN_NOTIFY: ${{ secrets.JOY_RUN_NOTIFY}}
+          # JOY_RUN_NOTIFY: ${{ secrets.JOY_RUN_NOTIFY}}
           JD_JOY_REWARD_NAME: ${{ secrets.JD_JOY_REWARD_NAME}}
           MARKET_COIN_TO_BEANS: ${{ secrets.MARKET_COIN_TO_BEANS}}
-          MARKET_REWARD_NOTIFY: ${{ secrets.MARKET_REWARD_NOTIFY}}
+          # MARKET_REWARD_NOTIFY: ${{ secrets.MARKET_REWARD_NOTIFY}}
           JOIN_PK_TEAM: ${{ secrets.JOIN_PK_TEAM}}
           SUPERMARKET_UPGRADE: ${{ secrets.SUPERMARKET_UPGRADE}}
           BUSINESS_CIRCLE_JUMP: ${{ secrets.BUSINESS_CIRCLE_JUMP}}

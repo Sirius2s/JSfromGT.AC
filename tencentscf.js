@@ -69,7 +69,7 @@ for(let vo of obj.inputs.events){
     'TriggerName' : vo.timer.parameters.name,
     'TriggerDesc' : vo.timer.parameters.cronExpression,
     'CustomArgument' : vo.timer.parameters.argument,
-    'Enable' : "true"
+    'Enable' : 1
   }
   client.CreateTrigger(param).then(
     (data) => {

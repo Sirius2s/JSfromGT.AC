@@ -70,7 +70,7 @@ inputs:
           cronExpression: "0 30 7 * * * *"
           enable: true
           argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_car&jd_nh&jd_immortal&jd_sgmh
-    - timer: #金融养猪 #十元街 #京东快递 #京东赚赚 #签到领现金 #京喜签到 #京东炸年兽签到任务 #京东炸年兽AR
+    - timer: #金融养猪 #十元街 #京东快递 #京东赚赚 #签到领现金 #京喜签到 #京东炸年兽签到任务 #京东炸年兽AR #京东年兽wechat
         parameters:
           name: pigPet_syj_kd_jdzz_cash_jxsign_nsign_ar_nwechat
           cronExpression: "0 3 1 * * * *"

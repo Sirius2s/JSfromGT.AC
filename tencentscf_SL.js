@@ -11,7 +11,7 @@ const clientConfig = {
     secretId: process.env.TENCENT_SECRET_ID,
     secretKey: process.env.TENCENT_SECRET_KEY,
   },
-  region: "ap-chengdu", // 区域参考，https://cloud.tencent.com/document/product/213/6091
+  region: process.env.TENCENT_REGION, // 区域参考，https://cloud.tencent.com/document/product/213/6091
   profile: {
     httpProfile: {
       endpoint: "scf.tencentcloudapi.com",
@@ -22,7 +22,7 @@ const clientConfig = {
 const client = new ScfClient(clientConfig);
 let params = {
   "Handler": "index.main_handler",
-  "FunctionName": "scf-SLscript", // 云函数程序名，例如 jd_scripts
+  "FunctionName": process.env.TENCENT_FUNCTION_NAME, // 云函数程序名，例如 jd_scripts
   "ZipFile": contents_in_base64
 };
 client.UpdateFunctionCode(params).then(
@@ -45,6 +45,7 @@ for(let key in process.env){
 
 params = {
   "Environment": {
+    "FunctionName": process.env.TENCENT_FUNCTION_NAME,
     "Variables": vars
   }
 };
@@ -63,6 +64,7 @@ const yaml = require('js-yaml');
 const obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
 for(let vo of obj.inputs.events){
   let param = {
+    "FunctionName": process.env.TENCENT_FUNCTION_NAME,
     'Type' : "timer",
     'TriggerDesc' : vo.timer.parameters.cronExpression,
     'CustomArgument' : vo.timer.parameters.argument,

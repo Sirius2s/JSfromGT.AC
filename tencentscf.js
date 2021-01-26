@@ -66,6 +66,7 @@ for(let vo of obj.inputs.events){
   let param = {
     "FunctionName": process.env.TENCENT_FUNCTION_NAME,
     'Type' : "timer",
+    'TriggerName' : vo.timer.parameters.name,
     'TriggerDesc' : vo.timer.parameters.cronExpression,
     'CustomArgument' : vo.timer.parameters.argument,
     'Enable' : "true"

@@ -44,8 +44,8 @@ for(let key in process.env){
 }
 
 params = {
+  "FunctionName": process.env.TENCENT_FUNCTION_NAME,
   "Environment": {
-    "FunctionName": process.env.TENCENT_FUNCTION_NAME,
     "Variables": vars
   }
 };

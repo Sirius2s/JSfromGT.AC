@@ -200,6 +200,8 @@ jobs:
           wget -O jd_xxl_gh.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl_gh.js
           wget -O jd_sx.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_sx.js
           wget -O jd_opencard.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_opencard.js
+          wget -O jd_festival.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js
+          wget -O jd_super.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_super.js
 
       - name: "Secrets环境变量 SL"
         run: |

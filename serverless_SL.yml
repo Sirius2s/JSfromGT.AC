@@ -22,18 +22,18 @@ inputs:
           cronExpression: "2 8,9 14-31/1 1 *"
           enable: true
           argument: jd_bj
-    - timer: # 东东爱消除
+    - timer: # 东东爱消除# 工业品爱消除# 个护爱消除
         parameters:
-          name: jd_xxl
-          cronExpression: "2 * * * *"
-          enable: false
-          argument: jd_xxl
-    - timer: # 工业品爱消除
+          name: xxl_gyec_xxlgh
+          cronExpression: "42 * * * *"
+          enable: true
+          argument: jd_xxl&jd_gyec&jd_xxl_gh
+    - timer: # 超级直播间
         parameters:
-          name: jd_gyec
-          cronExpression: "22 * * * *"
-          enable: false
-          argument: jd_gyec
+          name: jd_super
+          cronExpression: "40 21 * * *"
+          enable: true
+          argument: jd_super
     - timer: # 个护爱消除
         parameters:
           name: jd_xxl_gh
@@ -51,7 +51,7 @@ inputs:
           name: jd_live_redrain_half
           cronExpression: "30,31 12-23/1 * * *"
           enable: true
-          argument: jd_live_redrain_half&jd_live_redrain
+          argument: jd_live_redrain_half
     - timer: # 年货直播红包雨
         parameters:
           name: jd_live_redrain_nian
@@ -64,12 +64,12 @@ inputs:
           cronExpression: "1 0,9-23/2 * * *"
           enable: true
           argument: jd_live_redrain_offical
-    - timer: # 京东粉丝专享# 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖
+    - timer: # 京东粉丝专享# 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖# 京东手机年终奖
         parameters:
-          name: wechat_sign_mh_ms_xg_sx
+          name: wechat_sign_mh_ms_xg_sx_festival
           cronExpression: "11 7 * * *"
           enable: true
-          argument: jd_wechat_sign&jd_mh&jd_ms&jd_xg&jd_sx
+          argument: jd_wechat_sign&jd_mh&jd_ms&jd_xg&jd_sx&jd_festival
     - timer: # 临时运行用
         parameters:
           name: temp

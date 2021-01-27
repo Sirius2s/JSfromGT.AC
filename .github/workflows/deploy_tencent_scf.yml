@@ -189,6 +189,7 @@ jobs:
           wget -O jd_live_redrain.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain.js
           wget -O jd_live_redrain2.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js
           wget -O jd_live_redrain_half.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_half.js
+          wget -O jd_live_redrain_half_2.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_half_2.js
           wget -O jd_live_redrain_nian.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js
           wget -O jd_live_redrain_offical.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_offical.js
           wget -O jd_mh.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
@@ -202,6 +203,7 @@ jobs:
           wget -O jd_opencard.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_opencard.js
           wget -O jd_festival.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js
           wget -O jd_super.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_super.js
+          wget -O jd_coupon.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_coupon.js
           # sudo rm -fv myfile.zip
 
       - name: "Secrets环境变量 SL"

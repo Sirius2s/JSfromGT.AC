@@ -148,6 +148,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
       "Key": key,
       "Value": vo[key]
     })
+  } 
   console.log(`method3 evn is:${vars}`)
   console.log(`method3 evn is:${vo}`)
   console.log(`method3 evn is:${obj.inputs.environment.variables}`)

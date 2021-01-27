@@ -71,16 +71,65 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
 
   console.log(`更新环境变量`)
   // 更新环境变量
+  // 1.
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
   let vars = []
   for(let key in obj.jobs.build.steps[3].env){
-   if(key!=='PATH' && process.env.hasOwnProperty(key))
-     vars.push({
-       "Key": key,
-       "Value": process.env[key]
-     })
-  }
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[3] evn is:${vars}`)
+
+  for(let key in obj.jobs.build.steps[0].env){
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[0] evn is:${vars}`)
+
+  for(let key in obj.jobs.build.steps[1].env){
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[1] evn is:${vars}`)
+
+  for(let key in obj.jobs.build.steps[2].env){
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[2] evn is:${vars}`)
+
+  for(let key in obj.jobs.build.steps[4].env){
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[4] evn is:${vars}`)
+
+  for(let key in obj.jobs.build.steps[5].env){
+    if(key!=='PATH' && process.env.hasOwnProperty(key))
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })
+  }  
+  console.log(`steps[5] evn is:${vars}`)
+
+  // 2.
   // let vars = []
   // for(let key in process.env){
   //   vars.push({
@@ -88,6 +137,17 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   //     "Value": process.env[key]
   //   })
   // }
+
+  // // 3.
+  // let inputYML = 'serverless.yml';
+  // let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
+  // let vars = []
+  // for(let vo of obj.inputs.environment.variables){
+  //   vars.push({
+  //     "Key": key,
+  //     "Value": vo.env[key]
+  //   })
+
 
   console.log(`您一共填写了${vars.length}个环境变量`)
   params = {

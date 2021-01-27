@@ -1,8 +1,8 @@
 name: 部署到腾讯云函数
 
 on:
-  schedule:
-    - cron: '30 0,7,15 * * *'
+  # schedule:
+  #   - cron: '30 0,7,15 * * *'
   workflow_dispatch:
 
 jobs:

@@ -34,24 +34,24 @@ inputs:
           cronExpression: "40 21 * * *"
           enable: true
           argument: jd_super
-    # - timer: # 个护爱消除
-    #     parameters:
-    #       name: jd_xxl_gh
-    #       cronExpression: "42 * * * *"
-    #       enable: false
-    #       argument: jd_xxl_gh
+    - timer: # 源头好物红包
+        parameters:
+          name: jd_coupon
+          cronExpression: "0 0 * * *"
+          enable: true
+          argument: jd_coupon
     - timer: # 直播间红包雨
         parameters:
           name: jd_live_redrain2
           cronExpression: "0,1 19-21/1 * * *"
           enable: true
           argument: jd_live_redrain2
-    - timer: # 半点红包雨
+    - timer: # 半点红包雨/2
         parameters:
           name: jd_live_redrain_half
           cronExpression: "30,31 12-23/1 * * *"
           enable: true
-          argument: jd_live_redrain_half
+          argument: jd_live_redrain_half&jd_live_redrain_half_2
     - timer: # 年货直播红包雨
         parameters:
           name: jd_live_redrain_nian
@@ -70,12 +70,12 @@ inputs:
           cronExpression: "11 7 * * *"
           enable: true
           argument: jd_wechat_sign&jd_mh&jd_ms&jd_xg&jd_sx&jd_festival
-    # - timer: # 临时运行用
-    #     parameters:
-    #       name: temp
-    #       cronExpression: "15 8 * * *"
-    #       enable: false
-    #       argument: jd_sgmh
+    - timer: # 临时运行用#京东神仙书院答题
+        parameters:
+          name: temp  
+          cronExpression: "5 */2 * * *"
+          enable: true
+          argument: jd_immortal_answer
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

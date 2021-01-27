@@ -18,11 +18,11 @@ jobs:
           repository: Sirius2s/JSfromGT
           ref: remGT          
 
-      - name: "替换文件"
-        run: |
-          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
-          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
-          wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
+      # - name: "替换文件"
+      #   run: |
+      #     wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
+      #     wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+      #     wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1

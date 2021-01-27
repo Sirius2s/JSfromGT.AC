@@ -60,9 +60,9 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
             console.error("error", err);
           }
         );
-        await sleep(1000*100) // 等待100秒
+        // await sleep(1000*100) // 等待100秒
       }
-      // await sleep(1000*100) // 等待100秒
+      await sleep(1000*100) // 等待100秒
     },
     (err) => {
       console.error("error", err);
@@ -74,7 +74,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
   let vars = []
-  for(let key in obj.jobs.build.steps[4].env){
+  for(let key in obj.jobs.build.steps[3].env){
    if(key!=='PATH' && process.env.hasOwnProperty(key))
      vars.push({
        "Key": key,

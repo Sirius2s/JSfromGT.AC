@@ -60,9 +60,9 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
             console.error("error", err);
           }
         );
-        await sleep(1000*100) // 等待100秒
+        // await sleep(1000*100) // 等待100秒
       }
-      // await sleep(1000*100) // 等待100秒
+      await sleep(1000*100) // 等待100秒
     },
     (err) => {
       console.error("error", err);

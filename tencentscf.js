@@ -112,7 +112,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   for(let vo of triggers){
     params = {
       // "Action": "DeleteTrigger",
-      "Version": "2018-04-16",
+      // "Version": "2018-04-16",
       "Region": process.env.TENCENT_REGION,
       "FunctionName": process.env.TENCENT_FUNCTION_NAME,
       "Type": "timer",

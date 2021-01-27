@@ -74,7 +74,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
   let vars = []
-  for(let key in obj.jobs.build.steps[8].env){
+  for(let key in obj.jobs.build.steps[9].env){
     if(key!=='PATH' && process.env.hasOwnProperty(key))
       vars.push({
         "Key": key,

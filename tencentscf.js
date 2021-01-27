@@ -73,14 +73,22 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   // 更新环境变量
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
+  //let vars = []
+  //for(let key in obj.jobs.build.steps[3].env){
+  //  if(key!=='PATH' && process.env.hasOwnProperty(key))
+  //    vars.push({
+  //      "Key": key,
+  //      "Value": process.env[key]
+  //    })
+  //}
   let vars = []
-  for(let key in obj.jobs.build.steps[3].env){
-    if(key!=='PATH' && process.env.hasOwnProperty(key))
-      vars.push({
-        "Key": key,
-        "Value": process.env[key]
-      })
+  for(let key in process.env){
+    vars.push({
+      "Key": key,
+      "Value": process.env[key]
+    })
   }
+
   console.log(`您一共填写了${vars.length}个环境变量`)
   params = {
     "FunctionName": process.env.TENCENT_FUNCTION_NAME,

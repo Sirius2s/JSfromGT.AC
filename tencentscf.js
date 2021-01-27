@@ -115,6 +115,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
       "Type": "timer",
       "TriggerName": vo.TriggerName
     }
+    console.log(params);
     await client.DeleteTrigger(params).then(
       (data) => {
         console.log(data);

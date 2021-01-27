@@ -13,10 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          # repository: LXK9301/jd_scripts
-          # ref: master
-          repository: Sirius2s/JSfromGT
-          ref: remGT          
+          repository: LXK9301/jd_scripts
+          ref: master
+          # repository: Sirius2s/JSfromGT
+          # ref: remGT          
 
       - name: "替换文件"
         run: |

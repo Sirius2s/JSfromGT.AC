@@ -51,19 +51,19 @@ inputs:
           name: jd_live_redrain_half
           cronExpression: "30,31 12-23/1 * * *"
           enable: true
-          argument: jd_live_redrain_half&jd_live_redrain_half_2
+          argument: jd_live_redrain_half
     - timer: # 年货直播红包雨
         parameters:
           name: jd_live_redrain_nian
           cronExpression: "1 0,9-23/2 3,5,20-30/1 1,2 *"
           enable: true
           argument: jd_live_redrain_nian
-    # - timer: # 官方号直播红包雨
-    #     parameters:
-    #       name: jd_live_redrain_offical
-    #       cronExpression: "1 0,9-23/2 * * *"
-    #       enable: true
-    #       argument: jd_live_redrain_offical
+    - timer: # 官方号直播红包雨
+        parameters:
+          name: jd_live_redrain_offical
+          cronExpression: "1 0,9-23/2 * * *"
+          enable: true
+          argument: jd_live_redrain_offical
     - timer: # 京东粉丝专享# 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖# 京东手机年终奖
         parameters:
           name: wechat_sign_mh_ms_xg_sx_festival

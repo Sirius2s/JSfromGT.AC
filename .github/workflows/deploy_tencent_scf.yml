@@ -255,7 +255,6 @@ jobs:
       #     wget -O jd_live_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain.js
       #     wget -O jd_live_redrain2.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain2.js
       #     wget -O jd_live_redrain_half.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_half.js
-      #     wget -O jd_live_redrain_half_2.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_half.js
       #     wget -O jd_live_redrain_nian.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_nian.js
       #     wget -O jd_live_redrain_offical.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_offical.js
       #     wget -O jd_mh.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_mh.js

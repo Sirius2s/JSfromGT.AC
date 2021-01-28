@@ -136,10 +136,11 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   // // 2.
   let vars = []
   for(let key in process.env){
-    vars.push({
-      "Key": key,
-      "Value": process.env[key]
-    })
+    if(process.env[key]!=='' && process.env.hasOwnProperty(key) && key!=='PATH' && key!=='STAGE' && key!=='SERVERLESS_PLATFORM_VENDOR' && key!=='TENCENT_SECRET_ID' && key!=='TENCENT_SECRET_KEY' && key!=='TENCENT_REGION' && key!=='TENCENT_FUNCTION_NAME')
+      vars.push({
+        "Key": key,
+        "Value": process.env[key]
+      })    
     console.log(`all evn is=${key}:${process.env[key]}`)
   }
 

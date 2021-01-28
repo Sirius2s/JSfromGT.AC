@@ -75,7 +75,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
   let vars = []
-  for(let key in obj.jobs.build.steps[3].env){
+  for(let key in obj.jobs.build.steps[5].env){
     if(key!=='PATH' && process.env.hasOwnProperty(key))
       vars.push({
         "Key": key,
@@ -83,7 +83,9 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
       })
   }  
 
-  // // console.log(`steps[3] evn is:${vars}`)
+  console.log(`steps[5] evn is:${vars.values}`)
+
+  process.exit(0);
 
   // // for(let key in obj.jobs.build.steps[0].env){
   // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
@@ -154,72 +156,72 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   // console.log(`method3 evn is:${obj.inputs.environment.variables}`)
 
   console.log(`您一共填写了${vars.length}个环境变量`)
-  params = {
-    "FunctionName": process.env.TENCENT_FUNCTION_NAME,
-    "Environment": {
-      "Variables": vars
-    }
-  };
-  await client.UpdateFunctionConfiguration(params).then(
-    (data) => {
-      console.log(data);
-    },
-    (err) => {
-      console.error("error", err);
-    }
-  );
-  let triggers = []
-  params = {
-    "FunctionName": process.env.TENCENT_FUNCTION_NAME,
-  }
-  await client.ListTriggers(params).then(
-    (data) => {
-      console.log(data);
-      triggers = data.Triggers
-    },
-    (err) => {
-      console.error("error", err);
-    }
-  );
-  for(let vo of triggers){
-    params = {
-      "FunctionName": process.env.TENCENT_FUNCTION_NAME,
-      "Type": "timer",
-      "TriggerName": vo.TriggerName
-    }
-    await client.DeleteTrigger(params).then(
-      (data) => {
-        console.log(data);
-      },
-      (err) => {
-        console.error("error", err);
-      }
-    );
-  }
-  // 更新触发器
-  console.log(`去更新触发器`)
-  inputYML = 'serverless.yml';
-  obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
-  for(let vo of obj.inputs.events){
-    let param = {
-      "FunctionName": process.env.TENCENT_FUNCTION_NAME,
-      "TriggerName": vo.timer.parameters.name,
-      'Type' : "timer",
-      'TriggerDesc' : vo.timer.parameters.cronExpression,
-      'CustomArgument' : vo.timer.parameters.argument,
-      'Enable' : "OPEN",
-    }
-    await client.CreateTrigger(param).then(
-      (data) => {
-        console.log(data);
-      },
-      (err) => {
-        console.error("error", err);
-      }
-    );
-  }
+//   params = {
+//     "FunctionName": process.env.TENCENT_FUNCTION_NAME,
+//     "Environment": {
+//       "Variables": vars
+//     }
+//   };
+//   await client.UpdateFunctionConfiguration(params).then(
+//     (data) => {
+//       console.log(data);
+//     },
+//     (err) => {
+//       console.error("error", err);
+//     }
+//   );
+//   let triggers = []
+//   params = {
+//     "FunctionName": process.env.TENCENT_FUNCTION_NAME,
+//   }
+//   await client.ListTriggers(params).then(
+//     (data) => {
+//       console.log(data);
+//       triggers = data.Triggers
+//     },
+//     (err) => {
+//       console.error("error", err);
+//     }
+//   );
+//   for(let vo of triggers){
+//     params = {
+//       "FunctionName": process.env.TENCENT_FUNCTION_NAME,
+//       "Type": "timer",
+//       "TriggerName": vo.TriggerName
+//     }
+//     await client.DeleteTrigger(params).then(
+//       (data) => {
+//         console.log(data);
+//       },
+//       (err) => {
+//         console.error("error", err);
+//       }
+//     );
+//   }
+//   // 更新触发器
+//   console.log(`去更新触发器`)
+//   inputYML = 'serverless.yml';
+//   obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
+//   for(let vo of obj.inputs.events){
+//     let param = {
+//       "FunctionName": process.env.TENCENT_FUNCTION_NAME,
+//       "TriggerName": vo.timer.parameters.name,
+//       'Type' : "timer",
+//       'TriggerDesc' : vo.timer.parameters.cronExpression,
+//       'CustomArgument' : vo.timer.parameters.argument,
+//       'Enable' : "OPEN",
+//     }
+//     await client.CreateTrigger(param).then(
+//       (data) => {
+//         console.log(data);
+//       },
+//       (err) => {
+//         console.error("error", err);
+//       }
+//     );
+//   }
 
-})()
-  .catch((e) => console.log(e))
-  .finally(async () => {
-  })
+// })()
+//   .catch((e) => console.log(e))
+//   .finally(async () => {
+//   })

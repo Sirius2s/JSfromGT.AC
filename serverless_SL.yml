@@ -46,7 +46,7 @@ inputs:
           cronExpression: "0,1 19-21/1 * * *"
           enable: true
           argument: jd_live_redrain2
-    - timer: # 半点红包雨/2
+    - timer: # 半点红包雨
         parameters:
           name: jd_live_redrain_half
           cronExpression: "30,31 12-23/1 * * *"

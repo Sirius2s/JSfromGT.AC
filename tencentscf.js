@@ -81,11 +81,12 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
         "Key": key,
         "Value": process.env[key]
       })
+    console.log(`steps[5] evn is=${vars.Key}:${vars.Value}`)
   }  
 
-  console.log(`steps[5] evn is:${vars.values}`)
+  
 
-  process.exit(0)
+  // process.exit(0)
 
   // // for(let key in obj.jobs.build.steps[0].env){
   // //   if(key!=='PATH' && process.env.hasOwnProperty(key))

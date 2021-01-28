@@ -74,7 +74,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   // 1.
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
-  let vars = []
+  // let vars = []
   // for(let key in obj.jobs.build.steps[5].env){
   //   // if(process.env[key]!=='' && key!=='PATH' && key!=='STAGE' && key!=='SERVERLESS_PLATFORM_VENDOR' && key!=='TENCENT_SECRET_ID' && key!=='TENCENT_SECRET_KEY' && key!=='TENCENT_REGION' && key!=='TENCENT_FUNCTION_NAME')
   //   //   vars.push({

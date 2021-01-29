@@ -1,8 +1,8 @@
 name: 部署到腾讯云函数
 
 on:
-  # schedule:
-  #   - cron: '30 0,7,15 * * *'
+  schedule:
+    - cron: '30 0,7,15 * * *'
   workflow_dispatch:
 
 jobs:
@@ -246,7 +246,7 @@ jobs:
           JD_WECHAT_USER_AGENT: ${{ secrets.JD_WECHAT_USER_AGENT}}
           DREAMFACTORY_FORBID_ACCOUNT: ${{ secrets.DREAMFACTORY_FORBID_ACCOUNT}}
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
-          
+
       # - name: "替换文件 SL"
       #   run: |
       #     wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml

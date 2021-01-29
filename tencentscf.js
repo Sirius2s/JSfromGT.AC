@@ -74,68 +74,8 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
   // 1.
   let inputYML = '.github/workflows/deploy_tencent_scf.yml';
   let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
-  // let vars = []
-  // for(let key in obj.jobs.build.steps[5].env){
-  //   // if(process.env[key]!=='' && key!=='PATH' && key!=='STAGE' && key!=='SERVERLESS_PLATFORM_VENDOR' && key!=='TENCENT_SECRET_ID' && key!=='TENCENT_SECRET_KEY' && key!=='TENCENT_REGION' && key!=='TENCENT_FUNCTION_NAME')
-  //   //   vars.push({
-  //   //     "Key": key,
-  //   //     "Value": process.env[key]
-  //   //   })
-  //   console.log(`steps[5] evn is=${key}:${process.env[key]}`)
-  // }  
 
-  
-
-  // process.exit(0)
-
-  // // for(let key in obj.jobs.build.steps[0].env){
-  // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
-  // //     vars.push({
-  // //       "Key": key,
-  // //       "Value": process.env[key]
-  // //     })
-  // // }  
-  // // console.log(`steps[0] evn is:${vars}`)
-
-  // // for(let key in obj.jobs.build.steps[1].env){
-  // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
-  // //     vars.push({
-  // //       "Key": key,
-  // //       "Value": process.env[key]
-  // //     })
-  // // }  
-  // // console.log(`steps[1] evn is:${vars}`)
-
-  // // for(let key in obj.jobs.build.steps[2].env){
-  // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
-  // //     vars.push({
-  // //       "Key": key,
-  // //       "Value": process.env[key]
-  // //     })
-  // // }  
-  // // console.log(`steps[2] evn is:${vars}`)
-
-  // // for(let key in obj.jobs.build.steps[4].env){
-  // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
-  // //     vars.push({
-  // //       "Key": key,
-  // //       "Value": process.env[key]
-  // //     })
-  // // }  
-  // // console.log(`steps[4] evn is:${vars}`)
-
-  // // for(let key in obj.jobs.build.steps[5].env){
-  // //   if(key!=='PATH' && process.env.hasOwnProperty(key))
-  // //     vars.push({
-  // //       "Key": key,
-  // //       "Value": process.env[key]
-  // //     })
-  // // }  
-  // // console.log(`steps[5] evn is:${vars}`)
-
-  // // 2.
   let L_env = [
-    "SCF_REGION",
     "JD_COOKIE",
     "JD_DEBUG",
     "JD_USER_AGENT",
@@ -203,30 +143,13 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
 
   let vars = []
   for(let key in process.env){
-    // if(process.env[key]!=='' && process.env.hasOwnProperty(key) && key!=='PATH' && key!=='STAGE' && key!=='SERVERLESS_PLATFORM_VENDOR' && key!=='TENCENT_SECRET_ID' && key!=='TENCENT_SECRET_KEY' && key!=='TENCENT_REGION' && key!=='TENCENT_FUNCTION_NAME')
-    if(process.env[key]!=='' && key !== 'PATH' && key!=='STAGE' && key!=='SERVERLESS_PLATFORM_VENDOR' && key!=='TENCENT_SECRET_ID' && key!=='TENCENT_SECRET_KEY' && key!=='TENCENT_REGION' && key!=='TENCENT_FUNCTION_NAME')
+    if(process.env[key]!=='' && L_env.includes(key))
       vars.push({
         "Key": key,
         "Value": process.env[key]
       })    
-    console.log(`all evn is=${key}:${process.env[key]}`)
-    if(process.env[key]!=='' && L_env.includes(key))
-      console.log(`in L_env is=${key}:${process.env[key]}`)
+      // console.log(`in L_env is=${key}:${process.env[key]}`)  //debug
   }
-
-  // // 3.
-  // let inputYML = 'serverless.yml';
-  // let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
-  // let vars = []
-  // for(let vo of obj.inputs.environment.variables){
-  //   vars.push({
-  //     "Key": key,
-  //     "Value": vo[key]
-  //   })
-  // } 
-  // console.log(`method3 evn is:${vars}`)
-  // console.log(`method3 evn is:${vo}`)
-  // console.log(`method3 evn is:${obj.inputs.environment.variables}`)
 
   console.log(`您一共填写了${vars.length}个环境变量`)
 //   params = {

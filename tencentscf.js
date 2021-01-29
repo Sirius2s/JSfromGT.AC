@@ -210,7 +210,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
         "Value": process.env[key]
       })    
     console.log(`all evn is=${key}:${process.env[key]}`)
-    if(key in L_env)
+    if(process.env[key]!=='' && L_env.includes(key))
       console.log(`in L_env is=${key}:${process.env[key]}`)
   }
 

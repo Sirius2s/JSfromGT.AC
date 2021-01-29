@@ -23,6 +23,7 @@ jobs:
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
           wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
+          wget -O jsList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/jsList.sh
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -205,6 +206,7 @@ jobs:
       #     wget -O jd_festival.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_festival.js
       #     wget -O jd_super.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_super.js
       #     wget -O jd_coupon.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_coupon.js
+      #     wget -O slList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/slList.sh
       #     # sudo rm -fv myfile.zip
 
       # - name: "Secrets环境变量 SL"

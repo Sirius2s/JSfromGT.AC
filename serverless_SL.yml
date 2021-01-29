@@ -73,7 +73,7 @@ inputs:
     - timer: # 临时运行用#京东神仙书院答题
         parameters:
           name: temp  
-          cronExpression: "5 */2 * * *"
+          cronExpression: "5 8 * * *"
           enable: true
           argument: jd_immortal_answer
   environment: #  环境变量

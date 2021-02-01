@@ -1,8 +1,8 @@
 name: 部署到腾讯云函数
 
 on:
-  # schedule:
-  #   - cron: '30 0,7,15 * * *'
+  schedule:
+    - cron: '30 0,7,15 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: "替换文件"
         run: |
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
-          # wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
           wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
           wget -O jsList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/jsList.sh
           wget -O slList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/slList.sh          

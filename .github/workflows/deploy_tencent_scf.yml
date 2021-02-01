@@ -25,8 +25,8 @@ jobs:
           wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
           wget -O jsList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/jsList.sh
           wget -O slList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/slList.sh          
-          # wget -O jd_bj.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/backup/jd_bj.js
-          # wget -O jd_gyec.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/backup/jd_gyec.js
+          # wget -O jd_bj.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_bj.js
+          # wget -O jd_gyec.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_gyec.js
           wget -O jd_live_redrain.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain.js
           wget -O jd_live_redrain2.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain2.js
           wget -O jd_live_redrain_half.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_half.js

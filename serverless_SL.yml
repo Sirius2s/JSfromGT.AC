@@ -16,30 +16,30 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 宝洁
+    - timer: # 京东压岁钱(活动时间：2021-2-1至2021-2-11)
         parameters:
-          name: jd_bj
-          cronExpression: "2 8,9 14-31/1 1 *"
+          name: jd_nYMoney
+          cronExpression: "20 8,12 1-11 2 *"
           enable: true
-          argument: jd_bj
-    # - timer: # 东东爱消除# 工业品爱消除# 个护爱消除
-    #     parameters:
-    #       name: xxl_gyec_xxlgh
-    #       cronExpression: "42 * * * *"
-    #       enable: true
-    #       argument: jd_xxl&jd_gyec&jd_xxl_gh
+          argument: jd_newYearMoney
+    - timer: # 京东压岁钱抢百元卡(活动时间：2021-2-1至2021-2-11)
+        parameters:
+          name: jd_newYearMoney_lottery
+          cronExpression: "0 9,12,16,20 1-11 2 *"
+          enable: true
+          argument: jd_newYearMoney_lottery
     - timer: # 超级直播间
         parameters:
           name: jd_super
           cronExpression: "40 21 * * *"
           enable: true
           argument: jd_super
-    - timer: # 源头好物红包
-        parameters:
-          name: jd_coupon
-          cronExpression: "0 0 * * *"
-          enable: true
-          argument: jd_coupon
+    # - timer: # 源头好物红包
+    #     parameters:
+    #       name: jd_coupon
+    #       cronExpression: "0 0 * * *"
+    #       enable: true
+    #       argument: jd_coupon
     - timer: # 直播间红包雨
         parameters:
           name: jd_live_redrain2
@@ -64,18 +64,18 @@ inputs:
           cronExpression: "1 0,9-23/2 * * *"
           enable: true
           argument: jd_live_redrain_offical
-    - timer: # 京东粉丝专享# 盲盒抽京豆# 京东秒秒币# 小鸽有礼# 海产新年抽奖# 京东手机年终奖
+    - timer: # 京东粉丝专享# 海产新年抽奖
         parameters:
-          name: wechat_sign_mh_ms_xg_sx_festival
+          name: wechat_sign_sx
           cronExpression: "11 7 * * *"
           enable: true
-          argument: jd_wechat_sign&jd_mh&jd_ms&jd_xg&jd_sx&jd_festival
-    - timer: # 临时运行用#京东神仙书院答题
-        parameters:
-          name: temp  
-          cronExpression: "5 8 * * *"
-          enable: true
-          argument: jd_immortal_answer
+          argument: jd_wechat_sign&jd_sx
+    # - timer: # 临时运行用#京东神仙书院答题
+    #     parameters:
+    #       name: temp  
+    #       cronExpression: "5 8 * * *"
+    #       enable: true
+    #       argument: jd_immortal_answer
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

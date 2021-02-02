@@ -64,12 +64,12 @@ inputs:
           cronExpression: "1 0,9-23/2 * * *"
           enable: true
           argument: jd_live_redrain_offical
-    - timer: # 京东粉丝专享# 海产新年抽奖
-        parameters:
-          name: wechat_sign_sx
-          cronExpression: "11 7 * * *"
-          enable: true
-          argument: jd_wechat_sign&jd_sx
+    # - timer: # 京东粉丝专享# 海产新年抽奖
+    #     parameters:
+    #       name: wechat_sign_sx
+    #       cronExpression: "11 7 * * *"
+    #       enable: true
+    #       argument: jd_wechat_sign&jd_sx
     # - timer: # 临时运行用#京东神仙书院答题
     #     parameters:
     #       name: temp  

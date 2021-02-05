@@ -54,10 +54,10 @@ inputs:
           argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_lotteryMachine&jd_car&jd_ms&jd_xg&jd_xgyl
     - timer: # 京东天天加速#京东炸年兽 #5G狂欢城
         parameters:
-          name: jd_speed_nian
+          name: jd_speed_5g818
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed&jd_nian&jd_5g&jd_818
+          argument: jd_speed&jd_5g&jd_818
     - timer: #东东超市
         parameters:
           name: superMarket

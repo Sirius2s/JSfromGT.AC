@@ -28,12 +28,12 @@ inputs:
           cronExpression: "0 9,12,16,20 1-11 2 *"
           enable: true
           argument: jd_newYearMoney_lottery
-    # - timer: # 超级直播间
-    #     parameters:
-    #       name: jd_super
-    #       cronExpression: "40 21 * * *"
-    #       enable: true
-    #       argument: jd_super
+    - timer: # 百变大咖秀
+        parameters:
+          name: jd_entertainment
+          cronExpression: "10 10,11 * * *"
+          enable: true
+          argument: jd_entertainment
     # - timer: # 源头好物红包
     #     parameters:
     #       name: jd_coupon

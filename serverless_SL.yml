@@ -28,42 +28,42 @@ inputs:
           cronExpression: "0 9,12,16,20 1-11 2 *"
           enable: true
           argument: jd_newYearMoney_lottery
-    - timer: # 超级直播间
-        parameters:
-          name: jd_super
-          cronExpression: "40 21 * * *"
-          enable: true
-          argument: jd_super
+    # - timer: # 超级直播间
+    #     parameters:
+    #       name: jd_super
+    #       cronExpression: "40 21 * * *"
+    #       enable: true
+    #       argument: jd_super
     # - timer: # 源头好物红包
     #     parameters:
     #       name: jd_coupon
     #       cronExpression: "0 0 * * *"
     #       enable: true
     #       argument: jd_coupon
-    - timer: # 直播间红包雨
-        parameters:
-          name: jd_live_redrain2
-          cronExpression: "0,1 19-21/1 * * *"
-          enable: true
-          argument: jd_live_redrain2
-    - timer: # 半点红包雨
-        parameters:
-          name: jd_live_redrain_half
-          cronExpression: "30,31 12-23/1 * * *"
-          enable: true
-          argument: jd_live_redrain_half
-    - timer: # 年货直播红包雨
-        parameters:
-          name: jd_live_redrain_nian
-          cronExpression: "1 0,9-23/2 3,5,20-30/1 1,2 *"
-          enable: true
-          argument: jd_live_redrain_nian
-    - timer: # 官方号直播红包雨
-        parameters:
-          name: jd_live_redrain_offical
-          cronExpression: "1 0,9-23/2 * * *"
-          enable: true
-          argument: jd_live_redrain_offical
+    # - timer: # 直播间红包雨
+    #     parameters:
+    #       name: jd_live_redrain2
+    #       cronExpression: "0,1 19-21/1 * * *"
+    #       enable: true
+    #       argument: jd_live_redrain2
+    # - timer: # 半点红包雨
+    #     parameters:
+    #       name: jd_live_redrain_half
+    #       cronExpression: "30,31 12-23/1 * * *"
+    #       enable: true
+    #       argument: jd_live_redrain_half
+    # - timer: # 年货直播红包雨
+    #     parameters:
+    #       name: jd_live_redrain_nian
+    #       cronExpression: "1 0,9-23/2 3,5,20-30/1 1,2 *"
+    #       enable: true
+    #       argument: jd_live_redrain_nian
+    # - timer: # 官方号直播红包雨
+    #     parameters:
+    #       name: jd_live_redrain_offical
+    #       cronExpression: "1 0,9-23/2 * * *"
+    #       enable: true
+    #       argument: jd_live_redrain_offical
     # - timer: # 京东粉丝专享# 海产新年抽奖
     #     parameters:
     #       name: wechat_sign_sx

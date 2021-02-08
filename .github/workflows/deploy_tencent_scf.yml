@@ -27,22 +27,22 @@ jobs:
           wget -O slList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/slList.sh          
           # wget -O jd_bj.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_bj.js
           # wget -O jd_gyec.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_gyec.js
-          wget -O jd_live_redrain.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain.js
-          wget -O jd_live_redrain2.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain2.js
-          wget -O jd_live_redrain_half.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_half.js
-          wget -O jd_live_redrain_nian.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_nian.js
-          wget -O jd_live_redrain_offical.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_offical.js
+          # wget -O jd_live_redrain.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain.js
+          # wget -O jd_live_redrain2.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain2.js
+          # wget -O jd_live_redrain_half.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_half.js
+          # wget -O jd_live_redrain_nian.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_nian.js
+          # wget -O jd_live_redrain_offical.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_offical.js
           # wget -O jd_mh.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_mh.js
           # wget -O jd_ms.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_ms.js
           # wget -O jd_vote.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_vote.js
-          wget -O jd_wechat_sign.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_wechat_sign.js
+          # wget -O jd_wechat_sign.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_wechat_sign.js
           # wget -O jd_xg.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xg.js
           # wget -O jd_xxl.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xxl.js
           # wget -O jd_xxl_gh.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xxl_gh.js
-          wget -O jd_sx.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_sx.js
+          # wget -O jd_sx.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_sx.js
           # wget -O jd_opencard.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_opencard.js
           # wget -O jd_festival.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_festival.js
-          wget -O jd_super.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_super.js
+          # wget -O jd_super.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_super.js
           # wget -O jd_coupon.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_coupon.js
 
       - name: Use Node.js ${{ matrix.node-version }}

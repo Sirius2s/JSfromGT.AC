@@ -28,7 +28,7 @@ inputs:
           cronExpression: "0 9,12,16,20 1-11 2 *"
           enable: true
           argument: jd_newYearMoney_lottery
-    - timer: # 百变大咖秀
+    - timer: # 百变大咖秀 4.22end
         parameters:
           name: jd_entertainment
           cronExpression: "10 10,11 * * *"

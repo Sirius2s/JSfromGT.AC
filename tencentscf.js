@@ -86,6 +86,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
     "DD_BOT_TOKEN",
     "DD_BOT_SECRET",
     "QYWX_KEY",
+    "QYWX_AM",
     "IGOT_PUSH_KEY",
     "QQ_SKEY",
     "QQ_MODE",

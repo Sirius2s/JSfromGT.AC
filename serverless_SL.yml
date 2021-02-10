@@ -64,12 +64,12 @@ inputs:
           cronExpression: "0,1,50 0,9-23/2 8-18 2 *"
           enable: true
           argument: red_rain
-    # - timer: # 京东粉丝专享# 海产新年抽奖
-    #     parameters:
-    #       name: wechat_sign_sx
-    #       cronExpression: "11 7 * * *"
-    #       enable: true
-    #       argument: jd_wechat_sign&jd_sx
+    - timer: #环球挑战赛 活动时间：2021-02-02 至 2021-02-22
+        parameters:
+          name: jd_global
+          cronExpression: "0 9,12,20,21 1-22 2 *"
+          enable: true
+          argument: jd_global
     # - timer: # 临时运行用#京东神仙书院答题
     #     parameters:
     #       name: temp  

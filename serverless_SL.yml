@@ -61,7 +61,7 @@ inputs:
     - timer: # 官方号直播红包雨
         parameters:
           name: red_rain
-          cronExpression: "0,50 0,9-23/2 8-18 2 *"
+          cronExpression: "0,1,50 0,9-23/2 8-18 2 *"
           enable: true
           argument: red_rain
     # - timer: # 京东粉丝专享# 海产新年抽奖

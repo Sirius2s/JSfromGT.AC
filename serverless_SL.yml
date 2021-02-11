@@ -28,18 +28,18 @@ inputs:
           cronExpression: "0 9,12,16,20 1-11 2 *"
           enable: true
           argument: jd_newYearMoney_lottery
-    - timer: # 百变大咖秀 4.22end
+    - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    # - timer: # 源头好物红包
-    #     parameters:
-    #       name: jd_coupon
-    #       cronExpression: "0 0 * * *"
-    #       enable: true
-    #       argument: jd_coupon
+    - timer: # 京东国际盲盒 2021-02-15 end
+        parameters:
+          name: jd_global_mh
+          cronExpression: "0 9,12,20,21 2-15 2 *"
+          enable: true
+          argument: jd_global_mh
     # - timer: # 直播间红包雨
     #     parameters:
     #       name: jd_live_redrain2

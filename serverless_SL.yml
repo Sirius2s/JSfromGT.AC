@@ -16,18 +16,18 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东压岁钱(活动时间：2021-2-1至2021-2-11)
-        parameters:
-          name: jd_nYMoney
-          cronExpression: "20 8,12 1-11 2 *"
-          enable: true
-          argument: jd_newYearMoney
-    - timer: # 京东压岁钱抢百元卡(活动时间：2021-2-1至2021-2-11)
-        parameters:
-          name: jd_newYearMoney_lottery
-          cronExpression: "0 9,12,16,20 1-11 2 *"
-          enable: true
-          argument: jd_newYearMoney_lottery
+    # - timer: # 京东压岁钱(活动时间：2021-2-1至2021-2-11)
+    #     parameters:
+    #       name: jd_nYMoney
+    #       cronExpression: "20 8,12 1-11 2 *"
+    #       enable: true
+    #       argument: jd_newYearMoney
+    # - timer: # 京东压岁钱抢百元卡(活动时间：2021-2-1至2021-2-11)
+    #     parameters:
+    #       name: jd_newYearMoney_lottery
+    #       cronExpression: "0 9,12,16,20 1-11 2 *"
+    #       enable: true
+    #       argument: jd_newYearMoney_lottery
     - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment

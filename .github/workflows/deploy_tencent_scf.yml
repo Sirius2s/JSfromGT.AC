@@ -277,6 +277,7 @@ jobs:
           wget -O jd_entertainment.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
           wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
           wget -O jd_xmf.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_xmf.js
+          wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
 
       - name: "Secrets环境变量 SL"
         run: |

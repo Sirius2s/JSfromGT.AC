@@ -22,12 +22,12 @@ inputs:
           cronExpression: "10 0 * * *"
           enable: true
           argument: jd_xmf
-    # - timer: # 京东压岁钱抢百元卡(活动时间：2021-2-1至2021-2-11)
-    #     parameters:
-    #       name: jd_newYearMoney_lottery
-    #       cronExpression: "0 9,12,16,20 1-11 2 *"
-    #       enable: true
-    #       argument: jd_newYearMoney_lottery
+    - timer: # 国际盲盒 - 2021-02-15
+        parameters:
+          name: jd_gjmh
+          cronExpression: "5 0 10-15 2 *"
+          enable: true
+          argument: jd_gjmh
     - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment

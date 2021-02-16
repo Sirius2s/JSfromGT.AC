@@ -28,12 +28,12 @@ inputs:
     #       cronExpression: "5 0 10-15 2 *"
     #       enable: true
     #       argument: jd_gjmh
-    # - timer: # 百变大咖秀 4.22 end
-    #     parameters:
-    #       name: jd_entertainment
-    #       cronExpression: "10 10,11 * * *"
-    #       enable: true
-    #       argument: jd_entertainment
+    - timer: # 百变大咖秀 4.22 end
+        parameters:
+          name: jd_entertainment
+          cronExpression: "10 10,11 * * *"
+          enable: true
+          argument: jd_entertainment
     # - timer: # 京东国际盲盒 2021-02-15 end
     #     parameters:
     #       name: jd_global_mh

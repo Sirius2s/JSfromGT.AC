@@ -274,7 +274,7 @@ jobs:
         run: |
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
           # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
-          # wget -O jd_entertainment.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
+          wget -O jd_entertainment.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
           wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
           wget -O jd_xmf.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_xmf.js
           wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js

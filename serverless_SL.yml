@@ -58,12 +58,12 @@ inputs:
     #       cronExpression: "1 0,9-23/2 3,5,20-30/1 1,2 *"
     #       enable: true
     #       argument: jd_live_redrain_nian
-    - timer: # 官方号直播红包雨
-        parameters:
-          name: red_rain
-          cronExpression: "0,1,50 0,9-23/2 8-18 2 *"
-          enable: true
-          argument: red_rain
+    # - timer: # 官方号直播红包雨
+    #     parameters:
+    #       name: red_rain
+    #       cronExpression: "0,1,50 0,9-23/2 8-18 2 *"
+    #       enable: true
+    #       argument: red_rain
     - timer: #环球挑战赛 活动时间：2021-02-02 至 2021-02-22
         parameters:
           name: jd_global

@@ -40,12 +40,12 @@ inputs:
           cronExpression: "0 7 19-25 2 *"
           enable: true
           argument: jd_nzmh
-    - timer: # 美丽颜究院
+    - timer: # 美丽研究院
         parameters:
-          name: jd_mlyjy
-          cronExpression: "23 9,13,20 * * *"
+          name: jd_beauty
+          cronExpression: "1 7,12,19 * * *"
           enable: true
-          argument: jd_mlyjy
+          argument: jd_beauty
     # - timer: # 半点红包雨
     #     parameters:
     #       name: jd_live_redrain_half

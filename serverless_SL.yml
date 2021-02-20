@@ -16,18 +16,18 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东小魔方
+    # - timer: # 京东小魔方
+    #     parameters:
+    #       name: jd_xmf
+    #       cronExpression: "10 0 * * *"
+    #       enable: true
+    #       argument: jd_xmf
+    - timer: # 粉丝互动
         parameters:
-          name: jd_xmf
-          cronExpression: "10 0 * * *"
+          name: jd_fanslove
+          cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_xmf
-    - timer: # 沃尔玛粉丝互动
-        parameters:
-          name: jd_walmart
-          cronExpression: "3 10 17-28 2 *"
-          enable: true
-          argument: jd_walmart
+          argument: jd_fanslove
     - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment

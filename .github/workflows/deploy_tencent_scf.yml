@@ -281,6 +281,7 @@ jobs:
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
           wget -O jd_fanslove.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js
           wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
+          wget -O jd_asus_iqiyi.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js
 
       - name: "Secrets环境变量 SL"
         run: |

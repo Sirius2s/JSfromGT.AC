@@ -46,18 +46,18 @@ inputs:
           cronExpression: "1 7,12,19 * * *"
           enable: true
           argument: jd_beauty
-    # - timer: # 半点红包雨
-    #     parameters:
-    #       name: jd_live_redrain_half
-    #       cronExpression: "30,31 12-23/1 * * *"
-    #       enable: true
-    #       argument: jd_live_redrain_half
-    # - timer: # 年货直播红包雨
-    #     parameters:
-    #       name: jd_live_redrain_nian
-    #       cronExpression: "1 0,9-23/2 3,5,20-30/1 1,2 *"
-    #       enable: true
-    #       argument: jd_live_redrain_nian
+    - timer: # 美丽颜究院
+        parameters:
+          name: jd_mlyjy
+          cronExpression: "23 9,13,20 * * *"
+          enable: true
+          argument: jd_mlyjy
+    - timer: # 华硕-爱奇艺
+        parameters:
+          name: jd_asus_iqiyi
+          cronExpression: "1 0 22-28 2 *"
+          enable: true
+          argument: jd_asus_iqiyi
     # - timer: # 官方号直播红包雨
     #     parameters:
     #       name: red_rain

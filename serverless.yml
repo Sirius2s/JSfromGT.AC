@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 签到
+    - timer: #签到 #签到领现金
         parameters:
-          name: jd_bean_sign
+          name: beansign_cash
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
-          argument: jd_bean_sign
+          argument: jd_bean_sign&jd_cash
     - timer: #京小超兑换奖品 #摇京豆 #京东汽车兑换
         parameters:
           name: blueCoin_club_lot_carexc
@@ -70,12 +70,12 @@ inputs:
           cronExpression: "0 30 7 * * * *"
           enable: true
           argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh
-    - timer: #金融养猪 #十元街 #京东快递 #京东赚赚 #签到领现金 #京喜签到
+    - timer: #金融养猪 #十元街 #京东快递 #京东赚赚 #京喜签到
         parameters:
-          name: pigPet_syj_kd_jdzz_cash_jxsign
+          name: pigPet_syj_kd_jdzz_jxsign
           cronExpression: "0 3 1 * * * *"
           enable: true
-          argument: jd_pigPet&jd_syj&jd_kd&jd_jdzz&jd_cash&jx_sign
+          argument: jd_pigPet&jd_syj&jd_kd&jd_jdzz&jx_sign
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

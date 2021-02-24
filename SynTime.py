@@ -43,7 +43,7 @@ def adj_cron(cron_tar):
 
 
 if __name__ == '__main__':
-    print('new cron is: ', adj_cron('30 15 * * *'))
+    print('new cron is: ', adj_cron('00 16 * * *'))
     # print("网络时间:%s\n本地时间:%s"%(round(get_time()*1000), round(time.time()*1000)))
     # sec_dif = (datetime.fromtimestamp(get_time())-datetime.now()).total_seconds()
     # print(sec_dif)

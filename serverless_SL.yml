@@ -70,12 +70,12 @@ inputs:
           cronExpression: "5 12 22-27 2 *"
           enable: true
           argument: jd_jump-jump
-    # - timer: # 临时运行用#京东神仙书院答题
-    #     parameters:
-    #       name: temp  
-    #       cronExpression: "5 8 * * *"
-    #       enable: true
-    #       argument: jd_immortal_answer
+    - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
+        parameters:
+          name: jd_global_mh  
+          cronExpression: "0 9,12,20,21 * * *"
+          enable: true
+          argument: jd_global_mh
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

@@ -1,6 +1,7 @@
 # import json                    # Json转换库
 # import time
 from datetime import datetime, timedelta  # , timezone
+import os
 
 import requests  # 网络请求库
 
@@ -24,7 +25,7 @@ def adj_cron(cron_tar):
     - output -- 结果CRON.
     结论：
         github中主机时间与标准时间一致，但CRON调度时间有不规律延迟。
-        通过程序修正CRON来达到在设定的准确时间点运行计划--不可行
+        通过程序修正CRON来达到在设定的准确时间点运行计划--作为前置任务提前1小时执行
     """
     cron_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day,
                          int(cron_tar.split(' ')[1]), int(cron_tar.split(' ')[0]), 00)
@@ -34,7 +35,7 @@ def adj_cron(cron_tar):
     print('get_time is: ', datetime.fromtimestamp(get_time()))
 
     sec_dif = (datetime.now()-datetime.fromtimestamp(get_time())
-               ).total_seconds()  # 主机与网络时间实时差异
+               ).total_seconds()  # 主机与网络时间实时差异--->本任务的执行时间与计划时间差
 
     # new_time = datetime.now()+timedelta(seconds=sec_dif)    #主机时间匹配网络时间
     new_time = cron_time+timedelta(seconds=sec_dif)
@@ -47,6 +48,7 @@ def adj_cron(cron_tar):
 
 if __name__ == '__main__':
     print('new cron is: ', adj_cron('00 16 * * *'))
+    print(os.environ)
     # print("网络时间:%s\n本地时间:%s"%(round(get_time()*1000), round(time.time()*1000)))
     # sec_dif = (datetime.fromtimestamp(get_time())-datetime.now()).total_seconds()
     # print(sec_dif)

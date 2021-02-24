@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: SynTime
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '6 0 1,10,20 * *'    
+  # watch:
+  #   types: started
+  repository_dispatch:
+    types: SynTime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+         
+      - name: 'Install requirements'
+        run: pip install -r ./requirements.txt 
+        
+      - name: 'SynTime' 
+        run: python3 SynTime.py 
+        env:
+            PUSH_KEY: ${{ secrets.PUSH_KEY }}

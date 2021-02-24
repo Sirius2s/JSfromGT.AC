@@ -27,6 +27,9 @@ def adj_cron(cron_tar):
                          int(cron_tar.split(' ')[1]), int(cron_tar.split(' ')[0]), 00)
     print('cron_time is: ', cron_time)
 
+    print('datetime is: ', datetime.now())
+    print('get_time is: ', datetime.fromtimestamp(get_time()))
+
     sec_dif = (datetime.now()-datetime.fromtimestamp(get_time())
                ).total_seconds()  # 主机与网络时间实时差异
 

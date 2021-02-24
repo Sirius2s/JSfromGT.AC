@@ -4,8 +4,8 @@ name: SynTime
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '55 7 * * *'    
+  # schedule:
+  #   - cron: '55 7 * * *'    
   # watch:
   #   types: started
   repository_dispatch:

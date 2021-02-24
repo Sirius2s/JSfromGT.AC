@@ -22,6 +22,9 @@ def adj_cron(cron_tar):
 
     - input -- 原始CRON.
     - output -- 结果CRON.
+    结论：
+        github中主机时间与标准时间一致，但CRON调度时间有不规律延迟。
+        通过程序修正CRON来达到在设定的准确时间点运行计划--不可行
     """
     cron_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day,
                          int(cron_tar.split(' ')[1]), int(cron_tar.split(' ')[0]), 00)

@@ -34,10 +34,11 @@ def adj_cron(cron_tar):
     print('datetime is: ', datetime.now())
     # print('get_time is: ', datetime.fromtimestamp(get_time()))
 
-    sec_dif = (datetime.now()-cron_time).total_seconds()    # 本任务的执行时间与计划时间差
+    # 本任务的执行时间与计划时间差.实际滞后sec_dif
+    sec_dif = (datetime.now()-cron_time).total_seconds()
 
     # new_time = datetime.now()+timedelta(seconds=sec_dif)    #主机时间匹配网络时间
-    new_time = cron_time+timedelta(seconds=sec_dif)
+    new_time = cron_time-timedelta(seconds=sec_dif)  # 目标文件的计划将提前sec_dif
     print('cron_time to: ', new_time)
 
     cron_rlt = f"""{new_time.minute} {new_time.hour} {cron_tar.split(' ')[2]} {cron_tar.split(' ')[3]} {cron_tar.split(' ')[4]}"""
@@ -66,10 +67,28 @@ def read_cron(file):
     return cron
 
 
+def chg_file(file):
+    """修改指定路径文件中的CRON文本.
+
+    - param file -- 文件路径.
+    - return none
+    """
+    file_data = ""
+    new_cron = adj_cron(read_cron(".github/workflows/syn_time.yml"))
+    with open(file, "r", encoding="utf-8") as f:
+        for line in f:
+            if 'cron:' in line:
+                line = line.replace(line.split("'")[1], new_cron)
+            file_data += line
+    with open(file, "w", encoding="utf-8") as f:
+        f.write(file_data)
+
+
 if __name__ == '__main__':
-    print('new cron is: ', adj_cron(read_cron(".github/workflows/syn_time.yml")))
+    # print('new cron is: ', adj_cron(read_cron(".github/workflows/syn_time.yml")))
     # print(os.environ)
     # read_cron(".github/workflows/syn_time.yml")
+    chg_file(".github/workflows/syn_time.yml")  # 应与read_cron的文件不同
     # print("网络时间:%s\n本地时间:%s"%(round(get_time()*1000), round(time.time()*1000)))
     # sec_dif = (datetime.fromtimestamp(get_time())-datetime.now()).total_seconds()
     # print(sec_dif)

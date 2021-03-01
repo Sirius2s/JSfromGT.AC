@@ -4,8 +4,8 @@ name: SynTime
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '50 7 * * *'    
+  # schedule:
+  #   - cron: '50 7 * * *'    
   # watch:
   #   types: started
   repository_dispatch:
@@ -31,3 +31,16 @@ jobs:
         run: python3 SynTime.py 
         env:
             PUSH_KEY: ${{ secrets.PUSH_KEY }}
+
+      - name: commit
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name fickgit
+          git add .
+          git commit -m "update by Github Action" -a || echo "Nothing to update"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          # branch: ${{ github.ref }}

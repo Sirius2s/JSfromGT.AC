@@ -17,11 +17,11 @@ def get_time():
 
 
 def adj_cron(cron_tar):
-    """调整CRON.
+    """调整CRON.目前只支持具体时间点
 
     根据执行时间，将原始CRON调整为适配主机时间的CRON，以达到在原始CRON预计时间执行的目的.
 
-    - param cron_tar: 原始CRON.目前只支持具体时间点
+    - param cron_tar: 原始CRON.
     - return: 结果CRON.
     结论：
         github中主机时间与标准时间一致，但CRON调度时间有不规律延迟。

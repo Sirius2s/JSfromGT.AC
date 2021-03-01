@@ -34,10 +34,10 @@ inputs:
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    - timer: # 女装盲盒 至2021-2-25
+    - timer: # 女装盲盒 至2021-3-8
         parameters:
           name: jd_nzmh
-          cronExpression: "0 7 19-25 2 *"
+          cronExpression: "0 8 1-8/1,27,28 2,3 *"
           enable: true
           argument: jd_nzmh
     - timer: # 美丽研究院
@@ -52,30 +52,30 @@ inputs:
           cronExpression: "23 9,13,20 * * *"
           enable: true
           argument: jd_mlyjy
-    - timer: # 华硕-爱奇艺
-        parameters:
-          name: jd_asus_iqiyi
-          cronExpression: "1 0 22-28 2 *"
-          enable: true
-          argument: jd_asus_iqiyi
+    # - timer: # 华硕-爱奇艺
+    #     parameters:
+    #       name: jd_asus_iqiyi
+    #       cronExpression: "1 0 22-28 2 *"
+    #       enable: true
+    #       argument: jd_asus_iqiyi
     # - timer: # 官方号直播红包雨
     #     parameters:
     #       name: red_rain
     #       cronExpression: "0,1,50 0,9-23/2 8-18 2 *"
     #       enable: true
     #       argument: red_rain
-    - timer: #母婴-跳一跳
+    - timer: #摇一摇
         parameters:
-          name: jd_jump-jump
-          cronExpression: "5 12 22-27 2 *"
+          name: jd_shake
+          cronExpression: "3 20 * * *"
           enable: true
-          argument: jd_jump-jump
+          argument: jd_shake
     - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
         parameters:
-          name: jd_global_mh  
+          name: jd_gjmh
           cronExpression: "0 9,12,20,21 * * *"
           enable: true
-          argument: jd_global_mh
+          argument: jd_global_mh&jd_gjmh
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

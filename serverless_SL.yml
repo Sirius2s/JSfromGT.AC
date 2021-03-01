@@ -52,12 +52,12 @@ inputs:
           cronExpression: "23 9,13,20 * * *"
           enable: true
           argument: jd_mlyjy
-    # - timer: # 华硕-爱奇艺
-    #     parameters:
-    #       name: jd_asus_iqiyi
-    #       cronExpression: "1 0 22-28 2 *"
-    #       enable: true
-    #       argument: jd_asus_iqiyi
+    - timer: # 她的节
+        parameters:
+          name: jd_firecrackers
+          cronExpression: "0 8,21 1-8 3 *"
+          enable: true
+          argument: jd_firecrackers
     # - timer: # 官方号直播红包雨
     #     parameters:
     #       name: red_rain

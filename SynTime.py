@@ -19,10 +19,10 @@ def get_time():
 def adj_cron(cron_tar):
     """调整CRON.
 
-    根据网络时间，将原始CRON调整为适配主机时间的CRON，以达到在原始CRON预计时间执行的目的.
+    根据执行时间，将原始CRON调整为适配主机时间的CRON，以达到在原始CRON预计时间执行的目的.
 
-    - input -- 原始CRON.
-    - output -- 结果CRON.
+    - param cron_tar: 原始CRON.
+    - return: 结果CRON.
     结论：
         github中主机时间与标准时间一致，但CRON调度时间有不规律延迟。
         通过程序修正CRON来达到在设定的准确时间点运行计划--作为前置任务提前1小时执行
@@ -32,10 +32,9 @@ def adj_cron(cron_tar):
     print('cron_time is: ', cron_time)
 
     print('datetime is: ', datetime.now())
-    print('get_time is: ', datetime.fromtimestamp(get_time()))
+    # print('get_time is: ', datetime.fromtimestamp(get_time()))
 
-    sec_dif = (datetime.now()-datetime.fromtimestamp(get_time())
-               ).total_seconds()  # 主机与网络时间实时差异--->本任务的执行时间与计划时间差
+    sec_dif = (datetime.now()-cron_time).total_seconds()    # 本任务的执行时间与计划时间差
 
     # new_time = datetime.now()+timedelta(seconds=sec_dif)    #主机时间匹配网络时间
     new_time = cron_time+timedelta(seconds=sec_dif)
@@ -46,9 +45,31 @@ def adj_cron(cron_tar):
     return cron_rlt
 
 
+def read_cron(file):
+    """读取指定路径文件中的CRON文本.
+
+    - param file -- 文件路径.
+    - return -- CRON文本.
+    """
+    # with open(file, "r", encoding="utf-8") as f:
+    #     for line in f:
+    #         if 'cron' in line:
+    #             cron = line.split("'")[1]
+    #             # print(cron)
+    #             break
+    # return cron
+    for line in open(file, 'r', encoding='UTF-8'):
+        if 'cron' in line:
+            cron = line.split("'")[1]
+            # print(cron)
+            break
+    return cron
+
+
 if __name__ == '__main__':
-    print('new cron is: ', adj_cron('00 16 * * *'))
-    print(os.environ)
+    print('new cron is: ', adj_cron(read_cron(".github/workflows/syn_time.yml")))
+    # print(os.environ)
+    # read_cron(".github/workflows/syn_time.yml")
     # print("网络时间:%s\n本地时间:%s"%(round(get_time()*1000), round(time.time()*1000)))
     # sec_dif = (datetime.fromtimestamp(get_time())-datetime.now()).total_seconds()
     # print(sec_dif)

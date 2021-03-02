@@ -40,18 +40,18 @@ inputs:
           cronExpression: "0 8 1-8/1,27,28 2,3 *"
           enable: true
           argument: jd_nzmh
-    - timer: # 美丽研究院
+    - timer: #母婴-跳一跳
         parameters:
-          name: jd_beauty
-          cronExpression: "1 7,12,19 * * *"
+          name: jd_jump-jump
+          cronExpression: "5 8,14,20 2-7 3 *"
           enable: true
-          argument: jd_beauty
+          argument: jd_jump-jump
     - timer: # 美丽颜究院
         parameters:
-          name: jd_mlyjy
+          name: mlyjy_beauty
           cronExpression: "23 9,13,20 * * *"
           enable: true
-          argument: jd_mlyjy
+          argument: jd_mlyjy&jd_beauty
     - timer: # 她的节
         parameters:
           name: jd_firecrackers

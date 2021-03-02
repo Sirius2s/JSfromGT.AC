@@ -34,12 +34,12 @@ inputs:
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    - timer: # 女装盲盒 至2021-3-8
-        parameters:
-          name: jd_nzmh
-          cronExpression: "0 8 1-8/1,27,28 2,3 *"
-          enable: true
-          argument: jd_nzmh
+    # - timer: # 女装盲盒 至2021-3-8
+    #     parameters:
+    #       name: jd_nzmh
+    #       cronExpression: "0 8 1-8/1,27,28 2,3 *"
+    #       enable: true
+    #       argument: jd_nzmh
     - timer: #母婴-跳一跳
         parameters:
           name: jd_jump-jump
@@ -52,12 +52,12 @@ inputs:
           cronExpression: "23 9,13,20 * * *"
           enable: true
           argument: jd_mlyjy&jd_beauty
-    - timer: # 她的节
+    - timer: # 她的节 至2021-3-8
         parameters:
-          name: jd_firecrackers
+          name: firecrackers_nzmh
           cronExpression: "0 8,21 1-8 3 *"
           enable: true
-          argument: jd_firecrackers
+          argument: jd_firecrackers&jd_nzmh
     # - timer: # 官方号直播红包雨
     #     parameters:
     #       name: red_rain

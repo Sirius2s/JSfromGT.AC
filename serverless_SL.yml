@@ -52,12 +52,12 @@ inputs:
           cronExpression: "23 9,13,20 * * *"
           enable: true
           argument: jd_mlyjy&jd_beauty
-    - timer: # 她的节 至2021-3-8
+    - timer: # 她的节 至2021-3-8  xmf -3.6
         parameters:
-          name: firecrackers_nzmh
+          name: firecrackers_nzmh_xmf
           cronExpression: "0 8,21 1-8 3 *"
           enable: true
-          argument: jd_firecrackers&jd_nzmh
+          argument: jd_firecrackers&jd_nzmh&jd_xmf
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain3day

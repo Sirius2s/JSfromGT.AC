@@ -40,12 +40,12 @@ inputs:
     #       cronExpression: "0 8 1-8/1,27,28 2,3 *"
     #       enable: true
     #       argument: jd_nzmh
-    - timer: #母婴-跳一跳
-        parameters:
-          name: jd_jump-jump
-          cronExpression: "5 8,14,20 2-7 3 *"
-          enable: true
-          argument: jd_jump-jump
+    # - timer: #母婴-跳一跳
+    #     parameters:
+    #       name: jd_jump_jump
+    #       cronExpression: "5 8,14,20 2-7 3 *"
+    #       enable: true
+    #       argument: jd_jump_jump
     - timer: # 美丽颜究院
         parameters:
           name: mlyjy_beauty
@@ -58,12 +58,12 @@ inputs:
           cronExpression: "0 8,21 1-8 3 *"
           enable: true
           argument: jd_firecrackers&jd_nzmh&jd_xmf
-    - timer: # 超级直播间红包雨
+    - timer: # 京东直播
         parameters:
-          name: jd_live_redrain3day
-          cronExpression: "30,31 20-23/1 2,5 3 *"
+          name: jd_live
+          cronExpression: "10-20/5 12 * * *"
           enable: true
-          argument: jd_live_redrain3day
+          argument: jd_live
     - timer: #摇一摇
         parameters:
           name: jd_shake

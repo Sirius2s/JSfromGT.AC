@@ -55,7 +55,7 @@ inputs:
     - timer: # 她的节 至2021-3-8  xmf -3.6
         parameters:
           name: firecrackers_nzmh_xmf
-          cronExpression: "0 8,21 1-8 3 *"
+          cronExpression: "10 8,21 * * *"
           enable: true
           argument: jd_firecrackers&jd_nzmh&jd_xmf
     - timer: # 京东直播

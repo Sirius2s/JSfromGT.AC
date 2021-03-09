@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    # - timer: # 京东极速版红包 至2021-3-3
-    #     parameters:
-    #       name: jd_speed_redpocke
-    #       cronExpression: "0 0 * * *"
-    #       enable: true
-    #       argument: jd_speed_redpocke
+    - timer: # 京东极速版红包 2021-3-8至2021-3-25
+        parameters:
+          name: jd_speed_redpocke
+          cronExpression: "0 0 8-25 3 *"
+          enable: true
+          argument: jd_speed_redpocke
     - timer: # 粉丝互动
         parameters:
           name: jd_fanslove
@@ -34,12 +34,12 @@ inputs:
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    # - timer: # 女装盲盒 至2021-3-8
-    #     parameters:
-    #       name: jd_nzmh
-    #       cronExpression: "0 8 1-8/1,27,28 2,3 *"
-    #       enable: true
-    #       argument: jd_nzmh
+    - timer: # 环球挑战赛 2021-03-08 至 2021-03-31
+        parameters:
+          name: jd_global
+          cronExpression: "0 9,12,20,21 8-31 3 *"
+          enable: true
+          argument: jd_global
     # - timer: #母婴-跳一跳
     #     parameters:
     #       name: jd_jump_jump
@@ -48,16 +48,16 @@ inputs:
     #       argument: jd_jump_jump
     - timer: # 美丽颜究院
         parameters:
-          name: mlyjy_beauty
+          name: mlyjy #_beauty
           cronExpression: "23 9,13,20 * * *"
           enable: true
-          argument: jd_mlyjy&jd_beauty
-    - timer: # 她的节 至2021-3-8  xmf -3.6
+          argument: jd_mlyjy  #&jd_beauty
+    - timer: # xmf
         parameters:
-          name: firecrackers_nzmh_xmf
+          name: xmf
           cronExpression: "10 8,21 * * *"
           enable: true
-          argument: jd_firecrackers&jd_nzmh&jd_xmf
+          argument: jd_xmf
     - timer: # 京东直播
         parameters:
           name: jd_live

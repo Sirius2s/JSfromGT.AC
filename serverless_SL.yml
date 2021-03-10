@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东极速版红包 2021-3-8至2021-3-25
+    - timer: # 京东极速版红包 2021-3-8至2021-3-25 女装盲盒 至2021-3-20
         parameters:
-          name: jd_speed_redpocke
+          name: jd_speed_redpocke_nzmh
           cronExpression: "0 0 8-25 3 *"
           enable: true
-          argument: jd_speed_redpocke
+          argument: jd_speed_redpocke&jd_nzmh
     - timer: # 粉丝互动
         parameters:
           name: jd_fanslove
@@ -40,24 +40,24 @@ inputs:
           cronExpression: "0 9,12,20,21 8-31 3 *"
           enable: true
           argument: jd_global
-    - timer: #洗护发超级品类日
+    - timer: #洗护发超级品类日 至2021-03-15
         parameters:
           name: z_superDay
           cronExpression: "13 8,10 8-15 3 *"
           enable: true
           argument: z_superDay
-    # - timer: # 美丽颜究院
+    # - timer: # 女装盲盒 至2021-3-20
     #     parameters:
-    #       name: mlyjy #_beauty
-    #       cronExpression: "23 9,13,20 * * *"
+    #       name: jd_nzmh
+    #       cronExpression: "0 8 9-20 3 *"
     #       enable: true
-    #       argument: jd_mlyjy  #&jd_beauty
-    # - timer: # xmf
-    #     parameters:
-    #       name: xmf
-    #       cronExpression: "10 8,21 * * *"
-    #       enable: true
-    #       argument: jd_xmf
+    #       argument: jd_nzmh
+    - timer: # 超级直播间红包雨
+        parameters:
+          name: jd_live_redrain
+          cronExpression: "30,31 20-23/1 9,12 3 *"
+          enable: true
+          argument: jd_live_redrain
     - timer: # 京东直播
         parameters:
           name: jd_live

@@ -40,24 +40,24 @@ inputs:
           cronExpression: "0 9,12,20,21 8-31 3 *"
           enable: true
           argument: jd_global
-    # - timer: #母婴-跳一跳
+    - timer: #洗护发超级品类日
+        parameters:
+          name: z_superDay
+          cronExpression: "13 8,10 8-15 3 *"
+          enable: true
+          argument: z_superDay
+    # - timer: # 美丽颜究院
     #     parameters:
-    #       name: jd_jump_jump
-    #       cronExpression: "5 8,14,20 2-7 3 *"
+    #       name: mlyjy #_beauty
+    #       cronExpression: "23 9,13,20 * * *"
     #       enable: true
-    #       argument: jd_jump_jump
-    - timer: # 美丽颜究院
-        parameters:
-          name: mlyjy #_beauty
-          cronExpression: "23 9,13,20 * * *"
-          enable: true
-          argument: jd_mlyjy  #&jd_beauty
-    - timer: # xmf
-        parameters:
-          name: xmf
-          cronExpression: "10 8,21 * * *"
-          enable: true
-          argument: jd_xmf
+    #       argument: jd_mlyjy  #&jd_beauty
+    # - timer: # xmf
+    #     parameters:
+    #       name: xmf
+    #       cronExpression: "10 8,21 * * *"
+    #       enable: true
+    #       argument: jd_xmf
     - timer: # 京东直播
         parameters:
           name: jd_live

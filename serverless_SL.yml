@@ -40,12 +40,12 @@ inputs:
           cronExpression: "0 9,12,20,21 8-31 3 *"
           enable: true
           argument: jd_global
-    - timer: #洗护发超级品类日 至2021-03-15
+    - timer: #洗护发超级品类日 至2021-03-15 #美的家电节
         parameters:
-          name: z_superDay
-          cronExpression: "13 8,10 8-15 3 *"
+          name: z_superDay_z_unionPoster
+          cronExpression: "15 10 10-31 3 *"
           enable: true
-          argument: z_superDay
+          argument: z_superDay&z_unionPoster
     # - timer: # 女装盲盒 至2021-3-20
     #     parameters:
     #       name: jd_nzmh

@@ -34,30 +34,30 @@ inputs:
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    - timer: # 环球挑战赛 2021-03-08 至 2021-03-31
-        parameters:
-          name: jd_global
-          cronExpression: "0 9,12,20,21 8-31 3 *"
-          enable: true
-          argument: jd_global
+    # - timer: # 环球挑战赛 2021-03-08 至 2021-03-31
+    #     parameters:
+    #       name: jd_global
+    #       cronExpression: "0 9,12,20,21 8-31 3 *"
+    #       enable: true
+    #       argument: jd_global
     - timer: #洗护发超级品类日 至2021-03-15 #美的家电节
         parameters:
           name: z_superDay_z_unionPoster
           cronExpression: "15 10 10-31 3 *"
           enable: true
           argument: z_superDay&z_unionPoster
-    # - timer: # 女装盲盒 至2021-3-20
-    #     parameters:
-    #       name: jd_nzmh
-    #       cronExpression: "0 8 9-20 3 *"
-    #       enable: true
-    #       argument: jd_nzmh
-    - timer: # 超级直播间红包雨
+    - timer: # xmf
         parameters:
-          name: jd_live_redrain
-          cronExpression: "30,31 20-23/1 9,12 3 *"
+          name: jd_xmf
+          cronExpression: "10 10 * * *"
           enable: true
-          argument: jd_live_redrain
+          argument: jd_xmf
+    # - timer: # 超级直播间红包雨
+    #     parameters:
+    #       name: jd_live_redrain
+    #       cronExpression: "30,31 20-23/1 9,12 3 *"
+    #       enable: true
+    #       argument: jd_live_redrain
     - timer: # 京东直播
         parameters:
           name: jd_live
@@ -70,12 +70,12 @@ inputs:
           cronExpression: "3 20 * * *"
           enable: true
           argument: jd_shake
-    - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
-        parameters:
-          name: jd_gjmh
-          cronExpression: "0 9,12,20,21 * * *"
-          enable: true
-          argument: jd_global_mh&jd_gjmh
+    # - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
+    #     parameters:
+    #       name: jd_gjmh
+    #       cronExpression: "0 9,12,20,21 * * *"
+    #       enable: true
+    #       argument: jd_global_mh&jd_gjmh
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

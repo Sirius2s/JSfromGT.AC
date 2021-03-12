@@ -52,12 +52,12 @@ inputs:
           cronExpression: "10 10 * * *"
           enable: true
           argument: jd_xmf
-    # - timer: # 超级直播间红包雨
-    #     parameters:
-    #       name: jd_live_redrain
-    #       cronExpression: "30,31 20-23/1 9,12 3 *"
-    #       enable: true
-    #       argument: jd_live_redrain
+    - timer: # 超级直播间红包雨
+        parameters:
+          name: jd_live_redrain
+          cronExpression: "30,31 20-23/1 * * *"
+          enable: true
+          argument: jd_live_redrain
     - timer: # 京东直播
         parameters:
           name: jd_live

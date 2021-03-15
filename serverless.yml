@@ -28,24 +28,24 @@ inputs:
           cronExpression: "0 0 0 * * * *"
           enable: true
           argument: jd_blueCoin&jd_club_lottery&jd_car_exchange
-    - timer: #东东农场 #东东萌宠 #口袋书店 #京喜农场
+    - timer: #东东农场 #东东萌宠 #口袋书店 #京喜农场 #京小兑 #美丽研究院
         parameters:
-          name: jd_fruit_jd_pet_bookshop_jxnc
+          name: jd_fruit_jd_pet_bookshop_jxnc_jxd_beauty
           cronExpression: "0 5 6-18/6,8 * * * *"
           enable: true
-          argument: jd_fruit&jd_pet&jd_bookshop&jd_jxnc
+          argument: jd_fruit&jd_pet&jd_bookshop&jd_jxnc&jd_jxd&jd_beauty
     - timer: # 宠汪汪喂食# 宠汪汪# 摇钱树# 京东种豆得豆# 京喜工厂 #东东工厂(black)
         parameters:
           name: joy_fPets_joy_mTree_plantBean_dFactory_jdfactory
           cronExpression: "0 3 */1 * * * *"
           enable: true
           argument: jd_joy_feedPets&jd_joy&jd_moneyTree&jd_plantBean&jd_dreamFactory
-    - timer: # 宠汪汪积分兑换奖品# 宠汪汪偷好友积分与狗# 点点券 #东东小窝 #京喜财富岛
+    - timer: # 宠汪汪积分兑换奖品# 宠汪汪偷好友积分与狗# 点点券 #东东小窝 #京喜财富岛 #京东极速版签到
         parameters:
-          name: joy_reward_joy_steal_necklace_smlhome_cfd
+          name: joy_reward_joy_steal_necklace_smlhome_cfd_speedsign
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_joy_reward&jd_joy_steal&jd_necklace&jd_small_home&jd_cfd
+          argument: jd_joy_reward&jd_joy_steal&jd_necklace&jd_small_home&jd_cfd&jd_speed_sign
     - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东抽奖机 #京东汽车 #京东秒秒币
         parameters:
           name: redPacket_shop_unsub_lotMach_car_ms
@@ -64,12 +64,12 @@ inputs:
           cronExpression: "0 15 * * * * *"
           enable: true
           argument: jd_superMarket
-    - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京小兑 #京东保价
+    - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京东保价
         parameters:
-          name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_jxd_price
+          name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_price
           cronExpression: "0 30 7 * * * *"
           enable: true
-          argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh&jd_crazy_joy_bonus&jd_jxd&jd_price
+          argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh&jd_crazy_joy_bonus&jd_price
     - timer: #金融养猪 #十元街 #京东快递 #京东赚赚 #京喜签到
         parameters:
           name: pigPet_syj_kd_jdzz_jxsign

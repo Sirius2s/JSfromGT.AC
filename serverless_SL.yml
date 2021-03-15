@@ -46,12 +46,12 @@ inputs:
           cronExpression: "15 10 10-31 3 *"
           enable: true
           argument: z_superDay&z_unionPoster
-    # - timer: # xmf
-    #     parameters:
-    #       name: jd_xmf
-    #       cronExpression: "10 10 * * *"
-    #       enable: true
-    #       argument: jd_xmf
+    - timer: # xmf
+        parameters:
+          name: z_wish
+          cronExpression: "10 10,15 13-20 3 *"
+          enable: true
+          argument: z_wish
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain

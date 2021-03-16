@@ -46,7 +46,7 @@ inputs:
           cronExpression: "15 10 10-31 3 *"
           enable: true
           argument: z_superDay&z_unionPoster
-    - timer: # xmf
+    - timer: # 众筹许愿池
         parameters:
           name: z_wish
           cronExpression: "10 10,15 13-20 3 *"
@@ -64,12 +64,12 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-    - timer: #摇一摇
+    - timer: #摇一摇 #小魔方
         parameters:
-          name: jd_shake
+          name: jd_shake_xmf
           cronExpression: "3 20 * * *"
           enable: true
-          argument: jd_shake
+          argument: jd_shake&jd_xmf
     # - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
     #     parameters:
     #       name: jd_gjmh

@@ -285,7 +285,7 @@ jobs:
           wget -O z_mother_jump.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js
           wget -O jd_shake.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
           # wget -O jd_live_redrain3day.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_live_redrain3day.js
-          wget -O z_superDay.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js
+          # wget -O z_superDay.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js
           wget -O z_unionPoster.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js
           wget -O z_wish.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js
           wget -O z_lenovo.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js

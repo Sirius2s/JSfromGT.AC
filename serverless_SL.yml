@@ -40,12 +40,12 @@ inputs:
           cronExpression: "0 9,12,20,21 8-31 3 *"
           enable: true
           argument: jd_global&jd_global_mh&z_mother_jump
-    - timer: #洗护发超级品类日 至2021-03-15 #美的家电节 #联想集卡 至3-29
+    - timer: #美的家电节 #联想集卡 至3-29
         parameters:
-          name: z_sDay_uPoster_lenovo
+          name: z_uPoster_lenovo
           cronExpression: "15 10 10-31 3 *"
           enable: true
-          argument: z_superDay&z_unionPoster&z_lenovo
+          argument: z_unionPoster&z_lenovo
     - timer: # 众筹许愿池
         parameters:
           name: z_wish

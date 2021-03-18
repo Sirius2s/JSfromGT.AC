@@ -289,6 +289,7 @@ jobs:
           wget -O z_unionPoster.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js
           wget -O z_wish.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js
           wget -O z_lenovo.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js
+          wget -O z_oneplus.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js
 
       - name: "Secrets环境变量 SL"
         run: |

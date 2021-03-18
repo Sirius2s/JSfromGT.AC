@@ -19,7 +19,7 @@ inputs:
     - timer: # 京东极速版红包 2021-3-8至2021-3-25 女装盲盒 至2021-3-20
         parameters:
           name: jd_speed_redpocke_nzmh
-          cronExpression: "0 0 8-25 3 *"
+          cronExpression: "45 0,23 8-25 3 *"
           enable: true
           argument: jd_speed_redpocke&jd_nzmh
     - timer: # 粉丝互动
@@ -37,7 +37,7 @@ inputs:
     - timer: # 环球挑战赛 至2021-03-31 #京东国际盲盒 至2021-03-31 #母婴-跳一跳 至3-25
         parameters:
           name: jd_global_gjmh_mjump
-          cronExpression: "0 9,12,20,21 8-31 3 *"
+          cronExpression: "35 9,12,20,21 8-31 3 *"
           enable: true
           argument: jd_global&jd_global_mh&z_mother_jump
     - timer: #美的家电节 #联想集卡 至3-29 #一加盲盒 至3-30

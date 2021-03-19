@@ -66,10 +66,10 @@ inputs:
           argument: jd_live
     - timer: #5G超级盲盒
         parameters:
-          name: z_super5g
-          cronExpression: "5 1,6,11,16,21 * 3-4 *"
+          name: jd_mohe #z_super5g
+          cronExpression: "0 0,1-23/4 * * *"  #"5 1,6,11,16,21 * 3-4 *"
           enable: true
-          argument: z_super5g
+          argument: jd_mohe #z_super5g
     # - timer: # 临时运行用 #京东国际盲盒 至2021-03-31
     #     parameters:
     #       name: jd_gjmh

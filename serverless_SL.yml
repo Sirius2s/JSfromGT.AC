@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东极速版红包 2021-3-8至2021-3-25 女装盲盒 至2021-3-20
+    - timer: # 京东极速版红包 2021-3-8至2021-3-25
         parameters:
-          name: jd_speed_redpocke_nzmh
+          name: jd_speed_redpocke
           cronExpression: "45 0,23 8-25 3 *"
           enable: true
-          argument: jd_speed_redpocke&jd_nzmh
+          argument: jd_speed_redpocke
     - timer: # 粉丝互动 #金口碑奖投票 #摇一摇
         parameters:
           name: jd_fanslove_mgold_shake

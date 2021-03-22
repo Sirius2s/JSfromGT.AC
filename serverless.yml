@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: #签到 #签到领现金 #手机尚学季-2021年3月19日
+    - timer: #签到 #签到领现金 #京东抽奖机
         parameters:
-          name: beansign_cash_xtg
+          name: beansign_cash_lotMach
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
-          argument: jd_bean_sign&jd_cash
+          argument: jd_bean_sign&jd_cash&jd_lotteryMachine
     - timer: #京小超兑换奖品 #摇京豆 #京东汽车兑换
         parameters:
           name: blueCoin_club_lot_carexc
@@ -40,24 +40,24 @@ inputs:
           cronExpression: "0 3 */1 * * * *"
           enable: true
           argument: jd_joy_feedPets&jd_joy&jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_city
-    - timer: # 宠汪汪积分兑换奖品# 宠汪汪偷好友积分与狗# 点点券 #东东小窝 #京喜财富岛
+    - timer: #宠汪汪积分兑换奖品 #点点券 #东东小窝 #京喜财富岛
         parameters:
-          name: joy_reward_joy_steal_necklace_smlhome_cfd
+          name: joy_reward_necklace_smlhome_cfd
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_joy_reward&jd_joy_steal&jd_necklace&jd_small_home&jd_cfd
-    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东抽奖机 #京东汽车 #京东秒秒币
+          argument: jd_joy_reward&jd_necklace&jd_small_home&jd_cfd
+    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币
         parameters:
-          name: redPacket_shop_unsub_lotMach_car_ms
+          name: redPacket_shop_unsub_car_ms
           cronExpression: "0 10 0 * * * *"
           enable: true
-          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_lotteryMachine&jd_car&jd_ms
-    - timer: # 京东天天加速
+          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_ms
+    - timer: # 京东天天加速 #5G超级盲盒
         parameters:
-          name: jd_speed
+          name: jd_speed_mohe
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed
+          argument: jd_speed&jd_mohe
     - timer: #东东超市
         parameters:
           name: superMarket

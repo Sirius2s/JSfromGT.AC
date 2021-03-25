@@ -39,7 +39,7 @@ inputs:
           name: joy_fPets_joy_mTree_plantBean_dFactory_jdfactory
           cronExpression: "0 3 */1 * * * *"
           enable: true
-          argument: jd_joy_feedPets&jd_joy&jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_city
+          argument: jd_joy_feedPets&jd_joy&jd_moneyTree&jd_plantBean&jd_dreamFactory
     - timer: #宠汪汪积分兑换奖品 #点点券 #东东小窝 #京喜财富岛
         parameters:
           name: joy_reward_necklace_smlhome_cfd

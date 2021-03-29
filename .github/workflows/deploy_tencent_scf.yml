@@ -275,25 +275,25 @@ jobs:
         run: |
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
           # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
-          wget -O jd_entertainment.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
+          wget -O jd_entertainment.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_entertainment.js
           # wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
-          wget -O z_xmf.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js
+          # wget -O z_xmf.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
-          wget -O jd_fanslove.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js
+          wget -O jd_fanslove.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_fanslove.js
           # wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
           # wget -O jd_asus_iqiyi.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js
-          wget -O z_mother_jump.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js
-          wget -O jd_shake.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
+          wget -O z_mother_jump.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_mother_jump.js
+          wget -O jd_shake.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_shake.js
           # wget -O jd_live_redrain3day.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_live_redrain3day.js
           # wget -O z_superDay.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js
-          wget -O z_unionPoster.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js
+          wget -O z_unionPoster.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_unionPoster.js
           # wget -O z_wish.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js
-          wget -O z_lenovo.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js
-          wget -O z_oneplus.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js
+          wget -O z_lenovo.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_lenovo.js
+          wget -O z_oneplus.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_oneplus.js
           # wget -O z_mgold.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js
-          wget -O z_super5g.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js
+          wget -O z_super5g.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_super5g.js
           # wget -O z_city_cash.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js
-          wget -O z_grassy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js
+          # wget -O z_grassy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js
 
       - name: "Secrets环境变量 SL"
         run: |

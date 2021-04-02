@@ -64,12 +64,12 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-    # - timer: #5G超级盲盒
-    #     parameters:
-    #       name: jd_mohe #z_super5g
-    #       cronExpression: "0 0,1-23/4 * * *"  #"5 1,6,11,16,21 * 3-4 *"
-    #       enable: true
-    #       argument: jd_mohe #z_super5g
+     - timer: #5G超级盲盒
+         parameters:
+           name: jd_mohe #z_super5g
+           cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
+           enable: true
+           argument: jd_mohe #z_super5g
     # - timer: # 临时运行用 #京东小魔方
     #     parameters:
     #       name: z_xmf

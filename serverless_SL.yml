@@ -21,7 +21,7 @@ inputs:
           name: spdredpocke_redPacket_clot
           cronExpression: "45 0,21,23 * * *"
           enable: true
-          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
+          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
     - timer: # 粉丝互动 #摇一摇
         parameters:
           name: jd_fanslove_shake

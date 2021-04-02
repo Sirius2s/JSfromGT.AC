@@ -46,12 +46,12 @@ inputs:
     #       cronExpression: "15 10 10-31 3 *"
     #       enable: true
     #       argument: z_unionPoster&z_lenovo&z_oneplus
-    # - timer: # 答题赢京豆 至3-25
-    #     parameters:
-    #       name: z_grassy
-    #       cronExpression: "5 11 23-25 3 *"
-    #       enable: true
-    #       argument: z_grassy
+     - timer: # 狂欢城
+         parameters:
+           name: jd_carnivalcity
+           cronExpression: "0 0-18/6,19-23/1 * * *"
+           enable: true
+           argument: jd_carnivalcity
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain

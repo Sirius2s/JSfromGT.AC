@@ -46,7 +46,7 @@ inputs:
     #       cronExpression: "15 10 10-31 3 *"
     #       enable: true
     #       argument: z_unionPoster&z_lenovo&z_oneplus
-     - timer: # 狂欢城
+    - timer: # 狂欢城
          parameters:
            name: jd_carnivalcity
            cronExpression: "0 0-18/6,19-23/1 * * *"
@@ -64,7 +64,7 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-     - timer: #5G超级盲盒
+    - timer: #5G超级盲盒
          parameters:
            name: jd_mohe #z_super5g
            cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"

@@ -16,9 +16,9 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆
+    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆 #女装魔盒
         parameters:
-          name: spdredpocke_redPacket_clot
+          name: spdredpocke_redPacket_clot_nzmh
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh

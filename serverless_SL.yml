@@ -22,24 +22,24 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: # 粉丝互动 #摇一摇
+    - timer: # 粉丝互动 #摇一摇 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 4-6 4 *]
         parameters:
-          name: jd_fanslove_shake
+          name: fanslove_shake
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jd_fanslove
+          argument: jd_shake&jd_fanslove&z_asus_iqiyi&monk_skyworth_car&z_xmf
     - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment
           cronExpression: "10 10,11 * * *"
           enable: true
           argument: jd_entertainment
-    # - timer: # 环球挑战赛 至2021-03-31 #京东国际盲盒 至2021-03-31 #母婴-跳一跳 至3-25
-    #     parameters:
-    #       name: jd_global_gjmh_mjump
-    #       cronExpression: "35 9,12,20,21 8-31 3 *"
-    #       enable: true
-    #       argument: jd_global&jd_global_mh&z_mother_jump
+    - timer: #母婴-跳一跳
+        parameters:
+          name: mjump
+          cronExpression: "5 8,14,20 6-13 4 *"
+          enable: true
+          argument: z_mother_jump
     # - timer: #美的家电节 #联想集卡 至3-29 #一加盲盒 至3-30
     #     parameters:
     #       name: z_uPoster_lenovo_oneplus
@@ -69,7 +69,7 @@ inputs:
            name: jd_mohe #z_super5g
            cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
            enable: true
-           argument: jd_mohe #z_super5g
+           argument: jd_mohe&z_super5g
     # - timer: # 临时运行用 #京东小魔方
     #     parameters:
     #       name: z_xmf

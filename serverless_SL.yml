@@ -22,12 +22,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: # 粉丝互动 #摇一摇 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 4-6 4 *]
+    - timer: #摇一摇 #京喜签到消消乐 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *]
         parameters:
-          name: fanslove_shake
+          name: shake_jxcsign
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jd_fanslove&z_asus_iqiyi&monk_skyworth_car&z_xmf
+          argument: jd_shake&jx_cash_sign&z_asus_iqiyi&monk_skyworth_car&z_xmf
     - timer: # 百变大咖秀 4.22 end
         parameters:
           name: jd_entertainment
@@ -40,12 +40,12 @@ inputs:
           cronExpression: "5 8,14,20 6-13 4 *"
           enable: true
           argument: z_mother_jump
-    # - timer: #美的家电节 #联想集卡 至3-29 #一加盲盒 至3-30
-    #     parameters:
-    #       name: z_uPoster_lenovo_oneplus
-    #       cronExpression: "15 10 10-31 3 *"
-    #       enable: true
-    #       argument: z_unionPoster&z_lenovo&z_oneplus
+    - timer: #整点京豆雨
+        parameters:
+          name: jd_super_redrain
+          cronExpression: "0 8-23 * * *"
+          enable: true
+          argument: jd_super_redrain
     - timer: # 狂欢城
          parameters:
            name: jd_carnivalcity

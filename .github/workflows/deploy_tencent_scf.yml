@@ -295,6 +295,7 @@ jobs:
           # wget -O z_city_cash.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js
           # wget -O z_grassy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js
           wget -O monk_skyworth_car.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js
+          wget -O red_rain.js https://raw.githubusercontent.com/monk-coder/dust/dust/backup/red_rain.js
           # wget -O monk_shop_lottery.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_lottery.js
           # wget -O jd_live_lottery_social.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_live_lottery_social.js
           wget -O jd_super_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js

@@ -6,7 +6,7 @@ name: jd_get_share_code
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 0 1,10,20 * *'
+    - cron: '4 14 7,15,23,28-31 * *'
   # watch:
   #   types: started
   repository_dispatch:

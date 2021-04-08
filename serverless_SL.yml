@@ -43,7 +43,7 @@ inputs:
     - timer: #整点京豆雨
         parameters:
           name: jd_super_redrain
-          cronExpression: "1 0,8-23/1 * * *"
+          cronExpression: "0,1 0,8-23/1 * * *"
           enable: true
           argument: jd_super_redrain
     - timer: # 狂欢城
@@ -73,7 +73,7 @@ inputs:
     - timer: # 临时运行用 #京东小魔方
         parameters:
           name: red_rain
-          cronExpression: "1 0,20,9-23/2 * 4-6 *"
+          cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
           enable: true
           argument: red_rain
   environment: #  环境变量

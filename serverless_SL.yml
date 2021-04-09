@@ -22,18 +22,18 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #京喜签到消消乐 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *]
+    - timer: #摇一摇 #京喜签到消消乐 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
         parameters:
           name: shake_jxcsign
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jx_cash_sign&z_asus_iqiyi&monk_skyworth_car&z_xmf
-    - timer: # 百变大咖秀 4.22 end
+          argument: jd_shake&jx_cash_sign&z_asus_iqiyi&monk_skyworth_car&z_xmf  #&jd_entertainment
+    - timer: #直播雨
         parameters:
-          name: jd_entertainment
-          cronExpression: "10 10,11 * * *"
+          name: red_rain
+          cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
           enable: true
-          argument: jd_entertainment
+          argument: red_rain
     - timer: #母婴-跳一跳
         parameters:
           name: mjump
@@ -48,14 +48,14 @@ inputs:
           argument: jd_super_redrain
     - timer: # 狂欢城
          parameters:
-           name: jd_carnivalcity
-           cronExpression: "0 0-18/6,19-23/1 * * *"
-           enable: true
-           argument: jd_carnivalcity
+          name: jd_carnivalcity
+          cronExpression: "0 0-18/6,19-23/1 * * *"
+          enable: true
+          argument: jd_carnivalcity
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain
-          cronExpression: "0,30,31 20-23/1 * * *"
+          cronExpression: "1,31 * * * *"
           enable: true
           argument: jd_live_redrain
     - timer: # 京东直播
@@ -66,16 +66,16 @@ inputs:
           argument: jd_live
     - timer: #5G超级盲盒
          parameters:
-           name: jd_mohe #z_super5g
-           cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
-           enable: true
-           argument: jd_mohe&z_super5g
-    - timer: # 临时运行用 #京东小魔方
-        parameters:
-          name: red_rain
-          cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
+          name: jd_mohe #z_super5g
+          cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
           enable: true
-          argument: red_rain
+          argument: jd_mohe&z_super5g
+    # - timer: # 临时运行用
+    #     parameters:
+    #       name: red_rain
+    #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
+    #       enable: true
+    #       argument: red_rain
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

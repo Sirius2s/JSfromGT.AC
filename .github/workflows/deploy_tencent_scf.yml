@@ -282,7 +282,7 @@ jobs:
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
           # wget -O jd_fanslove.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_fanslove.js
           # wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
-          wget -O z_asus_iqiyi.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/z_asus_iqiyi.js
+          # wget -O z_asus_iqiyi.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/z_asus_iqiyi.js
           wget -O z_mother_jump.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_mother_jump.js
           wget -O jd_shake.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_shake.js
           # wget -O jd_live_redrain3day.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_live_redrain3day.js

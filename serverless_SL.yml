@@ -22,12 +22,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #京喜签到消消乐 #华硕-iqiyi[0 0 5-11 4 *] #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
+    - timer: #摇一摇 #京喜签到消消乐 #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
         parameters:
           name: shake_jxcsign
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jx_cash_sign&z_asus_iqiyi&monk_skyworth_car&z_xmf  #&jd_entertainment
+          argument: jd_shake&jx_cash_sign&monk_skyworth_car&z_xmf  #&jd_entertainment
     - timer: #直播雨
         parameters:
           name: red_rain

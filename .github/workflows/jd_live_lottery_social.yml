@@ -6,7 +6,7 @@ name: jd_live_lottery_social
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0-12/1 * * *'
+    - cron: '5 0-15/1 * * *'
   # watch:
   #   types: started
   repository_dispatch:

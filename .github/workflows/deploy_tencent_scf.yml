@@ -277,7 +277,7 @@ jobs:
           # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
           # wget -O jd_entertainment.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_entertainment.js
           # wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
-          # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_carnivalcity.js
+          wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_carnivalcity.js
           wget -O z_xmf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_xmf.js
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
           # wget -O jd_fanslove.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_fanslove.js

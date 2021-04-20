@@ -24,34 +24,34 @@ inputs:
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
     - timer: #摇一摇 #京喜签到消消乐 #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
         parameters:
-          name: shake_jxcsign
+          name: shake_jxcsign_xmf
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jx_cash_sign&monk_skyworth_car&z_xmf  #&jd_entertainment
+          argument: jd_shake&jx_cash_sign&z_xmf  #&jd_entertainment&monk_skyworth_car
     - timer: #直播雨
         parameters:
           name: red_rain
           cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
           enable: true
           argument: red_rain
-    - timer: #母婴-跳一跳
-        parameters:
-          name: mjump
-          cronExpression: "5 8,14,20 6-13 4 *"
-          enable: true
-          argument: z_mother_jump
+    # - timer: #母婴-跳一跳
+    #     parameters:
+    #       name: mjump
+    #       cronExpression: "5 8,14,20 6-13 4 *"
+    #       enable: true
+    #       argument: z_mother_jump
     - timer: #整点京豆雨
         parameters:
           name: jd_super_redrain
           cronExpression: "0,1 0,8-23/1 * * *"
           enable: true
           argument: jd_super_redrain
-    - timer: # 狂欢城
-         parameters:
-          name: jd_carnivalcity
-          cronExpression: "0 0-18/6,19-23/1 * * *"
-          enable: true
-          argument: jd_carnivalcity
+    # - timer: # 狂欢城
+    #      parameters:
+    #       name: jd_carnivalcity
+    #       cronExpression: "0 0-18/6,19-23/1 * * *"
+    #       enable: true
+    #       argument: jd_carnivalcity
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain

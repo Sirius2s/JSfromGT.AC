@@ -46,12 +46,12 @@ inputs:
           cronExpression: "0,1 0,8-23/1 * * *"
           enable: true
           argument: jd_super_redrain
-    - timer: # 狂欢城
-         parameters:
-          name: jd_carnivalcity
-          cronExpression: "0 0-18/6,19-23/1 * * *"
-          enable: true
-          argument: jd_carnivalcity
+    # - timer: # 狂欢城
+    #      parameters:
+    #       name: jd_carnivalcity
+    #       cronExpression: "0 0-18/6,19-23/1 * * *"
+    #       enable: true
+    #       argument: jd_carnivalcity
     - timer: # 超级直播间红包雨
         parameters:
           name: jd_live_redrain

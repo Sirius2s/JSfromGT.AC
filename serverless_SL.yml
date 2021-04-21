@@ -24,10 +24,10 @@ inputs:
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
     - timer: #摇一摇 #京喜签到消消乐 #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
         parameters:
-          name: shake_jxcsign_xmf
+          name: shake_xmf
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&jx_cash_sign&z_xmf  #&jd_entertainment&monk_skyworth_car
+          argument: jd_shake&z_xmf  #&jd_entertainment&monk_skyworth_car&jx_cash_sign
     - timer: #直播雨
         parameters:
           name: red_rain

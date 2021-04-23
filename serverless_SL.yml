@@ -34,12 +34,12 @@ inputs:
           cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
           enable: true
           argument: red_rain
-    # - timer: #母婴-跳一跳
-    #     parameters:
-    #       name: mjump
-    #       cronExpression: "5 8,14,20 6-13 4 *"
-    #       enable: true
-    #       argument: z_mother_jump
+    - timer: #母婴-跳一跳
+        parameters:
+          name: mjump
+          cronExpression: "5 8,14,20 * 4 *"
+          enable: true
+          argument: z_mother_jump
     - timer: #整点京豆雨
         parameters:
           name: jd_super_redrain

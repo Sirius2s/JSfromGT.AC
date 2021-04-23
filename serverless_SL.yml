@@ -40,12 +40,12 @@ inputs:
           cronExpression: "5 8,14,20 * 4 *"
           enable: true
           argument: z_mother_jump
-    - timer: #整点京豆雨
+    - timer: #整点京豆雨 #健康社区藏经阁版-收能量
         parameters:
           name: jd_super_redrain
           cronExpression: "0,1 0,8-23/1 * * *"
           enable: true
-          argument: jd_super_redrain
+          argument: jd_super_redrain&z_health_energy
     # - timer: # 狂欢城
     #      parameters:
     #       name: jd_carnivalcity
@@ -64,12 +64,12 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-    - timer: #5G超级盲盒
+    - timer: #5G超级盲盒 #健康社区藏经阁版
          parameters:
           name: jd_mohe #z_super5g
           cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
           enable: true
-          argument: jd_mohe&z_super5g
+          argument: jd_mohe&z_super5g&z_health_community
     # - timer: # 临时运行用
     #     parameters:
     #       name: red_rain

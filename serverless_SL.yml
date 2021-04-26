@@ -43,7 +43,7 @@ inputs:
     - timer: #整点京豆雨 #健康社区藏经阁版-收能量
         parameters:
           name: jd_super_redrain
-          cronExpression: "0,1 0,8-23/1 * * *"
+          cronExpression: "0,1 * * * *"
           enable: true
           argument: jd_super_redrain&z_health_energy
     # - timer: # 狂欢城

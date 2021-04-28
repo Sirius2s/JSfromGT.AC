@@ -300,6 +300,7 @@ jobs:
           # wget -O monk_shop_lottery.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_lottery.js
           # wget -O jd_live_lottery_social.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_live_lottery_social.js
           wget -O jd_super_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js
+          wget -O jd_half_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
           # wget -O jx_cash_sign.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jx_cash_sign.js
           wget -O z_health_community.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_community.js
           wget -O z_health_energy.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_energy.js

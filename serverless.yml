@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: #签到 #签到领现金 #京东抽奖机 #十元街
+    - timer: #签到 #签到领现金 #京东抽奖机
         parameters:
-          name: beansign_cash_lotMach_syj
+          name: beansign_cash_lotMach
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
-          argument: jd_bean_sign&jd_cash&jd_lotteryMachine&jd_syj
+          argument: jd_bean_sign&jd_cash&jd_lotteryMachine
     - timer: #京小超兑换奖品 #京东汽车兑换
         parameters:
           name: blueCoin_carexc
@@ -58,12 +58,12 @@ inputs:
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed
-    - timer: #东东超市
+    - timer: #东东超市 #十元街
         parameters:
-          name: superMarket
+          name: superMarket_syj
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket
+          argument: jd_superMarket&jd_syj
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京东保价 #球队赢好礼
         parameters:
           name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_price_tcl

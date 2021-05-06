@@ -27,7 +27,7 @@ inputs:
           name: shake_xmf
           cronExpression: "8 10 * * *"
           enable: true
-          argument: jd_shake&z_xmf  #&jd_entertainment&monk_skyworth_car&jx_cash_sign
+          argument: z_shake&z_xmf  #&jd_entertainment&monk_skyworth_car&jx_cash_sign
     # - timer: #直播雨
     #     parameters:
     #       name: red_rain

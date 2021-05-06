@@ -28,16 +28,16 @@ inputs:
           cronExpression: "8 10 * * *"
           enable: true
           argument: jd_shake&z_xmf  #&jd_entertainment&monk_skyworth_car&jx_cash_sign
-    - timer: #直播雨
-        parameters:
-          name: red_rain
-          cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
-          enable: true
-          argument: red_rain
+    # - timer: #直播雨
+    #     parameters:
+    #       name: red_rain
+    #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
+    #       enable: true
+    #       argument: red_rain
     - timer: #母婴-跳一跳
         parameters:
           name: mjump
-          cronExpression: "5 8,14,20 * 4 *"
+          cronExpression: "5 8,14,20 * 5 *"
           enable: true
           argument: z_mother_jump
     - timer: #整点京豆雨 #健康社区藏经阁版-收能量
@@ -52,12 +52,12 @@ inputs:
           cronExpression: "30,31 20-23/1 * * *"
           enable: true
           argument: jd_half_redrain
-    - timer: # 超级直播间红包雨
+    - timer: # 京东超级无线组队分奖品
         parameters:
-          name: jd_live_redrain
-          cronExpression: "1,31 * * * *"
+          name: z_shop_captain
+          cronExpression: "25 1 * * 2"
           enable: true
-          argument: jd_live_redrain
+          argument: z_shop_captain
     - timer: # 京东直播
         parameters:
           name: jd_live

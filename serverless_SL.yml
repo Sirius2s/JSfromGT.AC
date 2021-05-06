@@ -16,12 +16,12 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆 #女装魔盒
+    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆
         parameters:
-          name: spdredpocke_redPacket_clot_nzmh
+          name: spdredpocke_redPacket_clot
           cronExpression: "45 0,21,23 * * *"
           enable: true
-          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
+          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
     - timer: #摇一摇 #京喜签到消消乐 #创维全勤[15 08 2-18 4 *] #小魔方[10 10 7-9 4 *] # 百变大咖秀 4.22 end
         parameters:
           name: shake_xmf
@@ -64,12 +64,12 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-    - timer: #5G超级盲盒 #健康社区藏经阁版
+    - timer: #健康社区藏经阁版
          parameters:
-          name: jd_mohe #z_super5g
-          cronExpression: "0 0,1-23/3 * * *"  #"5 1,6,11,16,21 * 3-4 *"
+          name: health_community
+          cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&z_super5g&z_health_community
+          argument: z_health_community
     # - timer: # 临时运行用
     #     parameters:
     #       name: red_rain

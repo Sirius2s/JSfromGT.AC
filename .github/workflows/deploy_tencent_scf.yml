@@ -292,7 +292,7 @@ jobs:
           # wget -O z_lenovo.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_lenovo.js
           # wget -O z_oneplus.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_oneplus.js
           # wget -O z_mgold.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js
-          wget -O z_super5g.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_super5g.js
+          # wget -O z_super5g.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_super5g.js
           # wget -O z_city_cash.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js
           # wget -O z_grassy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js
           # wget -O monk_skyworth_car.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/car/monk_skyworth_car.js

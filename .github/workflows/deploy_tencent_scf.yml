@@ -288,7 +288,7 @@ jobs:
           # wget -O jd_live_redrain3day.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_live_redrain3day.js
           # wget -O z_superDay.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js
           # wget -O z_unionPoster.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_unionPoster.js
-          wget -O z_wish.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_wish.js
+          # wget -O z_wish.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_wish.js
           # wget -O z_lenovo.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_lenovo.js
           # wget -O z_oneplus.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_oneplus.js
           # wget -O z_mgold.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js

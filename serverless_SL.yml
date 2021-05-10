@@ -22,24 +22,24 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
-    - timer: #摇一摇 #小魔方
+    - timer: #摇一摇 #小魔方 #海尔_欢乐大逃亡[7-31 5] #探秘无限星空[9-13 5]
         parameters:
-          name: shake_xmf
+          name: shake_xmf_haier_ETIP
           cronExpression: "8 10 * * *"
           enable: true
-          argument: z_shake&z_xmf
+          argument: z_shake&z_xmf&adolf_haier&adolf_ETIP
     # - timer: #直播雨
     #     parameters:
     #       name: red_rain
     #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
     #       enable: true
     #       argument: red_rain
-    - timer: #母婴-跳一跳 #刺客567之寻宝[6-11 5] #海尔_欢乐大逃亡[7-31 5]
+    - timer: #母婴-跳一跳 #刺客567之寻宝[6-11 5]
         parameters:
-          name: mjump_adolf_wish
+          name: mjump_adolf
           cronExpression: "5 8,14,20 * 5 *"
           enable: true
-          argument: z_mother_jump&adolf_oppo&adolf_haier
+          argument: z_mother_jump&adolf_oppo
     - timer: #整点京豆雨 #健康社区藏经阁版-收能量
         parameters:
           name: jd_super_redrain

@@ -40,7 +40,7 @@ jobs:
       - name: 替换
         run: |
           sed -i 's/process.exit(0)/{}/g' jd_lotteryMachine.js
-          sed -i 's/GITHUB/sure/g' jdCookie.js
+          sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【京东抽奖机】'
         # timeout-minutes: 240
         run: |

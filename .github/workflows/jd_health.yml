@@ -22,7 +22,7 @@ jobs:
           repository: Sirius2s/JSfromGT
           # repository: LXK9301/jd_scripts
           # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
-          ref: backup
+          ref: remGT
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -37,6 +37,10 @@ jobs:
       - name: npm install
         run: |
           npm install
+      - name: 替换
+        run: |
+          sed -i 's/process.exit(0)/{}/g' jd_health.js
+          sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【jd_health】'
         # timeout-minutes: 240
         run: |

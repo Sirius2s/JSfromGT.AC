@@ -34,12 +34,12 @@ inputs:
     #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
     #       enable: true
     #       argument: red_rain
-    - timer: #母婴-跳一跳 #刺客567之寻宝[6-11 5]
+    - timer: #母婴-跳一跳
         parameters:
-          name: mjump_adolf
+          name: mjump
           cronExpression: "5 8,14,20 * 5 *"
           enable: true
-          argument: z_mother_jump&adolf_oppo
+          argument: z_mother_jump
     - timer: #整点京豆雨 #健康社区藏经阁版-收能量
         parameters:
           name: jd_super_redrain

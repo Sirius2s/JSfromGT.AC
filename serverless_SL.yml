@@ -22,12 +22,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #小魔方
+    - timer: #摇一摇 #小魔方 #飞利浦 #一加
         parameters:
-          name: shake_xmf
+          name: shake_xmf_flp_oneplus
           cronExpression: "8 10 * * *"
           enable: true
-          argument: z_shake&z_xmf
+          argument: z_shake&z_xmf&adolf_oneplus&adolf_flp
     # - timer: #直播雨
     #     parameters:
     #       name: red_rain

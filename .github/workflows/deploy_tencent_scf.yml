@@ -309,6 +309,8 @@ jobs:
           # wget -O adolf_haier.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js
           # wget -O adolf_ETIP.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_ETIP.js
           wget -O adolf_pk.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js
+          wget -O adolf_flp.js https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js 
+          wget -O adolf_oneplus.js https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js
 
       - name: "Secrets环境变量 SL"
         run: |

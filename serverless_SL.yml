@@ -22,7 +22,7 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #博朗 #Redmi
+    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #博朗[20-31 5] #Redmi[21-27 5]
         parameters:
           name: shake_xmf_flp_oneplus_martin_mi
           cronExpression: "8 10 * * *"

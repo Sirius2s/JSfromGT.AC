@@ -40,12 +40,12 @@ inputs:
           cronExpression: "5 8,14,20 * * *"
           enable: true
           argument: z_mother_jump&adolf_pk&z_carnivalcity
-    - timer: #整点京豆雨 #健康社区藏经阁版-收能量
+    - timer: #整点京豆雨 #健康社区藏经阁版-收能量 #动物联萌[-6.20]
         parameters:
           name: jd_super_redrain
           cronExpression: "0,1 * * * *"
           enable: true
-          argument: jd_super_redrain&z_health_energy
+          argument: jd_super_redrain&z_health_energy&jd_zoo
     - timer: # 半点京豆雨
          parameters:
           name: jd_half_redrain

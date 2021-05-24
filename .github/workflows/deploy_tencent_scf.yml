@@ -316,6 +316,7 @@ jobs:
           wget -O adolf_mi.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js
           wget -O adolf_urge.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
+          wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
 
       - name: "注入"
         run: |

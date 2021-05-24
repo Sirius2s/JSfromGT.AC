@@ -22,18 +22,18 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #博朗[20-31 5] #Redmi[21-27 5]
+    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #博朗[20-31 5] #Redmi[21-27 5] #坐等更新[18-26 5]
         parameters:
-          name: shake_xmf_flp_oneplus_martin_mi
+          name: shake_xmf_flp_oneplus_jbczy_martin_mi_urge
           cronExpression: "8 10 * * *"
           enable: true
-          argument: z_shake&z_xmf&adolf_oneplus&adolf_flp&adolf_martin&adolf_mi
-    # - timer: #直播雨
-    #     parameters:
-    #       name: red_rain
-    #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
-    #       enable: true
-    #       argument: red_rain
+          argument: z_shake&z_xmf&adolf_oneplus&jd_jbczy&adolf_flp&adolf_martin&adolf_mi&adolf_urge
+    - timer: #手机狂欢[5月14日-6月20日]
+        parameters:
+          name: carnivalcity
+          cronExpression: "0 0-18/6,19-23/1 * * *"
+          enable: true
+          argument: z_carnivalcity
     - timer: #母婴-跳一跳 #京享值PK[17-31 5]
         parameters:
           name: mjump_pk

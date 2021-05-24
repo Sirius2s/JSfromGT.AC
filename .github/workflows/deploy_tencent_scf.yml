@@ -320,7 +320,7 @@ jobs:
       - name: "注入"
         run: |
           chmod +x cf_getcode.sh
-          sh cf_getcode jd_carnivalcity.js 互助码】 】
+          sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 
       - name: "Secrets环境变量 SL"
         run: |

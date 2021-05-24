@@ -22,7 +22,7 @@ jobs:
           repository: Sirius2s/JSfromGT
           # repository: LXK9301/jd_scripts
           # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
-          ref: remMC
+          ref: remGT
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -39,12 +39,13 @@ jobs:
           npm install
       - name: 替换
         run: |
-          sed -i 's/process.exit(0)/{}/g' ./member/adolf_flp.js
+          wget -O adolf_flp.js https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js 
+          sed -i 's/process.exit(0)/{}/g' adolf_flp.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【飞利浦电视成长记】'
         # timeout-minutes: 240
         run: |
-          node ./member/adolf_flp.js
+          node adolf_flp.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}

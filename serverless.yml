@@ -58,12 +58,12 @@ inputs:
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed
-    - timer: #东东超市 #十元街
+    - timer: #东东超市 #十元街 #城城领现金[05.24-06.05]
         parameters:
-          name: superMarket_syj
+          name: superMarket_syj_city
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_syj
+          argument: jd_superMarket&jd_syj&jd_city
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京东保价
         parameters:
           name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_price

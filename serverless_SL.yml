@@ -28,18 +28,18 @@ inputs:
           cronExpression: "8 10 * * *"
           enable: true
           argument: z_shake&z_xmf&adolf_oneplus&jd_jbczy&adolf_flp&adolf_martin&adolf_mi&adolf_urge
-    - timer: #手机狂欢[5月14日-6月20日]
+    - timer: #手机狂欢[5月14日-6月20日] #城城分现金[05.24-06.05]
         parameters:
-          name: carnivalcity
+          name: carnivalcity_citycash
           cronExpression: "0 0-18/6,19-23/1 * * *"
           enable: true
-          argument: z_carnivalcity
-    - timer: #母婴-跳一跳 #京享值PK[17-31 5]
+          argument: z_city_cash&jd_carnivalcity
+    - timer: #母婴-跳一跳 #京享值PK[17-31 5] #手机狂欢[5月14日-6月20日]
         parameters:
-          name: mjump_pk
-          cronExpression: "5 8,14,20 * 5 *"
+          name: mjump_pk_c2
+          cronExpression: "5 8,14,20 * * *"
           enable: true
-          argument: z_mother_jump&adolf_pk
+          argument: z_mother_jump&adolf_pk&z_carnivalcity
     - timer: #整点京豆雨 #健康社区藏经阁版-收能量
         parameters:
           name: jd_super_redrain

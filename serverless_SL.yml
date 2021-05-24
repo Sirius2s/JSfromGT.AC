@@ -33,7 +33,7 @@ inputs:
           name: carnivalcity_citycash
           cronExpression: "0 0-18/6,19-23/1 * * *"
           enable: true
-          argument: z_city_cash&jd_carnivalcity
+          argument: jd_carnivalcity&z_city_cash
     - timer: #母婴-跳一跳 #京享值PK[17-31 5] #手机狂欢[5月14日-6月20日]
         parameters:
           name: mjump_pk_c2

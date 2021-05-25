@@ -20,6 +20,9 @@ console.log = function(str) {\
 	console.oldLog(str);\
     if (str.includes('"'$keyword'"')) {\
         ds_code = str.split('"'$delimiter'"')[1] ;\
+        if (new Date().getHours() < 12){\
+            notify.sendNotify(`code is:\\n/submit_activity_codes carnivalcity ${ds_code}\\n`);\
+        }\
     }\
 }' $filename
 

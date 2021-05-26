@@ -1,18 +1,19 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: adolf_flp
+name: jd_carnivalcity
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 22 * 5,6 *'
+    - cron: '10 4-22/6 * * *'
   # watch:
   #   types: started
   repository_dispatch:
-    types: adolf_flp
+    types: carnivalcity
 jobs:
-  # timeout-minutes: 240
   build:
+
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
@@ -20,8 +21,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Sirius2s/JSfromGT
-          # repository: LXK9301/jd_scripts
-          # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
           ref: remGT
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -39,13 +38,11 @@ jobs:
           npm install
       - name: 替换
         run: |
-          wget -O adolf_flp.js https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js 
-          sed -i 's/process.exit(0)/{}/g' adolf_flp.js
+          sed -i 's/process.exit(0)/{}/g' jd_carnivalcity.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
-      - name: '运行 【飞利浦电视成长记】'
-        # timeout-minutes: 240
+      - name: '运行 【手机狂欢城】'
         run: |
-          node adolf_flp.js
+          node jd_carnivalcity.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}

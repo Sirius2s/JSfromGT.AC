@@ -22,12 +22,18 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #博朗[20-31 5] #Redmi[21-27 5] #坐等更新[18-26 5]
+    - timer: #摇一摇 #小魔方 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包
         parameters:
-          name: shake_xmf_flp_1p_jbczy_mt_mi_urge_newI_sbox_fgoods
+          name: shake_xmf_flp_1p_jbczy_jxhb
+          cronExpression: "15 9 * * *"
+          enable: true
+          argument: z_shake&z_xmf&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb
+    - timer: #博朗[20-31 5] #Redmi[21-27 5] #坐等更新[18-26 5]
+        parameters:
+          name: mt_mi_urge_newI_sbox
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: z_shake&z_xmf&adolf_oneplus&jd_jbczy&adolf_flp&adolf_martin&adolf_mi&adolf_urge&adolf_newInteraction&adolf_superbox&jay_freshgoods
+          argument: adolf_martin&adolf_mi&adolf_urge&adolf_newInteraction&adolf_superbox
     - timer: #手机狂欢[5月14日-6月20日] #城城分现金[05.24-06.05]
         parameters:
           name: carnivalcity_citycash
@@ -52,12 +58,6 @@ inputs:
           cronExpression: "30,31 20-23/1 * * *"
           enable: true
           argument: jd_half_redrain
-    - timer: # 京东超级无线组队分奖品
-        parameters:
-          name: z_shop_captain
-          cronExpression: "25 1 * * 2"
-          enable: true
-          argument: z_shop_captain
     - timer: # 京东直播
         parameters:
           name: jd_live
@@ -66,10 +66,10 @@ inputs:
           argument: jd_live
     - timer: #健康社区藏经阁版
          parameters:
-          name: health_community
+          name: hc_star
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: z_health_community
+          argument: z_health_community&adolf_star
     # - timer: # 临时运行用
     #     parameters:
     #       name: red_rain

@@ -305,7 +305,7 @@ jobs:
           # wget -O jx_cash_sign.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jx_cash_sign.js
           wget -O z_health_community.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_health_community.js
           wget -O z_health_energy.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_health_energy.js
-          wget -O z_shop_captain.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js
+          # wget -O z_shop_captain.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js
           # wget -O adolf_oppo.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_oppo.js
           # wget -O adolf_haier.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js
           # wget -O adolf_ETIP.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_ETIP.js
@@ -317,9 +317,11 @@ jobs:
           wget -O adolf_urge.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
           wget -O adolf_newInteraction.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js
           wget -O adolf_superbox.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js
+          wget -O adolf_jxhb.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js
+          wget -O adolf_star.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
-          wget -O jay_freshgoods.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jay_freshgoods.js
+          # wget -O jay_freshgoods.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jay_freshgoods.js
 
       - name: "注入"
         run: |

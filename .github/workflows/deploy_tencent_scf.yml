@@ -314,7 +314,7 @@ jobs:
           wget -O adolf_oneplus.js https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js
           wget -O adolf_martin.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_martin.js
           wget -O adolf_mi.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js
-          # wget -O adolf_urge.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
+          wget -O adolf_urge.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
           wget -O adolf_newInteraction.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js
           wget -O adolf_superbox.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js
           wget -O adolf_jxhb.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js

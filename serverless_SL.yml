@@ -28,12 +28,12 @@ inputs:
           cronExpression: "15 9 * * *"
           enable: true
           argument: z_shake&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb
-    - timer: #博朗[20-31 5] #Redmi[21-27 5] #坐等更新[18-31 5]
+    - timer: #博朗[20-31 5] #坐等更新[18-31 5]
         parameters:
-          name: mt_mi_urge_newI_sbox
+          name: mt_urge_newI_sbox
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: adolf_martin&adolf_mi&adolf_urge&adolf_newInteraction&adolf_superbox
+          argument: adolf_martin&adolf_urge&adolf_newInteraction&adolf_superbox
     - timer: #手机狂欢[5月14日-6月20日] #城城分现金[05.24-06.05]
         parameters:
           name: carnivalcity_citycash

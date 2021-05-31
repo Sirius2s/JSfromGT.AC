@@ -70,12 +70,12 @@ inputs:
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
           argument: z_health_community&adolf_star
-    # - timer: # 临时运行用
-    #     parameters:
-    #       name: red_rain
-    #       cronExpression: "0,1 0,20,9-23/2 * 4-6 *"
-    #       enable: true
-    #       argument: red_rain
+    - timer: # 临时运行用
+        parameters:
+          name: jd_party_night
+          cronExpression: "0,1 19-23/1 31 5 *"
+          enable: true
+          argument: jd_party_night
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

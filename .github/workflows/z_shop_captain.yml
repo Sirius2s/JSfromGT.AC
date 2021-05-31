@@ -39,7 +39,7 @@ jobs:
           npm install
       - name: 替换
         run: |
-          wget -O z_shop_captain.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js
+          wget -O z_shop_captain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_shop_captain.js
           sed -i 's/process.exit(0)/{}/g' z_shop_captain.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【超级无线组队】'

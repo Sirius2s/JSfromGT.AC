@@ -41,6 +41,7 @@ jobs:
           sed -i 's/process.exit(0)/{}/g' jd_beauty.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【美丽研究院】'
+        timeout-minutes: 10
         run: |
           node jd_beauty.js
         env:

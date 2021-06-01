@@ -322,7 +322,8 @@ jobs:
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
           # wget -O jay_freshgoods.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jay_freshgoods.js
-          wget -O jd_party_night.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js
+          # wget -O jd_party_night.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js
+          wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
 
       - name: "注入"
         run: |

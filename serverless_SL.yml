@@ -22,12 +22,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包
+    - timer: #摇一摇 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战
         parameters:
-          name: shake_flp_1p_jbczy_jxhb
+          name: shake_flp_1p_jbczy_jxhb_ppdz
           cronExpression: "15 9 * * *"
           enable: true
-          argument: z_shake&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb
+          argument: z_shake&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb&jd_ppdz
     - timer: #博朗[20-31 5] #坐等更新[18-31 5]
         parameters:
           name: mt_urge_newI_sbox
@@ -49,15 +49,15 @@ inputs:
     - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量 #动物联萌[-6.20]
         parameters:
           name: jd_super_redrain
-          cronExpression: "0,1 * * * *"
+          cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_zoo
-    - timer: # 半点京豆雨 #直播间红包雨
+          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect
+    - timer: # 半点京豆雨 #直播间红包雨 #动物联萌收集金币
          parameters:
-          name: jd_half_redrain
-          cronExpression: "30,31 * * * *"
+          name: half_redrain_zooCollect
+          cronExpression: "30 * * * *"
           enable: true
-          argument: jd_half_redrain&jd_live_redrain
+          argument: jd_half_redrain&jd_live_redrain&jd_zooCollect
     - timer: # 京东直播
         parameters:
           name: jd_live
@@ -70,12 +70,12 @@ inputs:
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
           argument: z_health_community&adolf_star
-    - timer: # 临时运行用
-        parameters:
-          name: jd_party_night
-          cronExpression: "0,1 19-23/1 31 5 *"
-          enable: true
-          argument: jd_party_night
+    # - timer: # 临时运行用
+    #     parameters:
+    #       name: jd_party_night
+    #       cronExpression: "0,1 19-23/1 31 5 *"
+    #       enable: true
+    #       argument: jd_party_night
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

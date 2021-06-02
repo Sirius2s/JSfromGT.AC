@@ -194,7 +194,9 @@ jobs:
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
 
       - name: "压缩文件夹"
-        run: zip -r myfile.zip ./*
+        run: |
+          rm -rf activity/ backUp/ docker/ icon/
+          zip -r myfile.zip ./*
 
       - name: "部署到腾讯云函数"
         run: node tencentscf.js
@@ -468,7 +470,9 @@ jobs:
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
 
       - name: "压缩文件夹"
-        run: zip -r myfile.zip ./*
+        run: |
+          rm -rf activity/ backUp/ docker/ icon/
+          zip -r myfile.zip ./*
 
       - name: "部署 SL"
         run: node tencentscf.js

@@ -20,7 +20,7 @@ const clientConfig = {
 const sleep = ms => new Promise(res => setTimeout(res, ms));
 !(async () => {
   const client = new ScfClient(clientConfig);
-
+  // 更新函数代码, https://cloud.tencent.com/document/product/583/18581
   let params
   await client.ListFunctions({}).then(
     async (data) => {

@@ -327,6 +327,9 @@ jobs:
           # wget -O jd_party_night.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
           wget -O jd_starStore.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
+          wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/superBrand.js
+          wget -O z_babelDiy.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js
+          wget -O jd_ry618.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js
 
       - name: "注入"
         run: |

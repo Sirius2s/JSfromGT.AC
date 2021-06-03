@@ -286,6 +286,7 @@ jobs:
           wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/superBrand.js
           wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_mcxhd_brandcity.js
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
+          wget -O z_zooBaojiexiaoxiaole.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
 
       - name: "注入"
         run: |

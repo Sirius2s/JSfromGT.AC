@@ -22,12 +22,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战 #星店长 #特物ZX联想
+    - timer: #摇一摇 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战 #星店长 #特物ZX联想 #与“粽”不同[1-18 6]
         parameters:
-          name: shake_flp_1p_jbczy_jxhb_ppdz_sStore_sBrand
+          name: shake_flp_1p_jbczy_jxhb_ppdz_sStore_sBrand_zlz
           cronExpression: "15 9 * * *"
           enable: true
-          argument: z_shake&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb&jd_ppdz&jd_starStore&z_superBrand
+          argument: z_shake&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb&jd_ppdz&jd_starStore&z_superBrand&z_zooLongzhou
     - timer: #618大势新品赏[? 5,6] #超级盒子[? 5,6] #新潮品牌狂欢[1-18 6]
         parameters:
           name: newI_sbox_brandcity

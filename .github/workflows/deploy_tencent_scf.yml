@@ -333,6 +333,7 @@ jobs:
           # wget -O z_babelDiy.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js
           # wget -O jd_ry618.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js
           wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_mcxhd_brandcity.js
+          wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
 
       - name: "注入"
         run: |

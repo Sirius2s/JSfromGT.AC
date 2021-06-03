@@ -64,12 +64,12 @@ inputs:
           cronExpression: "10-20/5 12 * * *"
           enable: true
           argument: jd_live
-    - timer: #健康社区藏经阁版 #星推官
+    - timer: #5G超级盲盒 #健康社区藏经阁版 #星推官
          parameters:
-          name: hc_star
+          name: mohe_hc_star
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: z_health_community&adolf_star
+          argument: jd_mohe&z_health_community&adolf_star
     # - timer: # 临时运行用
     #     parameters:
     #       name: jd_party_night

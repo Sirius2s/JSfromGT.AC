@@ -23,27 +23,6 @@ jobs:
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
           wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
           wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
-          # wget -O jsList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/jsList.sh
-          # wget -O slList.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/slList.sh          
-          # wget -O jd_bj.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_bj.js
-          # wget -O jd_gyec.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_gyec.js
-          # wget -O jd_live_redrain.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain.js
-          # wget -O jd_live_redrain2.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain2.js
-          # wget -O jd_live_redrain_half.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_half.js
-          # wget -O jd_live_redrain_nian.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_nian.js
-          # wget -O jd_live_redrain_offical.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_live_redrain_offical.js
-          # wget -O jd_mh.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_mh.js
-          # wget -O jd_ms.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_ms.js
-          # wget -O jd_vote.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_vote.js
-          # wget -O jd_wechat_sign.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_wechat_sign.js
-          # wget -O jd_xg.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xg.js
-          # wget -O jd_xxl.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xxl.js
-          # wget -O jd_xxl_gh.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_xxl_gh.js
-          # wget -O jd_sx.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_sx.js
-          # wget -O jd_opencard.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_opencard.js
-          # wget -O jd_festival.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_festival.js
-          # wget -O jd_super.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_super.js
-          # wget -O jd_coupon.js https://github.com/Sirius2s/JSfromGT/raw/backup/jd_coupon.js
           wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
           wget -O jd_gcip.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js
 
@@ -280,58 +259,31 @@ jobs:
           wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
           # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
           wget -O cf_getcode.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/cf_getcode.sh
-          # wget -O jd_entertainment.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_entertainment.js
           # wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
           wget -O z_carnivalcity.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_carnivalcity.js
           # wget -O z_xmf.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
-          # wget -O jd_fanslove.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/jd_fanslove.js
           # wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
-          # wget -O z_asus_iqiyi.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/z_asus_iqiyi.js
           wget -O z_mother_jump.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_mother_jump.js
           wget -O z_shake.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_shake.js
-          # wget -O jd_live_redrain3day.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_live_redrain3day.js
-          # wget -O z_superDay.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js
-          # wget -O z_unionPoster.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_unionPoster.js
-          # wget -O z_wish.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_wish.js
-          # wget -O z_lenovo.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_lenovo.js
-          # wget -O z_oneplus.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/i-chenzhe/z_oneplus.js
-          # wget -O z_mgold.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js
-          # wget -O z_super5g.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_super5g.js
           wget -O z_city_cash.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_city_cash.js
-          # wget -O z_grassy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js
-          # wget -O monk_skyworth_car.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/car/monk_skyworth_car.js
           # wget -O red_rain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/red_rain.js
-          # wget -O monk_shop_lottery.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_lottery.js
-          # wget -O jd_live_lottery_social.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_live_lottery_social.js
           # wget -O jd_super_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js
           # wget -O jd_half_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
-          # wget -O jx_cash_sign.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jx_cash_sign.js
           wget -O z_health_community.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_community.js
           wget -O z_health_energy.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_energy.js
-          # wget -O z_shop_captain.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js
-          # wget -O adolf_oppo.js https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_oppo.js
-          # wget -O adolf_haier.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js
-          # wget -O adolf_ETIP.js https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_ETIP.js
           wget -O adolf_pk.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_pk.js
           wget -O adolf_flp.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/member/adolf_flp.js 
           wget -O adolf_oneplus.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/member/adolf_oneplus.js
-          # wget -O adolf_martin.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_martin.js
-          # wget -O adolf_mi.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_mi.js
-          # wget -O adolf_urge.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_urge.js
           wget -O adolf_newInteraction.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_newInteraction.js
           wget -O adolf_superbox.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_superbox.js
           wget -O adolf_jxhb.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_jxhb.js
           wget -O adolf_star.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_star.js
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
-          # wget -O jay_freshgoods.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jay_freshgoods.js
-          # wget -O jd_party_night.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
           wget -O jd_starStore.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
           wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/superBrand.js
-          # wget -O z_babelDiy.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js
-          # wget -O jd_ry618.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ry618.js
           wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_mcxhd_brandcity.js
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
 

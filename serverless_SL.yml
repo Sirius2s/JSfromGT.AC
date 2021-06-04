@@ -46,12 +46,12 @@ inputs:
           cronExpression: "5 8,14,20 * * *"
           enable: true
           argument: z_mother_jump&adolf_pk&z_carnivalcity
-    - timer: #直播间红包雨 #健康社区藏经阁版-收能量 #动物联萌[-6.20]
+    - timer: #直播间红包雨 #健康社区藏经阁版-收能量 #动物联萌[-6.20] #翻翻乐
         parameters:
           name: live_redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect
+          argument: jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect&jd_618redpacket
     - timer: #直播间红包雨 #动物联萌收集金币
          parameters:
           name: zooCollect

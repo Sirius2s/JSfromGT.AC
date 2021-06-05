@@ -26,6 +26,7 @@ jobs:
           wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
           wget -O jd_gcip.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js
           wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
+          wget -O zy_618jc.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -267,7 +268,7 @@ jobs:
           # wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
           wget -O z_mother_jump.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_mother_jump.js
           wget -O z_shake.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_shake.js
-          wget -O z_city_cash.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_city_cash.js
+          # wget -O z_city_cash.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_city_cash.js
           # wget -O red_rain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/red_rain.js
           # wget -O jd_super_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js
           # wget -O jd_half_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
@@ -289,6 +290,7 @@ jobs:
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
           wget -O z_zooBaojiexiaoxiaole.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
           wget -O jd_618redpacket.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_618redpacket.js
+          wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js
 
       - name: "注入"
         run: |

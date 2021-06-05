@@ -46,36 +46,36 @@ inputs:
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
           argument: jd_joy_reward&jd_necklace&jd_small_home&jd_cfd
-    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴
+    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴 #手机竞猜
         parameters:
-          name: redPacket_shop_unsub_car_ms_jtie
+          name: redPacket_shop_unsub_car_ms_jtie_jc
           cronExpression: "0 10 0 * * * *"
           enable: true
-          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_ms&jd_jin_tie&jd_bean_sign
+          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_ms&jd_jin_tie&jd_bean_sign&zy_618jc
     - timer: #京东天天加速 #618zoo
         parameters:
           name: speed_zoo
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed&jd_zoo
-    - timer: #东东超市 #十元街
+    - timer: #东东超市 #十元街 #翻翻乐
         parameters:
-          name: superMarket_syj
+          name: superMarket_syj_winner
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_syj
-    - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #新潮品牌狂欢 #Joy分红 #京东保价
+          argument: jd_superMarket&jd_syj&jd_big_winner
+    - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #新潮品牌狂欢 #京喜领88元红包 #Joy分红 #京东保价
         parameters:
-          name: bchg_cjoy_rList_bhome_sgmh_mcxhd_cjoybonus_price
+          name: bchg_cjoy_rList_bhome_sgmh_mcxhd_jxlhb_cjoybonus_price
           cronExpression: "0 30 7 * * * *"
           enable: true
-          argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh&jd_mcxhd&jd_crazy_joy_bonus&jd_price
-    - timer: #金融养猪 #京东快递 #京东赚赚 #京喜签到
+          argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh&jd_mcxhd&jd_jxlhb&jd_crazy_joy_bonus&jd_price
+    - timer: #金融养猪 #京东快递 #京东赚赚
         parameters:
-          name: pigPet_kd_jdzz_jxsign
+          name: pigPet_kd_jdzz
           cronExpression: "0 3 1 * * * *"
           enable: true
-          argument: jd_pigPet&jd_kd&jd_jdzz&jx_sign
+          argument: jd_pigPet&jd_kd&jd_jdzz
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

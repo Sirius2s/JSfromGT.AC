@@ -270,8 +270,8 @@ jobs:
           wget -O z_shake.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_shake.js
           # wget -O z_city_cash.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_city_cash.js
           # wget -O red_rain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/red_rain.js
-          # wget -O jd_super_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js
-          # wget -O jd_half_redrain.js https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js
+          wget -O jd_super_redrain.js https://raw.githubusercontent.com/oujisome/jdshell/main/jd_super_redrain.js
+          wget -O jd_half_redrain.js https://raw.githubusercontent.com/oujisome/jdshell/main/jd_half_redrain.js
           wget -O z_health_community.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_community.js
           wget -O z_health_energy.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_energy.js
           wget -O adolf_pk.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_pk.js

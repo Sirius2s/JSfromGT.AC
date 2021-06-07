@@ -291,6 +291,7 @@ jobs:
           wget -O z_zooBaojiexiaoxiaole.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
           wget -O jd_618redpacket.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_618redpacket.js
           wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js
+          wget -O zooSupershophf.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooSupershophf.js
 
       - name: "注入"
         run: |

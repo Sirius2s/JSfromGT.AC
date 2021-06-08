@@ -15,14 +15,14 @@ jobs:
         with:
           # repository: LXK9301/jd_scripts
           # ref: master
-          repository: Sirius2s/JSfromGT
+          repository: fen9sui/JSfromGT
           ref: remGT          
 
       - name: "替换文件"
         run: |
-          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
-          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
-          wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf.js
+          wget -O serverless.yml https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/serverless.yml
+          wget -O index.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/index.js
+          wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf.js
           wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
           wget -O jd_gcip.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js
           wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
@@ -258,29 +258,29 @@ jobs:
 
       - name: "替换文件 SL"
         run: |
-          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
-          # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
-          wget -O cf_getcode.sh https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/cf_getcode.sh
+          wget -O serverless.yml https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/serverless_SL.yml
+          # wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf_SL.js
+          wget -O cf_getcode.sh https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/cf_getcode.sh
           # wget -O red_rain.js https://raw.githubusercontent.com/i-chenzhe/qx/main/red_rain.js
-          wget -O z_carnivalcity.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_carnivalcity.js
+          wget -O z_carnivalcity.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_carnivalcity.js
           # wget -O z_xmf.js https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js
           # wget -O jd_gjmh.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_gjmh.js
           # wget -O jd_mlyjy.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_mlyjy.js
-          wget -O z_mother_jump.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_mother_jump.js
-          wget -O z_shake.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_shake.js
-          # wget -O z_city_cash.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_city_cash.js
-          # wget -O red_rain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/backup/red_rain.js
+          wget -O z_mother_jump.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_mother_jump.js
+          wget -O z_shake.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_shake.js
+          # wget -O z_city_cash.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_city_cash.js
+          # wget -O red_rain.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/backup/red_rain.js
           wget -O jd_super_redrain.js https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js
           wget -O jd_half_redrain.js https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js
-          wget -O z_health_community.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_community.js
-          wget -O z_health_energy.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/i-chenzhe/z_health_energy.js
-          wget -O adolf_pk.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_pk.js
-          wget -O adolf_flp.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/member/adolf_flp.js 
-          wget -O adolf_oneplus.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/member/adolf_oneplus.js
-          wget -O adolf_newInteraction.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_newInteraction.js
-          wget -O adolf_superbox.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_superbox.js
-          wget -O adolf_jxhb.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_jxhb.js
-          wget -O adolf_star.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/normal/adolf_star.js
+          wget -O z_health_community.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_health_community.js
+          wget -O z_health_energy.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_health_energy.js
+          wget -O adolf_pk.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_pk.js
+          wget -O adolf_flp.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/member/adolf_flp.js 
+          wget -O adolf_oneplus.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/member/adolf_oneplus.js
+          wget -O adolf_newInteraction.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_newInteraction.js
+          wget -O adolf_superbox.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_superbox.js
+          wget -O adolf_jxhb.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_jxhb.js
+          wget -O adolf_star.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_star.js
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js

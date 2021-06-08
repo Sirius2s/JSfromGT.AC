@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: Sirius2s/JSfromGT
+          repository: fen9sui/JSfromGT
           # repository: LXK9301/jd_scripts
           # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
           ref: remGT
@@ -39,7 +39,7 @@ jobs:
           npm install
       - name: 替换
         run: |
-          wget -O adolf_flp.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remMC/member/adolf_flp.js 
+          wget -O adolf_flp.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/member/adolf_flp.js 
           sed -i 's/process.exit(0)/{}/g' adolf_flp.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【飞利浦电视成长记】'

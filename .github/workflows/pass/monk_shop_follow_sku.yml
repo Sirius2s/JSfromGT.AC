@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: Sirius2s/JSfromGT
+          repository: fen9sui/JSfromGT
           ref: backup
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1

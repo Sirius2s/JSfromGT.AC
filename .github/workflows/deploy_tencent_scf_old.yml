@@ -13,15 +13,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: Sirius2s/JSfromGT
+          repository: fen9sui/JSfromGT
           ref: remGT  
           # repository: LXK9301/jd_scripts
           # ref: master
 
       - name: "替换文件"
         run: |
-          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless.yml
-          wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/index.js
+          wget -O serverless.yml https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/serverless.yml
+          wget -O index.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/index.js
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -178,28 +178,28 @@ jobs:
 
       - name: "替换文件 SL"
         run: |
-          wget -O serverless.yml https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/serverless_SL.yml
-          # wget -O tencentscf.js https://raw.githubusercontent.com/Sirius2s/JSfromGT.AC/main/tencentscf_SL.js
-          wget -O jd_bj.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_bj.js
-          wget -O jd_gyec.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_gyec.js
-          wget -O jd_live_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain.js
-          wget -O jd_live_redrain2.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain2.js
-          wget -O jd_live_redrain_half.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_half.js
-          wget -O jd_live_redrain_half_2.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_half.js
-          wget -O jd_live_redrain_nian.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_nian.js
-          wget -O jd_live_redrain_offical.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_live_redrain_offical.js
-          wget -O jd_mh.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_mh.js
-          wget -O jd_ms.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_ms.js
+          wget -O serverless.yml https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/serverless_SL.yml
+          # wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf_SL.js
+          wget -O jd_bj.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_bj.js
+          wget -O jd_gyec.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_gyec.js
+          wget -O jd_live_redrain.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain.js
+          wget -O jd_live_redrain2.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain2.js
+          wget -O jd_live_redrain_half.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain_half.js
+          wget -O jd_live_redrain_half_2.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain_half.js
+          wget -O jd_live_redrain_nian.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain_nian.js
+          wget -O jd_live_redrain_offical.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_live_redrain_offical.js
+          wget -O jd_mh.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_mh.js
+          wget -O jd_ms.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_ms.js
           # wget -O jd_vote.js https://raw.githubusercontent.com/shylocks/Loon/main/jd_vote.js
-          wget -O jd_wechat_sign.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_wechat_sign.js
-          wget -O jd_xg.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_xg.js
-          wget -O jd_xxl.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_xxl.js
-          wget -O jd_xxl_gh.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_xxl_gh.js
-          wget -O jd_sx.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_sx.js
-          wget -O jd_opencard.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_opencard.js
-          wget -O jd_festival.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_festival.js
-          wget -O jd_super.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_super.js
-          wget -O jd_coupon.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/tree/remSL/jd_coupon.js
+          wget -O jd_wechat_sign.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_wechat_sign.js
+          wget -O jd_xg.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_xg.js
+          wget -O jd_xxl.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_xxl.js
+          wget -O jd_xxl_gh.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_xxl_gh.js
+          wget -O jd_sx.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_sx.js
+          wget -O jd_opencard.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_opencard.js
+          wget -O jd_festival.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_festival.js
+          wget -O jd_super.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_super.js
+          wget -O jd_coupon.js https://raw.githubusercontent.com/fen9sui/JSfromGT/tree/remSL/jd_coupon.js
 
       - name: "Secrets环境变量 SL"
         run: |

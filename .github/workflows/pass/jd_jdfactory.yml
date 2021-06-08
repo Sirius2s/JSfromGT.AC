@@ -20,8 +20,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: Sirius2s/JSfromGT
-          # source_repo: "https://github.com/Sirius2s/JSfromGT"
+          repository: fen9sui/JSfromGT
+          # source_repo: "https://github.com/fen9sui/JSfromGT"
           # source_branch: "remGT" #"master" #从主分支备份
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1

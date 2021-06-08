@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: Sirius2s/JSfromGT
+          repository: fen9sui/JSfromGT
           # repository: LXK9301/jd_scripts
           # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
           ref: backup

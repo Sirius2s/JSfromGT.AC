@@ -51,7 +51,7 @@ inputs:
           name: redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect  #&jd_618redpacket
+          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect&jd_ffl
     - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨 #动物联萌收集金币
          parameters:
           name: redrain_zooCollect

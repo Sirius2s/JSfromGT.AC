@@ -52,12 +52,12 @@ inputs:
           cronExpression: "0 10 0 * * * *"
           enable: true
           argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_ms&jd_jin_tie&jd_bean_sign&zy_618jc
-    - timer: #京东天天加速 #618zoo
+    - timer: #京东天天加速 #618zoo #京喜牧场
         parameters:
-          name: speed_zoo
+          name: speed_zoo_jxmc
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed&jd_zoo
+          argument: jd_speed&jd_zoo&jd_jxmc
     - timer: #东东超市 #十元街 #翻翻乐
         parameters:
           name: superMarket_syj_winner

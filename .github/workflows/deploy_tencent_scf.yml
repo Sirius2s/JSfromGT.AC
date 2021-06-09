@@ -288,7 +288,8 @@ jobs:
           wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js
           wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_mcxhd_brandcity.js
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
-          wget -O z_zooBaojiexiaoxiaole.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
+          wget -O z_zoobjxxl.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
+          wget -O z_jx88hb.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
           wget -O jd_618redpacket.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_618redpacket.js
           wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js

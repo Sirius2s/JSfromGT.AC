@@ -175,6 +175,7 @@ jobs:
           JD_WECHAT_USER_AGENT: ${{ secrets.JD_WECHAT_USER_AGENT}}
           DREAMFACTORY_FORBID_ACCOUNT: ${{ secrets.DREAMFACTORY_FORBID_ACCOUNT}}
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
+          HELP_AUTHOR: ${{ secrets.HELP_AUTHOR}}
 
       - name: "压缩文件夹"
         run: |
@@ -255,6 +256,7 @@ jobs:
           JD_WECHAT_USER_AGENT: ${{ secrets.JD_WECHAT_USER_AGENT}}
           DREAMFACTORY_FORBID_ACCOUNT: ${{ secrets.DREAMFACTORY_FORBID_ACCOUNT}}
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
+          HELP_AUTHOR: ${{ secrets.HELP_AUTHOR}}
 
       - name: "替换文件 SL"
         run: |
@@ -435,6 +437,7 @@ jobs:
           JD_WECHAT_USER_AGENT: ${{ secrets.JD_WECHAT_USER_AGENT}}
           DREAMFACTORY_FORBID_ACCOUNT: ${{ secrets.DREAMFACTORY_FORBID_ACCOUNT}}
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}
+          HELP_AUTHOR: ${{ secrets.HELP_AUTHOR}}
 
       - name: "压缩文件夹"
         run: |
@@ -515,3 +518,4 @@ jobs:
           JD_WECHAT_USER_AGENT: ${{ secrets.JD_WECHAT_USER_AGENT}}
           DREAMFACTORY_FORBID_ACCOUNT: ${{ secrets.DREAMFACTORY_FORBID_ACCOUNT}}
           JDFACTORY_FORBID_ACCOUNT: ${{ secrets.JDFACTORY_FORBID_ACCOUNT}}          
+          HELP_AUTHOR: ${{ secrets.HELP_AUTHOR}}

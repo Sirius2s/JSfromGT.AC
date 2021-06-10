@@ -26,7 +26,7 @@ jobs:
           wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
           wget -O jd_gcip.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js
           wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
-          wget -O zy_618jc.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js
+          # wget -O zy_618jc.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1

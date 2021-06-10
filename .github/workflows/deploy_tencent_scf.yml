@@ -287,7 +287,7 @@ jobs:
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
           wget -O jd_starStore.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
-          wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js
+          # wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_superBrand.js
           wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_mcxhd_brandcity.js
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
           wget -O z_zoobjxxl.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js

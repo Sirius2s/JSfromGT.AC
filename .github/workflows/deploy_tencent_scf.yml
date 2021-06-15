@@ -298,7 +298,6 @@ jobs:
           wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_limitBox.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js
           wget -O jd_yqyl.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_yqyl.js
-          wget -O jd_zxjoy.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxjoy.js
 
       - name: "注入"
         run: |

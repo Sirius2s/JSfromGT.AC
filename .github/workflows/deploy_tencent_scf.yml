@@ -24,12 +24,11 @@ jobs:
           wget -O index.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/index.js
           wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf.js
           wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
-          wget -O jd_gcip.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_gcip.js
           wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
           wget -O zy_618jc.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js
           wget -O jd_qqtmy.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_qqtmy.js
           wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
-          wget -O jd_ddopk.js https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/ddo_pk.js
+          wget -O jd_ddopk.js https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -290,15 +289,16 @@ jobs:
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
           wget -O jd_starStore.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
-          wget -O z_superBrand.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/Wenmoux/jd/jd_superBrand.js
-          wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/Wenmoux/jd/jd_mcxhd_brandcity.js
-          wget -O z_zooLongzhou.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/zooPanda/zooLongzhou.js
-          wget -O z_zoobjxxl.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/zooPanda/zooBaojiexiaoxiaole.js
-          wget -O z_jx88hb.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/zooPanda/zooJx88hongbao.js
-          wget -O jd_ffl.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/Wenmoux/jd/jd_618redpacket.js
-          wget -O jd_limitBox.js https://raw.githubusercontent.com/sngxpro2/AutoSyncScript/Wenmoux/jd/jd_limitBox.js
+          wget -O z_superBrand.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_superBrand.js
+          wget -O jd_mcxhd_brandcity.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mcxhd_brandcity.js
+          wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
+          wget -O z_zoobjxxl.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
+          wget -O z_jx88hb.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js
+          wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
+          wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_limitBox.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js
           wget -O jd_yqyl.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_yqyl.js
+          wget -O jd_zxjoy.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_zxjoy.js
 
       - name: "注入"
         run: |

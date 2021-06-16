@@ -23,8 +23,8 @@ jobs:
           wget -O serverless.yml https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/serverless.yml
           wget -O index.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/index.js
           wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf.js
-          wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
-          wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
+          # wget -O jd_dphby.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_dphby.js
+          # wget -O jd_xcpp.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_xcpp.js
           wget -O zy_618jc.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js
           wget -O jd_qqtmy.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_qqtmy.js
           wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js

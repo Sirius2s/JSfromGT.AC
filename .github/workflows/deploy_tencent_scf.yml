@@ -298,6 +298,9 @@ jobs:
           wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_limitBox.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js
           wget -O jd_yqyl.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_yqyl.js
+          wget -O z_Longzhou02.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou02.js
+          wget -O z_Elecsport.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js
+          wget -O jd_ppkhr.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppkhr.js  
 
       - name: "注入"
         run: |

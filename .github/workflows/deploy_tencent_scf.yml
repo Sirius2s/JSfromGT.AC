@@ -1,4 +1,4 @@
-name: 部署到腾讯云函数
+name: 部署
 
 on:
   schedule:
@@ -304,7 +304,6 @@ jobs:
           wget -O jd_jdfactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jdfactory.js
           wget -O jd_sgmh.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
           wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
-          wget -O jd_health.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js
           wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
 
       - name: "注入"

@@ -138,7 +138,8 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
     "JD_IMMORTAL_LATLON",
     "JD_WECHAT_USER_AGENT",
     "DREAMFACTORY_FORBID_ACCOUNT",
-    "JDFACTORY_FORBID_ACCOUNT"
+    "JDFACTORY_FORBID_ACCOUNT",
+    "HELP_AUTHOR"
   ] 
 
   let vars = []

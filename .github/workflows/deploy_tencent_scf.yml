@@ -286,14 +286,12 @@ jobs:
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_zoo.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
-          wget -O jd_starStore.js https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
           wget -O z_zooLongzhou.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
           wget -O z_zoobjxxl.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooBaojiexiaoxiaole.js
           wget -O z_jx88hb.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js
           wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
           wget -O jd_limitBox.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_limitBox.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js
-          wget -O jd_yqyl.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_yqyl.js
           wget -O z_Longzhou02.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou02.js
           wget -O z_Elecsport.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js
           wget -O jd_ppkhr.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppkhr.js

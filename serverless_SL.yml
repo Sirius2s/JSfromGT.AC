@@ -58,12 +58,12 @@ inputs:
           cronExpression: "30 * * * *"
           enable: true
           argument: jd_half_redrain&jd_live_redrain&jd_zooCollect
-    - timer: # 京东直播
+    - timer: # 京东直播 #环境测试
         parameters:
-          name: jd_live
+          name: live_api
           cronExpression: "10-20/5 12 * * *"
           enable: true
-          argument: jd_live
+          argument: jd_live&jd_api_test
     - timer: #5G超级盲盒 #健康社区藏经阁版 #星推官
          parameters:
           name: mohe_hc_star

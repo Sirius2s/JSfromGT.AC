@@ -22,7 +22,7 @@ jobs:
           repository: fen9sui/JSfromGT
           # repository: LXK9301/jd_scripts
           # token: ${{ secrets.GitHub_PAT }} # (private)`GitHub_PAT` is a secret that contains your PAT
-          ref: remGT
+          ref: remHW
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:

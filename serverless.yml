@@ -22,12 +22,12 @@ inputs:
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
           argument: jd_bean_sign&jd_cash&jd_daily_lottery&jd_jump
-    - timer: #京小超兑换奖品 #京东汽车兑换 #家电星推官 #家电星推官好友互助
+    - timer: #京小超兑换奖品 #京东汽车兑换
         parameters:
-          name: blueCoin_carexc_xtg_xtghelp
+          name: blueCoin_carexc
           cronExpression: "0 0 0 * * * *"
           enable: true
-          argument: jd_blueCoin&jd_car_exchange&jd_xtg&jd_xtg_help
+          argument: jd_blueCoin&jd_car_exchange
     - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #明星小店 #大老板 #pk #京喜农场(cancel)
         parameters:
           name: fruit_pet_bookshop_gcreator_starshop #_jxnc
@@ -45,25 +45,25 @@ inputs:
           name: joy_reward_necklace_smlhome_cfd
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_joy_reward&jd_necklace&jd_small_home&jd_cfd
-    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴 #手机竞猜 #惊奇探秘夜
+          argument: jd_joy_reward&jd_small_home&jd_cfd&jd_necklace
+    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴
         parameters:
-          name: redPacket_shop_unsub_car_ms_jtie_jc
+          name: redPacket_shop_unsub_car_ms_jtie
           cronExpression: "0 10 0 * * * *"
           enable: true
-          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_ms&jd_jin_tie&jd_bean_sign&zy_618jc&jd_qqtmy
-    - timer: #京东天天加速 #618zoo #京喜牧场
+          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_bean_sign&jd_ms
+    - timer: #京东天天加速 #京喜牧场 #电竞经理
         parameters:
-          name: speed_zoo_jxmc
+          name: speed_jxmc_em
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed&jd_zoo&jd_jxmc
+          argument: jd_speed&jd_jxmc&jd_EsportsManager
     - timer: #东东超市 #十元街 #翻翻乐
         parameters:
           name: superMarket_syj_winner
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_syj&jd_big_winner
+          argument: jd_superMarket&jd_syj #&jd_big_winner
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #京喜领88元红包 #Joy分红 #京东保价
         parameters:
           name: bchg_cjoy_rList_bhome_sgmh_jxlhb_cjoybonus_price

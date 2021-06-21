@@ -22,54 +22,54 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
-    - timer: #摇一摇 #农场 #宠物 #财富 #闪购 #飞利浦 #一加 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战 #与“粽”不同/宝洁消消乐[1-18 6] #省钱大赢家 #京喜88红包 #粽情端午[6-18 6] #电竞经理
+    - timer: #农场 #宠物 #财富 #闪购 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战 #省钱大赢家 #京喜88红包 #电竞经理
         parameters:
-          name: sk_fr_pt_cf_sg_flp_1p_jb_hb_pp_zlz_bj_lz2_es
+          name: fr_pt_cf_sg_jb_hb_pp
           cronExpression: "15 9 * * *"
           enable: true
-          argument: z_shake&jd_fruit&jd_pet&jd_cfd&jd_sgmh&adolf_oneplus&jd_jbczy&adolf_flp&adolf_jxhb&jd_ppdz&z_zooLongzhou&z_zoobjxxl&jd_sqdyj&z_jx88hb&z_Longzhou02&z_Elecsport
-    - timer: #618大势新品赏[? 5,6] #超级盒子[? 5,6] #618限时盲盒[1-18 6] #梦工厂 #种豆 #东工厂
+          argument: jd_jbczy&adolf_jxhb&jd_ppdz&jd_sqdyj&z_jx88hb #&jd_fruit&jd_pet&jd_cfd&jd_sgmh #&z_Elecsport
+    - timer: #超级盒子[? 5,6] #梦工厂 #种豆 #东工厂
         parameters:
-          name: newI_sbox_lBox_dmf_pb_ddf
+          name: sbox_dmf_pb_ddf
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: adolf_newInteraction&adolf_superbox&jd_limitBox&jd_dreamFactory&jd_plantBean&jd_jdfactory
-    - timer: #手机狂欢[5月14日-6月20日]
-        parameters:
-          name: carnivalcity
-          cronExpression: "0 0-18/6,19-23/1 * * *"
-          enable: true
-          argument: jd_carnivalcity
-    - timer: #母婴-跳一跳 #京享值PK[17-31 5] #手机狂欢[5月14日-6月20日] #品牌狂欢
-        parameters:
-          name: mjump_pk_c2_ppkh
-          cronExpression: "10 8,14,20 * * *"
-          enable: true
-          argument: z_mother_jump&z_carnivalcity&jd_ppkhr  #&adolf_pk
-    - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量 #动物联萌[-6.20] #翻翻乐
+          argument: adolf_superbox #&jd_dreamFactory&jd_plantBean&jd_jdfactory
+    # - timer: #手机狂欢[5月14日-6月20日]
+    #     parameters:
+    #       name: carnivalcity
+    #       cronExpression: "0 0-18/6,19-23/1 * * *"
+    #       enable: true
+    #       argument: jd_carnivalcity
+    # - timer: #母婴-跳一跳
+    #     parameters:
+    #       name: mjump
+    #       cronExpression: "10 8,14,20 * * *"
+    #       enable: true
+    #       argument: z_mother_jump  #&adolf_pk
+    - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量 #翻翻乐
         parameters:
           name: redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_zoo&jd_zooCollect&jd_ffl
-    - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨 #动物联萌收集金币
+          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_ffl
+    - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
          parameters:
-          name: redrain_zooCollect
+          name: redrain
           cronExpression: "30 * * * *"
           enable: true
-          argument: jd_half_redrain&jd_live_redrain&jd_zooCollect
+          argument: jd_half_redrain&jd_live_redrain
     - timer: # 京东直播 #环境测试
         parameters:
           name: live_api
           cronExpression: "10-20/5 12 * * *"
           enable: true
-          argument: jd_live&jd_api_test
-    - timer: #5G超级盲盒 #健康社区藏经阁版 #星推官
+          argument: jd_live #&jd_api_test
+    - timer: #5G超级盲盒 #健康社区藏经阁版
          parameters:
-          name: mohe_hc_star
+          name: mohe_hc
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&z_health_community&adolf_star
+          argument: jd_mohe&z_health_community
     # - timer: # 临时运行用
     #     parameters:
     #       name: jd_party_night

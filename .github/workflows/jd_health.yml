@@ -40,7 +40,7 @@ jobs:
       - name: 替换
         run: |
           sed -i 's/process.exit(0)/{}/g' jd_health.js
-          sed -i 's/await helpFriends()/#/g' jd_health.js
+          sed -i 's/await helpFriends()/;/g' jd_health.js
           sed -i 's/GITHUB/G1THU8/g' jdCookie.js
       - name: '运行 【jd_health】'
         # timeout-minutes: 240

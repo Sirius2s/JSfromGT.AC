@@ -63,7 +63,7 @@ inputs:
           name: live_api
           cronExpression: "10-20/5 12 * * *"
           enable: true
-          argument: jd_live #&jd_api_test
+          argument: jd_live&jd_api_test
     - timer: #5G超级盲盒 #健康社区藏经阁版
          parameters:
           name: mohe_hc

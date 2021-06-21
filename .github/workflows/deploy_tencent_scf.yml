@@ -26,6 +26,20 @@ jobs:
           wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
           wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 
+      - name: "注入"
+        run: |
+          sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
+          sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`
+          sed -i 's/await\shelpFriend(code)/;/g' `grep 'await\shelpFriend(code)' -rl ./`
+          sed -i 's/await\shelpFriends()/;/g' `grep 'await\shelpFriends()' -rl ./`
+          sed -i 's/await\sinvite()/;/g' `grep 'await\sinvite()' -rl ./`
+          sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
+          sed -i 's/await\slotteryMasterHelp(code)/;/g' `grep 'await\slotteryMasterHelp(code)' -rl ./`
+          sed -i 's/await\smasterHelpShare()/;/g' `grep 'await\smasterHelpShare()' -rl ./`
+          sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
+          sed -i 's/const res = await addShare(item)/const res = ''/g' `grep 'const res = await addShare(item)' -rl ./`
+          sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = ''/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -294,10 +308,21 @@ jobs:
           # wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
           # wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
 
-      # - name: "注入"
-      #   run: |
+      - name: "注入"
+        run: |
       #     chmod +x cf_getcode.sh
       #     sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+          sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
+          sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`
+          sed -i 's/await\shelpFriend(code)/;/g' `grep 'await\shelpFriend(code)' -rl ./`
+          sed -i 's/await\shelpFriends()/;/g' `grep 'await\shelpFriends()' -rl ./`
+          sed -i 's/await\sinvite()/;/g' `grep 'await\sinvite()' -rl ./`
+          sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
+          sed -i 's/await\slotteryMasterHelp(code)/;/g' `grep 'await\slotteryMasterHelp(code)' -rl ./`
+          sed -i 's/await\smasterHelpShare()/;/g' `grep 'await\smasterHelpShare()' -rl ./`
+          sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
+          sed -i 's/const res = await addShare(item)/const res = ''/g' `grep 'const res = await addShare(item)' -rl ./`
+          sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = ''/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
 
       - name: "Secrets环境变量 SL"
         run: |

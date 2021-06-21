@@ -25,6 +25,7 @@ jobs:
           wget -O tencentscf.js https://raw.githubusercontent.com/fen9sui/JSfromGT.AC/main/tencentscf.js
           wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
           wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
+          wget -O jd_necklace.js https://raw.githubusercontent.com/wuzhi04/MyActions/main/jd_necklace.js
 
       - name: "注入"
         run: |

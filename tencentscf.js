@@ -71,8 +71,8 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
 
   console.log(`更新环境变量`)
   // 更新环境变量
-  let inputYML = '.github/workflows/deploy_tencent_scf.yml';
-  let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
+  // let inputYML = '.github/workflows/deploy_tencent_scf.yml';
+  // let obj = yaml.load(fs.readFileSync(inputYML, {encoding: 'utf-8'}))
 
   let L_env = [
     "JD_COOKIE",

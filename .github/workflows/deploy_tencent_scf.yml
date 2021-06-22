@@ -16,7 +16,7 @@ jobs:
           # repository: LXK9301/jd_scripts
           # ref: master
           repository: fen9sui/JSfromGT
-          ref: remHW
+          ref: remGT
 
       - name: "替换文件"
         run: |

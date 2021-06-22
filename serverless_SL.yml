@@ -54,7 +54,7 @@ inputs:
           argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_ffl
     - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
          parameters:
-          name: redrain
+          name: half_redrain
           cronExpression: "30 * * * *"
           enable: true
           argument: jd_half_redrain&jd_live_redrain

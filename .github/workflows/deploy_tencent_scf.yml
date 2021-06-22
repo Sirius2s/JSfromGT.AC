@@ -194,7 +194,7 @@ jobs:
         run: |
           rm -rf activity/ backUp/ docker/ icon/
           zip -r myfile.zip ./*
-          ls - lh myfile.zip
+          ls -lh myfile.zip
 
       - name: "部署到腾讯云函数"
         run: node tencentscf.js
@@ -467,7 +467,7 @@ jobs:
         run: |
           rm -rf activity/ backUp/ docker/ icon/
           zip -r myfile.zip ./*
-          ls - lh myfile.zip
+          ls -lh myfile.zip
 
       - name: "部署 SL"
         run: node tencentscf.js

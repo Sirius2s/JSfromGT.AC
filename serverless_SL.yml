@@ -69,7 +69,7 @@ inputs:
           name: mohe_hc
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&z_health_community
+          argument: jd_mohe #&z_health_community
     # - timer: # 临时运行用
     #     parameters:
     #       name: jd_party_night

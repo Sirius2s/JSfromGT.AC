@@ -37,9 +37,9 @@ jobs:
           sed -i 's/await\shelpFriends()/;/g' `grep 'await\shelpFriends()' -rl ./`
           sed -i 's/await\sinvite()/;/g' `grep 'await\sinvite()' -rl ./`
           sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
-          sed -i 's/await\slotteryMasterHelp(code)/;/g' `grep 'await\slotteryMasterHelp(code)' -rl ./`
-          sed -i 's/await\smasterHelpShare()/;/g' `grep 'await\smasterHelpShare()' -rl ./`
-          sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
+          # sed -i 's/await\slotteryMasterHelp(code)/;/g' `grep 'await\slotteryMasterHelp(code)' -rl ./`
+          # sed -i 's/await\smasterHelpShare()/;/g' `grep 'await\smasterHelpShare()' -rl ./`
+          # sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
           # sed -i 's/const res = await addShare(item)/const res = null/g' `grep 'const res = await addShare(item)' -rl ./`
           # sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = null/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
 
@@ -289,7 +289,7 @@ jobs:
           # wget -O red_rain.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/backup/red_rain.js
           wget -O jd_super_redrain.js https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js
           wget -O jd_half_redrain.js https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js
-          wget -O z_health_community.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_health_community.js
+          # wget -O z_health_community.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_health_community.js
           wget -O z_health_energy.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/i-chenzhe/z_health_energy.js
           # wget -O adolf_pk.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/normal/adolf_pk.js
           # wget -O adolf_flp.js https://raw.githubusercontent.com/fen9sui/JSfromGT/remMC/member/adolf_flp.js 

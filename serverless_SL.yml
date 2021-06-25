@@ -16,24 +16,24 @@ inputs:
   memorySize: 128 # 内存大小，单位MB
   timeout: 900 # 超时时间，单位秒
   events: # 触发器
-    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆 #女装盲盒[05-24到06-22]
+    - timer: # 京东极速版红包 #京东全民开红包 #摇京豆
         parameters:
-          name: spdredpocke_redPacket_clot_nzmh
+          name: spdredpocke_redPacket_clot
           cronExpression: "45 0,21,23 * * *"
           enable: true
-          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_nzmh
+          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
     - timer: #农场 #宠物 #财富 #闪购 #金榜创造营[5月21日至12月31日] #京喜阶梯红包 #泡泡大战 #省钱大赢家 #京喜88红包 #电竞经理
         parameters:
           name: fr_pt_cf_sg_jb_hb_pp
           cronExpression: "15 9 * * *"
           enable: true
           argument: jd_jbczy&adolf_jxhb&jd_ppdz&jd_sqdyj&z_jx88hb #&jd_fruit&jd_pet&jd_cfd&jd_sgmh #&z_Elecsport
-    - timer: #超级盒子[? 5,6] #梦工厂 #种豆 #东工厂
+    - timer: #超级盒子[? 5,6] #点点券 #梦工厂 #种豆 #东工厂
         parameters:
-          name: sbox_dmf_pb_ddf
+          name: sbox_ddj_dmf_pb_ddf
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: adolf_superbox #&jd_dreamFactory&jd_plantBean&jd_jdfactory
+          argument: adolf_superbox&jd_necklace #&jd_dreamFactory&jd_plantBean&jd_jdfactory
     # - timer: #手机狂欢[5月14日-6月20日]
     #     parameters:
     #       name: carnivalcity

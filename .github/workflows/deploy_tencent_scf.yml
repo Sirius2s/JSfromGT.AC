@@ -311,6 +311,7 @@ jobs:
           # wget -O jd_sgmh.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
           # wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
           # wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
+          wget -O jd_necklace.js https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
 
       # - name: "注入"
       #   run: |

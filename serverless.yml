@@ -39,13 +39,13 @@ inputs:
           name: joy_mTree_plantBean_dFactory_jdfactory
           cronExpression: "0 3 */1 * * * *"
           enable: true
-          argument: jd_joy_new&jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory
+          argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory&jd_joy_new
     - timer: #宠汪汪积分兑换奖品 #点点券 #东东小窝 #京喜财富岛
         parameters:
           name: joy_reward_necklace_smlhome_cfd
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_joy_reward_new&jd_small_home&jd_cfd&jd_necklace&jd_necklace_new
+          argument: jd_small_home&jd_cfd&jd_necklace&jd_necklace_new&jd_joy_reward_new
     - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴
         parameters:
           name: redPacket_shop_unsub_car_ms_jtie

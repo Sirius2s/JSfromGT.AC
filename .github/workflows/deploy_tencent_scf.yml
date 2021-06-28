@@ -314,6 +314,11 @@ jobs:
           # wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
           wget -O jd_necklace.js https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
           wget -O jd_hwsx.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_hwsx.js
+          wget -O jd_qqxing.js https://github.com/Wenmoux/scripts/raw/wen/jd/jd_qqxing.js
+          wget -O jd_europeancup.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_europeancup.js
+          wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
+          wget -O jx_cfd.js https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js
+          wget -O jx_mc.js https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_mc.js
 
       # - name: "注入"
       #   run: |

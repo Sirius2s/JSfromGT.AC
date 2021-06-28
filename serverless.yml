@@ -60,7 +60,7 @@ inputs:
           argument: jd_speed&jd_jxmc&jd_EsportsManager
     - timer: #东东超市 #十元街
         parameters:
-          name: superMarket_syj_winner
+          name: superMarket_syj
           cronExpression: "0 15 * * * * *"
           enable: true
           argument: jd_superMarket&jd_syj

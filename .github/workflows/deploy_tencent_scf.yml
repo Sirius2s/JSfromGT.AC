@@ -28,6 +28,7 @@ jobs:
           wget -O jd_ddopk.js https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js
           wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
           wget -O jd_necklace.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_necklace.js
+          wget -O jd_bookshop.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/chinnkarahoi_jd_bookshop.js
 
       - name: "注入"
         run: |
@@ -300,7 +301,7 @@ jobs:
           wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
           wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
           wget -O z_jx88hb.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooJx88hongbao.js
-          wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
+          # wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
           wget -O jd_sqdyj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_sqdyj.js
           # wget -O z_Elecsport.js https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js
           # wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js

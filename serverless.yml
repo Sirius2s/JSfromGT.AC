@@ -58,12 +58,12 @@ inputs:
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed&jd_jxmc&jd_EsportsManager
-    - timer: #东东超市 #十元街 #翻翻乐
+    - timer: #东东超市 #十元街
         parameters:
           name: superMarket_syj_winner
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_syj #&jd_big_winner
+          argument: jd_superMarket&jd_syj
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京东保价
         parameters:
           name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_price
@@ -75,7 +75,7 @@ inputs:
           name: pigPet_kd_jdzz
           cronExpression: "0 3 1 * * * *"
           enable: true
-          argument: jd_pigPet&jd_kd&jd_jdzz
+          argument: jd_pigPet&jd_kd&jd_jdzz&jd_speed_sign
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

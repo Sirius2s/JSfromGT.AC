@@ -46,12 +46,12 @@ inputs:
     #       cronExpression: "10 8,14,20 * * *"
     #       enable: true
     #       argument: z_mother_jump  #&adolf_pk
-    - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量 #翻翻乐
+    - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量
         parameters:
           name: redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&z_health_energy&jd_ffl
+          argument: jd_super_redrain&jd_live_redrain&z_health_energy
     - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
          parameters:
           name: half_redrain

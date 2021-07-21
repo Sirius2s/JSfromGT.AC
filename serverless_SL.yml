@@ -47,7 +47,7 @@ inputs:
           name: redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&jd_618redpacket&z_health_energy
+          argument: jd_super_redrain&jd_live_redrain&jd_ffl&z_health_energy
     - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
          parameters:
           name: half_redrain

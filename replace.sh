@@ -19,3 +19,4 @@ sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
 # sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = null/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
 ###
 tsc *.ts
+rm -rf *.ts

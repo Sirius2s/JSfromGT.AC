@@ -22,61 +22,61 @@ inputs:
         parameters:
           name: beansign_cash
           cronExpression: "0 5 0,12,18 * * * *"
-          enable: true
+          enable: flase
           argument: jd_bean_sign&jd_cash
     - timer: #京小超兑换奖品 #京东汽车兑换 #财富岛提现
         parameters:
           name: blueCoin_carexc
           cronExpression: "0 0 0,12,13 * * * *"
-          enable: true
+          enable: flase
           argument: jd_blueCoin&jd_cfdtx&jd_car_exchange
     - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #明星小店 #大老板 #京喜农场(cancel)
         parameters:
           name: fruit_pet_bshop_gcreator_sshop_dlb #_jxnc
           cronExpression: "0 5 6-18/6,8 * * * *"
-          enable: true
+          enable: flase
           argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_star_shop&jd_wsdlb # &jd_jxnc
     - timer: # 宠汪汪# 摇钱树# 京东种豆得豆# 京喜工厂 #东东工厂
         parameters:
           name: joy_mTree_plantBean_dFactory_jdfactory
           cronExpression: "0 3 */1 * * * *"
-          enable: true
+          enable: flase
           argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory&jd_joy_new&jd_joy&jd_joy_feedPets
     - timer: #宠汪汪积分兑换奖品 #点点券 #东东小窝 #美妆
         parameters:
           name: joy_reward_smlhome_bt  #_necklace
           cronExpression: "0 0 0-16/8,20 * * * *"
-          enable: true
+          enable: flase
           argument: jd_small_home&jd_beauty&jd_joy_reward_new&jd_joy_reward #&jd_necklace
     - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴
         parameters:
           name: redPacket_shop_unsub_car_ms_jtie
           cronExpression: "0 10 0 * * * *"
-          enable: true
+          enable: flase
           argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms
     - timer: #京东天天加速 #京喜牧场 #电竞经理
         parameters:
           name: speed_jxmc_em
           cronExpression: "0 8 */3 * * * *"
-          enable: true
+          enable: flase
           argument: jd_speed&jd_jxmc&jd_EsportsManager
     - timer: #东东超市 #十元街 #财富岛 #翻翻乐
         parameters:
           name: superMarket_syj_cfd_ffl
           cronExpression: "0 15 * * * * *"
-          enable: true
+          enable: flase
           argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner
     - timer: #京豆变动通知 #疯狂的joy #京东排行榜 #领京豆额外奖励 #闪购盲盒 #Joy分红 #京东保价
         parameters:
           name: bchg_cjoy_rList_bhome_sgmh_cjoybonus_price
           cronExpression: "0 30 7 * * * *"
-          enable: true
+          enable: flase
           argument: jd_bean_change&jd_crazy_joy&jd_rankingList&jd_bean_home&jd_sgmh&jd_crazy_joy_bonus&jd_price&jd_morningSc
     - timer: #金融养猪 #京东快递 #京东赚赚 #极速版签到 #抽奖机 #许愿池
         parameters:
           name: pigPet_kd_jdzz_ssign_lMach_wp
           cronExpression: "0 3 1 * * * *"
-          enable: true
+          enable: flase
           argument: jd_pigPet&jd_kd&jd_jdzz&jd_speed_sign&jd_lotteryMachine&jd_wishingPool
   environment: #  环境变量
     variables: #  环境变量对象

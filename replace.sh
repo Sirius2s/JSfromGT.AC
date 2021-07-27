@@ -1,3 +1,6 @@
+###
+tsc *.ts
+rm -rf *.ts
 ### 
 wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/serverless.yml
 wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/index.js
@@ -9,9 +12,11 @@ wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_
 wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js
 wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bookshop.js
 # wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
-wget -O jd_joy.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js
-wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
-wget -O jd_joy_reward.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
+# wget -O jd_joy.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js
+# wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
+# wget -O jd_joy_reward.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
+wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js
+wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
 wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_beauty.js
@@ -19,6 +24,7 @@ wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/j
 wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
+wget -O jd_jxmc.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`
@@ -31,6 +37,3 @@ sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
 # sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
 # sed -i 's/const res = await addShare(item)/const res = null/g' `grep 'const res = await addShare(item)' -rl ./`
 # sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = null/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
-###
-tsc *.ts
-rm -rf *.ts

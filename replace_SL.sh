@@ -22,11 +22,13 @@ wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/j
 wget -O jd_dpqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/smiek2221/scripts/master/jd_sign_graphics.js
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
+wget -O sign_graphics_validate.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/sign_graphics_validate.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
 wget -O jd_tewuZ.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_tewuZ.js
 wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
+wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

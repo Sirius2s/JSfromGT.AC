@@ -4,7 +4,21 @@ wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/ind
 wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/tencentscf.js
 # wget -O package.json https://raw.githubusercontent.com/sirius2s/JSfromGT/remGT/package.json
 wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
-wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
+# wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
+wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
+wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js
+wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bookshop.js
+# wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
+wget -O jd_joy.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js
+wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
+wget -O jd_joy_reward.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
+wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
+wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
+wget -O jd_beauty.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_beauty.js
+wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
+wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
+wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js
+wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

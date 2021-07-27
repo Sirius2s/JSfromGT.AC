@@ -15,9 +15,18 @@ wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_61
 # wget -O jd_sgmh.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
 # wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
 # wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
-wget -O jd_necklace.js https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
-wget -O jd_qqxing.js https://github.com/Wenmoux/scripts/raw/wen/jd/jd_qqxing.js
-wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
+# wget -O jd_necklace.js https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
+# wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
+wget -O jd_lsj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_lsj.js
+wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js
+wget -O jd_dpqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
+wget -O jd_sign_graphics.js https://raw.githubusercontent.com/smiek2221/scripts/master/jd_sign_graphics.js
+wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
+wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
+wget -O jd_tewuZ.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_tewuZ.js
+wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
+wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
+wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

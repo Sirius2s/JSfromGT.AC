@@ -38,22 +38,22 @@ inputs:
           argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_wsdlb # &jd_jxnc
     - timer: #宠汪汪 #摇钱树 #京东种豆 #京喜工厂 #东东工厂
         parameters:
-          name: joy_mTree_plantBean_dFactory_jdfactory
+          name: joy_mTree_pBean_jxFac_jdfac
           cronExpression: "0 3 */1 * * * *"
           enable: true
           argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory #&jd_joy&jd_joy_feedPets
-    - timer: #宠汪汪兑换 #点点券 #东东小窝 #美妆 #健康社区
+    - timer: #宠汪汪兑换 #点点券 #东东小窝 #跳跳乐 #电竞经理 #零食街 #美妆 #健康社区
         parameters:
-          name: joyrw_necklace_smlhome_bt_health  #_necklace
+          name: joyrw_neckl_shome_jp_em_fr_bt_hlth  #_necklace
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_small_home #&jd_necklace&jd_beauty&jd_health&jd_joy_reward
-    - timer: #京东全民开红包 #进店领豆 #取关京东店铺商品 #京东汽车 #京东秒秒币 #领金贴
+          argument: jd_small_home&jd_jump&jd_esManager&jd_foodRunning&jd_necklace #&jd_beauty&jd_health&jd_joy_reward
+    - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到
         parameters:
-          name: redPacket_shop_unsub_car_ms_jtie
+          name: redP_shop_unsub_car_ms_jtie_jxqd
           cronExpression: "0 10 0 * * * *"
           enable: true
-          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms
+          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms&jd_jxqd
     - timer: #京东天天加速 #京喜牧场
         parameters:
           name: speed_jxmc
@@ -66,16 +66,16 @@ inputs:
           cronExpression: "0 15 * * * * *"
           enable: true
           argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner
-    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #京东保价
+    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #京小鸽 #女装盲盒 #京东保价
         parameters:
           name: bchg_rList_bhome_sgmh_price
           cronExpression: "0 30 7 * * * *"
           enable: true
-          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh #&jd_price
+          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh&jd_jxg&jd_nzmh #&jd_price
     - timer: #金融养猪 #京东快递 #京东赚赚 #极速版签到 #抽奖机 #许愿池
         parameters:
           name: pigPet_kd_jdzz_ssign_lMach_wp
-          cronExpression: "0 3 1 * * * *"
+          cronExpression: "0 23 0 * * * *"
           enable: true
           argument: jd_pigPet&jd_kd&jd_jdzz&jd_speed_sign&jd_lotteryMachine&jd_wishingPool
   environment: #  环境变量

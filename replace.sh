@@ -19,12 +19,21 @@ wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
 wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
+wget -O ./utils/ZooFaker_Necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/ZooFaker_Necklace.js
+wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts/master/ZooFaker_Necklace.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_beauty.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js
+wget -O jd_blueCoin.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_blueCoin.js
+wget -O jd_jxqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxqd.js
+wget -O jd_jxg.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxg.js
+wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
+wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
+wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
+wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

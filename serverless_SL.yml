@@ -35,7 +35,7 @@ inputs:
           name: sbox_ddj_dmf_pb_ddf_hwsx
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: adolf_superbox&jd_tewuZ #&jd_dreamFactory&jd_plantBean&jd_jdfactory
+          argument: adolf_superbox&jd_tewuZ&jd_mb #&jd_dreamFactory&jd_plantBean&jd_jdfactory
     - timer: #京喜牧场star
         parameters:
           name: mc
@@ -65,7 +65,7 @@ inputs:
           name: mohe_jpj_hc
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&jd_joypark_joy&z_cfd #&z_health_community
+          argument: jd_mohe&jd_joypark_joy&z_cfd&jd_qqx #&z_health_community
     # - timer: #燃夏
     #     parameters:
     #       name: summer

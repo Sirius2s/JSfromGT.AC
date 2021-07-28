@@ -15,7 +15,8 @@ wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_61
 # wget -O jd_sgmh.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
 # wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
 # wget -O jd_api_test.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js
-# wget -O jd_necklace.js https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js
+wget -O jd_necklace.js https://raw.githubusercontent.com/smiek2221/scripts/master/jd_necklace.js
+wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts/master/ZooFaker_Necklace.js
 # wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
 wget -O jd_lsj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_lsj.js
 wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js

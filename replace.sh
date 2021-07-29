@@ -16,11 +16,9 @@ wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_script
 # wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
 # wget -O jd_joy_reward.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
 wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js
-wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
 wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
 wget -O ./utils/ZooFaker_Necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/ZooFaker_Necklace.js
-wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts/master/ZooFaker_Necklace.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_beauty.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
@@ -34,6 +32,7 @@ wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
+wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

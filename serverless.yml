@@ -44,7 +44,7 @@ inputs:
           argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory #&jd_joy&jd_joy_feedPets
     - timer: #宠汪汪兑换 #点点券 #东东小窝 #跳跳乐 #电竞经理 #零食街 #美妆 #健康社区
         parameters:
-          name: joyrw_neckl_shome_jp_em_fr_bt_hlth  #_necklace
+          name: joyrw_neckl_shome_jp_em_fr_bt_hlth
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
           argument: jd_small_home&jd_jump&jd_esManager&jd_foodRunning&jd_necklace #&jd_beauty&jd_health&jd_joy_reward

@@ -20,7 +20,8 @@ wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv
 wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
 wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
 wget -O ./utils/ZooFaker_Necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/ZooFaker_Necklace.js
-wget -O jd_beauty.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_beauty.js
+wget -O jd_beauty.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_beauty.js
+wget -O jd_health.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js

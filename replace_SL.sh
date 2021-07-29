@@ -36,6 +36,7 @@ wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main
 wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
 wget -O jd_qqx.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
+wget -O jd_chinajoy.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_chinajoy.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

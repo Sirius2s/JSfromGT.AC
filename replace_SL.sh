@@ -40,3 +40,5 @@ wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh
 # sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
+sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`

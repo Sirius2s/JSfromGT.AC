@@ -9,6 +9,7 @@ wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/mai
 wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
 # wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
+# sed -i 's/canHelp = true/canHelp = false/g' jd_cfd.js
 wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js
 wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bookshop.js
 # wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
@@ -45,3 +46,5 @@ sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
 # sed -i 's/await\sslaveHelp()/;/g' `grep 'await\sslaveHelp()' -rl ./`
 # sed -i 's/const res = await addShare(item)/const res = null/g' `grep 'const res = await addShare(item)' -rl ./`
 # sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = null/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
+sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
+sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`

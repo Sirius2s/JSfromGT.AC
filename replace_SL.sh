@@ -21,7 +21,6 @@ wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts
 wget -O jd_lsj.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_lsj.js
 wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
-wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_sign_graphics.js
 wget -O JDJRValidator_Smiek.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Smiek.js
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js

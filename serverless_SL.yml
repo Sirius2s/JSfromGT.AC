@@ -23,7 +23,7 @@ inputs:
           name: spdredpocke_redPacket_clot
           cronExpression: "45 0,21,23 * * *"
           enable: true
-          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&jd_bean_sign
+          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
     - timer: #农场 #宠物 #财富 #闪购 #金榜创造营 #京喜阶梯红包 #泡泡大战 #省钱大赢家
         parameters:
           name: fr_pt_cf_sg_jb_hb_pp

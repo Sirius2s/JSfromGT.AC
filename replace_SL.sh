@@ -26,7 +26,6 @@ wget -O JDJRValidator_Smiek.js https://raw.githubusercontent.com/zero205/JD_tenc
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O sign_graphics_validate.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/sign_graphics_validate.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
-wget -O jd_tewuZ.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_tewuZ.js
 wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js

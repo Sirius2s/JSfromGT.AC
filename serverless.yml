@@ -24,12 +24,12 @@ inputs:
           cronExpression: "0 5 0,12,18 * * * *"
           enable: true
           argument: jd_bean_sign&jd_cash
-    - timer: #京小超兑换 #财富岛提现 #京东汽车兑换
+    - timer: #京小超兑换 #财富岛提现 #京东汽车兑换 #宠汪汪兑换 
         parameters:
-          name: blueCoin_cfdtx_carexc
-          cronExpression: "0 0 0,12,13 * * * *"
+          name: blueCoin_cfdtx_carexc_joyrw
+          cronExpression: "0 0 0,8,12,13,16 * * * *"
           enable: true
-          argument: jd_blueCoin&jd_cfdtx&jd_car_exchange
+          argument: jd_blueCoin&jd_cfdtx&jd_car_exchange&jd_joy_reward
     - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #京喜农场(cancel)
         parameters:
           name: fruit_pet_bshop_gcreator_dlb #_jxnc
@@ -42,12 +42,12 @@ inputs:
           cronExpression: "0 3 */1 * * * *"
           enable: true
           argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory #&jd_joy&jd_joy_feedPets
-    - timer: #宠汪汪兑换 #点点券 #东东小窝 #跳跳乐 #电竞经理 #零食街 #美妆 #健康社区
+    - timer: #东东小窝 #点点券 #跳跳乐 #电竞经理 #零食街 #美妆 #健康社区
         parameters:
-          name: joyrw_neckl_shome_jp_em_fr_bt_hlth
+          name: shome_neckl_jp_em_fr_bt_hlth
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_small_home&jd_jump&jd_esManager&jd_foodRunning&jd_necklace&jd_health #&jd_joy_reward&jd_beauty
+          argument: jd_small_home&jd_jump&jd_esManager&jd_foodRunning&jd_necklace&jd_health #&jd_beauty
     - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到
         parameters:
           name: redP_shop_unsub_car_ms_jtie_jxqd

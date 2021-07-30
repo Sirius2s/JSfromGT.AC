@@ -15,11 +15,13 @@ wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_script
 # wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
 # wget -O jd_joy.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js
 # wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
-# wget -O jd_joy_reward.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
+wget -O jd_joy_reward.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_reward.js
 wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js
+wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O jd_small_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_small_home.js
 wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_necklace.js
 wget -O ./utils/ZooFaker_Necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/ZooFaker_Necklace.js
+wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/ZooFaker_Necklace.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_beauty.js
 wget -O jd_health.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js

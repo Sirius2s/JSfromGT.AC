@@ -48,7 +48,7 @@ inputs:
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
           argument: jd_small_home&jd_jump&jd_esManager&jd_foodRunning&jd_necklace&jd_health #&jd_beauty
-    - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到
+    - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到[AL]
         parameters:
           name: redP_shop_unsub_car_ms_jtie_jxqd
           cronExpression: "0 10 0 * * * *"
@@ -66,12 +66,12 @@ inputs:
           cronExpression: "0 15 * * * * *"
           enable: true
           argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner
-    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #女装盲盒 #京东保价
+    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #女装盲盒 #京东保价 #京喜签到[HW]
         parameters:
-          name: bchg_rList_bhome_sgmh_price
+          name: bchg_rList_bhome_sgmh_price_jxs
           cronExpression: "0 30 7 * * * *"
           enable: true
-          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh&jd_nzmh #&jd_price
+          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh&jd_nzmh&jx_sign #&jd_price
     - timer: #金融养猪 #京东快递 #京东赚赚 #极速版签到 #抽奖机 #许愿池
         parameters:
           name: pigPet_kd_jdzz_ssign_lMach_wp

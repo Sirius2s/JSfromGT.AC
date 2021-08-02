@@ -7,7 +7,7 @@ wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/ind
 wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/tencentscf.js
 # wget -O package.json https://raw.githubusercontent.com/sirius2s/JSfromGT/remGT/package.json
 wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
-# wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
+wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 # sed -i 's/canHelp = true/canHelp = false/g' jd_cfd.js
 wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js
@@ -30,7 +30,7 @@ wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scri
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js
 wget -O jd_blueCoin.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_blueCoin.js
-wget -O jd_jxqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxqd.js
+wget -O jd_jxqd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jx_sign.js
 wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js

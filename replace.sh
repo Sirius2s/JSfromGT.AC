@@ -13,8 +13,9 @@ wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_
 wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js
 wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bookshop.js
 # wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
-# wget -O jd_joy.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js
-# wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_feedPets.js
+wget -O jd_joy.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy.js
+wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_feedPets.js
+wget -O jd_joy_steal.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_steal.js
 wget -O jd_joy_reward.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_reward.js
 wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js

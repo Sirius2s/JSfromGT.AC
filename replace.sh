@@ -51,3 +51,5 @@ sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
 # sed -i 's/const readShareCodeRes = await readShareCode()/const readShareCodeRes = null/g' `grep 'const readShareCodeRes = await readShareCode()' -rl ./`
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
+sed -i '/var HELP_HW =/a HELP_HW = '"'false'"''  `grep 'var HELP_HW =' -rl ./`
+sed -i '/var HELP_POOL =/a HELP_POOL = '"'false'"''  `grep 'var HELP_POOL =' -rl ./`

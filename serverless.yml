@@ -65,7 +65,7 @@ inputs:
           name: superMarket_syj_cfd_ffl
           cronExpression: "0 15 * * * * *"
           enable: true
-          argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner
+          argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner&jd_health_energy
     - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #女装盲盒 #京东保价 #京喜签到[HW]
         parameters:
           name: bchg_rList_bhome_sgmh_price_jxs

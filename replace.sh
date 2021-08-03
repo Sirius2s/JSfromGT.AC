@@ -25,6 +25,10 @@ wget -O ./utils/ZooFaker_Necklace.js https://raw.githubusercontent.com/Aaron-lv/
 wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/ZooFaker_Necklace.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_beauty.js
 wget -O jd_health.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js
+sed -i 's/const inviteCodes = /let inviteCodes = /g'  jd_health.js
+sed -i '/let reward =/i \inviteCodes = ['"''"']' jd_health.js
+sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
+wget -O jd_health_energy.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_z_health_energy.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_bean_home.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_sign.js

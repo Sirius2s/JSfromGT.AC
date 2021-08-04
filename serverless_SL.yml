@@ -29,13 +29,13 @@ inputs:
           name: fr_pt_cf_sg_jb_hb
           cronExpression: "15 6 * * *"
           enable: true
-          argument: jd_jbczy&adolf_jxhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_sign_graphics&jd_MMdou #&jd_fruit&jd_pet&jd_cfd&jd_sgmh &jd_ppdz
-    - timer: #超级盒子[? 5,6] #点点券[smiek2221] #ChinaJoy #梦工厂 #种豆 #东工厂
+          argument: jd_fruit&jd_pet&jd_jbczy&adolf_jxhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_sign_graphics&jd_MMdou #&jd_cfd&jd_sgmh &jd_ppdz
+    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #ChinaJoy #东工厂
         parameters:
-          name: sbox_ddj_dmf_pb_ddf_hwsx_cj
+          name: dmf_pb_sbox_ddj_cj #ddf_
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: adolf_superbox&jd_mb&jd_chinajoy #&jd_necklace&jd_dreamFactory&jd_plantBean&jd_jdfactory
+          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&jd_chinajoy #&jd_necklace&jd_jdfactory
     - timer: #京喜牧场star
         parameters:
           name: mc

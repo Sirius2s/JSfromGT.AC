@@ -24,12 +24,12 @@ inputs:
           cronExpression: "45 0,21,23 * * *"
           enable: true
           argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
-    - timer: #农场 #宠物 #财富 #闪购 #金榜创造营 #京喜阶梯红包 #泡泡大战 #省钱大赢家
+    - timer: #农场 #宠物 #财富 #闪购 #金榜创造营 #京喜阶梯红包 #省钱大赢家 ###泡泡大战
         parameters:
-          name: fr_pt_cf_sg_jb_hb_pp
+          name: fr_pt_cf_sg_jb_hb
           cronExpression: "15 6 * * *"
           enable: true
-          argument: jd_jbczy&adolf_jxhb&jd_ppdz&jd_lsj&jd_goodMorning&jd_dpqd&jd_sign_graphics&jd_MMdou #&jd_fruit&jd_pet&jd_cfd&jd_sgmh
+          argument: jd_jbczy&adolf_jxhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_sign_graphics&jd_MMdou #&jd_fruit&jd_pet&jd_cfd&jd_sgmh &jd_ppdz
     - timer: #超级盒子[? 5,6] #点点券[smiek2221] #ChinaJoy #梦工厂 #种豆 #东工厂
         parameters:
           name: sbox_ddj_dmf_pb_ddf_hwsx_cj

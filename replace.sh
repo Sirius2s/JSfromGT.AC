@@ -6,7 +6,7 @@ wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/ma
 wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/index.js
 wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/tencentscf.js
 # wget -O package.json https://raw.githubusercontent.com/sirius2s/JSfromGT/remGT/package.json
-wget -O jd_wsdlb.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_wsdlb.js
+wget -O jd_wsdlb.js https://raw.githubusercontent.com/Annao3o/jdqd/master/jd_wsdlb.js
 wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 # sed -i 's/canHelp = true/canHelp = false/g' jd_cfd.js
@@ -36,12 +36,13 @@ wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_
 wget -O jd_jxmc.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxmc.js
 wget -O jd_blueCoin.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_blueCoin.js
 wget -O jd_jxqd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jx_sign.js
-wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
-wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
+# wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
+# wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
+wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

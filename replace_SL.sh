@@ -7,10 +7,6 @@ wget -O adolf_jxhb.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/
 wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
 # wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
 wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
-wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
-wget -O jd_fruit.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
-wget -O jd_plantBean.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
-wget -O jd_pet.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
 # wget -O jd_jdfactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jdfactory.js
 # wget -O jd_sgmh.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
 # wget -O jd_cfd.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cfd.js
@@ -41,3 +37,8 @@ wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_
 # sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
+###
+wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
+wget -O jd_fruit.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
+wget -O jd_plantBean.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
+wget -O jd_pet.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js

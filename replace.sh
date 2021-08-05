@@ -14,7 +14,7 @@ wget -O jd_cfdtx.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/j
 wget -O jd_bookshop.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bookshop.js
 # wget -O jd_gold_creator.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_gold_creator.js
 wget -O jd_joy.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy.js
-wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_feedPets.js
+# wget -O jd_joy_feedPets.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_feedPets.js
 wget -O jd_joy_steal.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_steal.js
 wget -O jd_joy_reward.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_reward.js
 wget -O ./utils/JDJRValidator_Pure.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js
@@ -42,6 +42,7 @@ wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scrip
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
+wget -O jd_wxFans.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wxFans.js
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

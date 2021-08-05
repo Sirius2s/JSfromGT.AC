@@ -30,18 +30,18 @@ inputs:
           cronExpression: "0 0 0,8,12,13,16 * * * *"
           enable: true
           argument: jd_blueCoin&jd_cfdtx&jd_car_exchange&jd_joy_reward
-    - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #宠汪汪 #京喜农场(cancel)
+    - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #京喜农场(cancel)
         parameters:
-          name: fruit_pet_bshop_gcreator_dlb_joy #_jxnc
+          name: fruit_pet_bshop_gcreator_dlb #_jxnc
           cronExpression: "0 5 6-18/6,8 * * * *"
           enable: true
-          argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_wsdlb&jd_joy # &jd_jxnc
-    - timer: #摇钱树 #京东种豆 #京喜工厂 #东东工厂 #宠汪汪喂食
+          argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_wsdlb # &jd_jxnc
+    - timer: #摇钱树 #京东种豆 #京喜工厂 #东东工厂 ###宠汪汪喂食
         parameters:
           name: mTree_pBean_jxFac_jdfac_joyfd
           cronExpression: "0 3 */1 * * * *"
           enable: true
-          argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory&jd_joy_feedPets
+          argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory  #&jd_joy_feedPets
     - timer: #东东小窝 #点点券 #电竞经理 #零食街 #健康社区 ###美妆 #跳跳乐
         parameters:
           name: shome_neckl_jp_em_fr_bt_hlth
@@ -54,24 +54,24 @@ inputs:
           cronExpression: "0 10 0 * * * *"
           enable: true
           argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms&jd_jxqd
-    - timer: #京东天天加速 #京喜牧场 #宠汪汪偷狗粮
+    - timer: #京东天天加速 #京喜牧场 #宠汪汪偷狗粮 #宠汪汪
         parameters:
-          name: speed_jxmc_joystl
+          name: speed_jxmc_joystl_joy
           cronExpression: "0 8 */3 * * * *"
           enable: true
-          argument: jd_speed&jd_jxmc&jd_joy_steal
+          argument: jd_speed&jd_jxmc&jd_joy_steal&jd_joy
     - timer: #东东超市 #十元街 #财富岛 #翻翻乐
         parameters:
           name: superMarket_syj_cfd_ffl
           cronExpression: "0 15 * * * * *"
           enable: true
           argument: jd_superMarket&jd_syj&jd_cfd&jd_big_winner&jd_health_energy
-    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #京东保价 #京喜签到[HW] ###价格保护 #女装盲盒 
+    - timer: #京豆变动通知 #京东排行榜 #领京豆额外奖励 #闪购盲盒 #京东保价 #京喜签到[HW] #粉丝互动 ###价格保护 #女装盲盒 
         parameters:
-          name: bchg_rList_bhome_sgmh_jxs #_price
+          name: bchg_rList_bhome_sgmh_jxs_wxfan #_price
           cronExpression: "0 30 7 * * * *"
           enable: true
-          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh&jx_sign #&jd_price&jd_nzmh
+          argument: jd_bean_change&jd_rankingList&jd_bean_home&jd_sgmh&jx_sign&jd_wxFans #&jd_price&jd_nzmh
     - timer: #金融养猪 #京东快递 #京东赚赚 #极速版签到 #抽奖机 #许愿池
         parameters:
           name: pigPet_kd_jdzz_ssign_lMach_wish

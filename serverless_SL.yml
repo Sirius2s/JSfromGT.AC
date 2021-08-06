@@ -72,12 +72,12 @@ inputs:
     #       cronExpression: "14,41 7-14 * * *"
     #       enable: true
     #       argument: jd_summer_movement_help          
-    - timer: # 临时运行用
-        parameters:
-          name: temp
-          cronExpression: "33 10,11 5 8 *"
-          enable: true
-          argument: jd_Z4Brand
+    # - timer: # 临时运行用
+    #     parameters:
+    #       name: temp
+    #       cronExpression: "33 10,11 5 8 *"
+    #       enable: true
+    #       argument: jd_Z4Brand
   environment: #  环境变量
     variables: #  环境变量对象
       AAA: BBB # 不要删除，用来格式化对齐追加的变量的

@@ -21,16 +21,17 @@ wget -O JDJRValidator_Smiek.js https://raw.githubusercontent.com/zero205/JD_tenc
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O sign_graphics_validate.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/sign_graphics_validate.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
+wget -O jd_doge.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js
 wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
-wget -O jd_qqx.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
-wget -O jd_chinajoy.js https://raw.githubusercontent.com/zll2317463866/tiger/main/jd_chinajoy.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
+wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
+wget -O z_ryhxj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ryhxj.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

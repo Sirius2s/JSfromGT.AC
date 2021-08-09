@@ -30,18 +30,18 @@ inputs:
           cronExpression: "45 6 * * *"
           enable: true
           argument: jd_fruit&jd_pet&jd_unsubscribe&jd_jbczy&adolf_jxhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_MMdou&jd_sign_graphics #&jd_cfd&jd_sgmh &jd_ppdz
-    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #ChinaJoy #东工厂
+    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #东工厂 #荣耀焕新季
         parameters:
           name: dmf_pb_sbox_ddj_cj #ddf_
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&jd_chinajoy #&jd_necklace&jd_jdfactory
+          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&z_ryhxj #&jd_necklace&jd_jdfactory
     - timer: #京喜牧场star
         parameters:
           name: mc
           cronExpression: "10 8,14,20 * * *"
           enable: true
-          argument: jd_jxmc&jd_joypark_task
+          argument: jd_jxmc&jd_joypark_task&jd_doge
     - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量
         parameters:
           name: redrain
@@ -65,7 +65,7 @@ inputs:
           name: mohe_jpj_hc
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&jd_joypark_joy&z_cfd&jd_qqx #&z_health_community
+          argument: jd_mohe&jd_joypark_joy&z_cfd #&z_health_community
     # - timer: #燃夏
     #     parameters:
     #       name: summer

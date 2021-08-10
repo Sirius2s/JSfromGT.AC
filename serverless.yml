@@ -29,7 +29,7 @@ inputs:
           name: blueCoin_cfdtx_carexc_joyrw
           cronExpression: "0 0 0,8,12,13,16 * * * *"
           enable: true
-          argument: jd_blueCoin&jd_cfdtx&jd_car_exchange&jd_joy_reward
+          argument: jd_blueCoin&jd_car_exchange&jd_joy_reward #&jd_cfdtx
     - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #京喜农场(cancel)
         parameters:
           name: fruit_pet_bshop_gcreator_dlb #_jxnc
@@ -47,7 +47,7 @@ inputs:
           name: shome_neckl_jp_em_fr_bt_hlth
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_small_home&jd_esManager&jd_foodRunning&jd_necklace&jd_health #&jd_beauty&jd_jump
+          argument: jd_small_home&jd_esManager&jd_foodRunning&jd_necklace&jd_health&jd_carnivalcity #&jd_beauty&jd_jump
     - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到[AL]
         parameters:
           name: redP_shop_unsub_car_ms_jtie_jxqd

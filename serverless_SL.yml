@@ -23,25 +23,25 @@ inputs:
           name: spdredpocke_redPacket_clot
           cronExpression: "45 0,21,23 * * *"
           enable: true
-          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery
+          argument: jd_speed_redpocke&jd_redPacket&jd_club_lottery&z_cnvcity
     - timer: #农场 #宠物 #财富 #闪购 #金榜创造营 #京喜阶梯红包 #省钱大赢家 ###泡泡大战
         parameters:
           name: fr_pt_cf_sg_jb_hb
           cronExpression: "45 6 * * *"
           enable: true
           argument: jd_fruit&jd_pet&jd_unsubscribe&jd_jbczy&adolf_jxhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_MMdou&jd_sign_graphics #&jd_cfd&jd_sgmh &jd_ppdz
-    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #东工厂 #荣耀焕新季
+    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #东工厂 #荣耀焕新季 #特物Z
         parameters:
-          name: dmf_pb_sbox_ddj_cj #ddf_
+          name: dmf_pb_sbox_ddj #ddf_
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&z_ryhxj #&jd_necklace&jd_jdfactory
+          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&z_ryhxj&z_ldhwj&jd_Z4B #&jd_necklace&jd_jdfactory
     - timer: #京喜牧场star
         parameters:
           name: mc
           cronExpression: "10 8,14,20 * * *"
           enable: true
-          argument: jd_jxmc&jd_joypark_task&jd_doge
+          argument: jd_jxmc&jd_joypark_task&jd_doge&jd_cnvcity
     - timer: #整点京豆雨 #直播间红包雨 #健康社区藏经阁版-收能量
         parameters:
           name: redrain

@@ -32,14 +32,15 @@ wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_sc
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
-wget -O jd_cnvcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
+wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O z_ryhxj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ryhxj.js
 wget -O z_ldhwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ldhwj.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/wuzhi04/MyActions/main/jd_productZ4Brand.js
 ###
-# wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
+wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh
-# sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+###
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
 ###

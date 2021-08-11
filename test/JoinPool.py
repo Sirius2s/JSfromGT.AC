@@ -14,7 +14,8 @@ poolurls = ['http://www.helpu.cf/jdcodes/submit.php?code=${R0xgDZpumLgWjxq6jCH9M
             'http://www.helpu.cf/jdcodes/submit.php?code=${34e846b3-7390-4897-9d63-ddaa307e850b}&type=sgmh',
             'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVQmoaT5kRrbA}&type=sgmh',
             'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVWmIaW5kRrbA}&type=sgmh',
-            'http://www.helpu.cf/jdcodes/submit.php?code=${QEJ1NanxZL8}&type=cash']
+            # 'http://www.helpu.cf/jdcodes/submit.php?code=${QEJ1NanxZL8}&type=cash'
+            ]
 rs_text = ''
 
 def JoinPool(url):

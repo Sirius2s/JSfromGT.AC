@@ -1,7 +1,11 @@
 ###
 wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/serverless_SL.yml
-wget -O jd_super_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_super_redrain.js
-wget -O jd_half_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_half_redrain.js
+# wget -O jd_super_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_super_redrain.js
+# wget -O jd_half_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_half_redrain.js
+# wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
+wget -O jd_super_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_super_redrain.js
+wget -O jd_half_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_half_redrain.js
+wget -O jd_live_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_live_redrain.js
 wget -O adolf_superbox.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/normal/adolf_superbox.js
 wget -O adolf_jxhb.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/normal/adolf_jxhb.js
 wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
@@ -28,7 +32,6 @@ wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_scrip
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 wget -O z_cnvcity.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
-wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js

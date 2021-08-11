@@ -44,6 +44,8 @@ wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/ma
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
 wget -O jd_wxFans.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wxFans.js
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
+wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
+wget -O z_818.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_818.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

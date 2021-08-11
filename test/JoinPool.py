@@ -1,17 +1,20 @@
 import requests                # 网络请求库
 import json                    # Json转换库
 import os
+import notification
 
-poolurls = ['http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5lZRSjm9nn4J/',
-            # 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/T0113aQxGVta9xcCjVWnYaS5kRrbA/',
-            'http://api.turinglabs.net/api/v1/jd/jxfactory/create/R0xgDZpumLgWjxq6jCH9Mg==/',
-            'http://api.turinglabs.net/api/v1/jd/farm/create/c9cfb4f9c5634c0dabd3a328a5230f87/',
-            'http://api.turinglabs.net/api/v1/jd/bean/create/twfaqwk2rzgw35t66avsmxlb6u/',
-            'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwMzM4MTUyNDc=/',
-            'https://code.chiang.fun/api/v1/jd/jdzz/create/S3aQxGVta9xc/',
-            'https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/NTqJ2nWDjUarfc3eWGgXhA==/',
-            'https://code.chiang.fun/api/v1/jd/jdzz/create/AaGwUxujTz3Y/'
-            'https://code.chiang.fun/api/v1/jd/jdcash/create/QEJ1NanxZL8/']
+poolurls = ['http://www.helpu.cf/jdcodes/submit.php?code=${R0xgDZpumLgWjxq6jCH9Mg==}&type=jxfactory',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${twfaqwk2rzgw35t66avsmxlb6u}&type=bean',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVWnYaS5kRrbA}&type=ddfactory',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${P04z54XCjVWnYaS5lZRSjm9nn4J}&type=ddfactory',
+            # 'http://www.helpu.cf/jdcodes/submit.php?code=${myInviteCode}&type=jxcfd', #每天变
+            'http://www.helpu.cf/jdcodes/submit.php?code=${c9cfb4f9c5634c0dabd3a328a5230f87}&type=farm',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVfnoaW5kRrbA}&type=health',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${MTE1NDUyMjEwMDAwMDAwMzM4MTUyNDc=}&type=pet',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${34e846b3-7390-4897-9d63-ddaa307e850b}&type=sgmh',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVQmoaT5kRrbA}&type=sgmh',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${T0113aQxGVta9xcCjVWmIaW5kRrbA}&type=sgmh',
+            'http://www.helpu.cf/jdcodes/submit.php?code=${QEJ1NanxZL8}&type=cash']
 rs_text = ''
 
 def JoinPool(url):
@@ -21,7 +24,10 @@ def JoinPool(url):
     if url.__contains__('chiang'):
         return rslt.json()['msg']
     else:
-        return rslt.json()['message']
+        if url.__contains__('helpu'):
+            return rslt.json()['data']
+        else:
+            return rslt.json()['message']
 
 for purl in poolurls:
     if len(rs_text) > 0:
@@ -29,21 +35,7 @@ for purl in poolurls:
     if len(rs_text) == 0:
         rs_text = JoinPool(purl) + '\n\n'
 
-def serverJ(title, content):
-    sckey = ''
-    if "PUSH_KEY" in os.environ:
-        sckey = os.environ["PUSH_KEY"]
-
-    if not sckey:
-        print("server酱服务的PUSH_KEY未设置!!\n取消推送")
-        return
-    # print("serverJ服务启动")
-    data = {
-        "text": title,
-        "desp": content
-    }
-    response = requests.post(f"https://sc.ftqq.com/{sckey}.send", data=data)
-    print(response.text)
-
-serverJ("JoinPool", rs_text)
+notification.notify_QW_AM("JoinPool", rs_text)
+notification.notify_QMSG("JoinPool", rs_text)
+notification.notify("JoinPool", rs_text)
 print(rs_text)

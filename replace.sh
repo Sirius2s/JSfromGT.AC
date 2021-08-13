@@ -43,6 +43,10 @@ wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scr
 wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
 wget -O jd_wxFans.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wxFans.js
+sed -i '/const activityList =/a \    {'"'actid'"':'"'a422e7bb8cee4092b3b5bc91a0d8fa61'"','"'endTime'"':1629129600000},' jd_wxFans.js
+sed -i '/const activityList =/a \    {'"'actid'"':'"'8afc9104d6444696b3f16ceb23a24536'"','"'endTime'"':1630425599000},' jd_wxFans.js
+sed -i '/const activityList =/a \    {'"'actid'"':'"'f006443799d34b55b9061be7b765c3fa'"','"'endTime'"':1630339200000},' jd_wxFans.js
+sed -i '/const activityList =/a \    {'"'actid'"':'"'58121dee0d84428bbdeb83934ffa1b80'"','"'endTime'"':1630425599000},' jd_wxFans.js
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
 wget -O z_818.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_818.js

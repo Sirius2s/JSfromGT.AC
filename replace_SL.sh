@@ -19,13 +19,12 @@ wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts
 # wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
 wget -O jd_lsj.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lsj.js
 wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js
-wget -O jd_dpqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
+wget -O jd_dpqd.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_dpqd.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_sign_graphics.js
 wget -O JDJRValidator_Smiek.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Smiek.js
 wget -O JDJRValidator_Pure.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Pure.js
 wget -O sign_graphics_validate.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/sign_graphics_validate.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
-wget -O jd_doge.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_doge.js
 wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
@@ -42,6 +41,7 @@ wget -O z_ldhwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/maste
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_golden_machine.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_golden_machine.js
 wget -O jd_decompression.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js
+wget -O jd_star_shop.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js
 ###
 wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

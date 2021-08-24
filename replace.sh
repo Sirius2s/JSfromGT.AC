@@ -41,6 +41,7 @@ wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 wget -O jd_cash.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cash.js
+wget -O jd_ccSign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ccSign.js
 wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
 wget -O jd_wxFans.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_wxFans.js

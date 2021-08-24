@@ -48,12 +48,12 @@ inputs:
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
           argument: jd_small_home&jd_esManager&jd_foodRunning&jd_necklace&jd_health #&jd_beauty&jd_jump
-    - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到[AL]
+    - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到[AL] #领券中心签到
         parameters:
-          name: redP_shop_unsub_car_ms_jtie_jxqd
+          name: redP_shop_unsub_car_ms_jtie_jxqd_cs
           cronExpression: "0 10 0 * * * *"
           enable: true
-          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms&jd_jxqd
+          argument: jd_redPacket&jd_shop&jd_unsubscribe&jd_car&jd_jin_tie&jd_ms&jd_jxqd&jd_ccSign
     - timer: #京东天天加速 #京喜牧场 #宠汪汪偷狗粮 #宠汪汪
         parameters:
           name: speed_jxmc_joystl_joy

@@ -47,6 +47,7 @@ wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf
 wget -O jd_wxFans.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_wxFans.js
 # sed -i '/const activityList =/a \    {'"'actid'"':'"'a422e7bb8cee4092b3b5bc91a0d8fa61'"','"'endTime'"':1629129600000},' jd_wxFans.js
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
+wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
 wget -O z_818.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_818.js
 ###

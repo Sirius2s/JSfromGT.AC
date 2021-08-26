@@ -7,7 +7,6 @@ wget -O jd_super_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/
 wget -O jd_half_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_half_redrain.js
 wget -O jd_live_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_live_redrain.js
 wget -O adolf_superbox.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/normal/adolf_superbox.js
-wget -O adolf_jxhb.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/normal/adolf_jxhb.js
 wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
 # wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js
 wget -O jd_ffl.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_618redpacket.js
@@ -36,6 +35,7 @@ wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
 wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
+wget -O jd_jxlhb.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js
 wget -O z_ryhxj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ryhxj.js
 wget -O z_ldhwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ldhwj.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js

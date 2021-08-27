@@ -52,7 +52,11 @@ wget -O jd_wxFans.js https://raw.githubusercontent.com/star261/jd/main/scripts/j
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
-wget -O z_818.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_818.js
+wget -O jddj_fruit.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
+wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js
+wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js
+wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
+wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`
@@ -69,3 +73,5 @@ sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
 sed -i '/var HELP_HW =/a HELP_HW = '"'false'"''  `grep 'var HELP_HW =' -rl ./`
 sed -i '/var HELP_POOL =/a HELP_POOL = '"'false'"''  `grep 'var HELP_POOL =' -rl ./`
+sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
+sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`

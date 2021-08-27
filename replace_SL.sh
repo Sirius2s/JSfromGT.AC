@@ -28,21 +28,17 @@ wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
-wget -O z_cnvcity.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
-wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_jxlhb.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js
-wget -O z_ryhxj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ryhxj.js
-wget -O z_ldhwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ldhwj.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 ###
-wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
-# chmod +x cf_getcode.sh
-sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+# wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
+# # chmod +x cf_getcode.sh
+# sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`

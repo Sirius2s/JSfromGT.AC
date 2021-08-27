@@ -43,6 +43,7 @@ wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scr
 wget -O jd_cash.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cash.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ccSign.js
 wget -O jd_live.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live.js
+wget -O jd_redPacket.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_redPacket.js
 wget -O jd_pigPet.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_pigPet.js
 wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_sign.js
 wget -O jd_bean_change.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_change.js

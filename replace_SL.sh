@@ -47,3 +47,4 @@ wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scr
 wget -O jd_fruit.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
 wget -O jd_plantBean.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
 wget -O jd_pet.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
+sed -i 's/ process.env.runTimesErrNotify ?? / /g' `grep ' process.env.runTimesErrNotify ?? ' -rl ./`

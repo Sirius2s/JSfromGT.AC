@@ -73,6 +73,6 @@ sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
 sed -i '/var HELP_HW =/a HELP_HW = '"'false'"''  `grep 'var HELP_HW =' -rl ./`
 sed -i '/var HELP_POOL =/a HELP_POOL = '"'false'"''  `grep 'var HELP_POOL =' -rl ./`
-sed -i 's/ process.env.runTimesErrNotify ?? / /g' `grep ' process.env.runTimesErrNotify ?? ' -rl ./`
+# sed -i 's/ process.env.runTimesErrNotify ?? / /g' `grep ' process.env.runTimesErrNotify ?? ' -rl ./`
 sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
 sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`

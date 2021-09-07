@@ -1,11 +1,12 @@
 ###
 wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/serverless_SL.yml
-# wget -O jd_super_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_super_redrain.js
-# wget -O jd_half_redrain.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_half_redrain.js
-# wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
-wget -O jd_super_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_super_redrain.js
-wget -O jd_half_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_half_redrain.js
-wget -O jd_live_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_live_redrain.js
+wget -O jd_super_redrain.js https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_super_redrain.js
+wget -O jd_half_redrain.js https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_half_redrain.js
+wget -O jd_live_redrain.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live_redrain.js
+wget -O jd_super_mh.js https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_super_mh.js
+# wget -O jd_super_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_super_redrain.js
+# wget -O jd_half_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_half_redrain.js
+# wget -O jd_live_redrain.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_live_redrain.js
 wget -O adolf_superbox.js https://raw.githubusercontent.com/sirius2s/JSfromGT/remMC/normal/adolf_superbox.js
 wget -O jd_jbczy.js https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js
 # wget -O jd_ppdz.js https://raw.githubusercontent.com/panghu999/panghu/master/jd_ppdz.js

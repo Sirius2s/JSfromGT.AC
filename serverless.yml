@@ -27,7 +27,7 @@ inputs:
     - timer: #京小超兑换 #财富岛提现 #京东汽车兑换 #宠汪汪兑换 
         parameters:
           name: blueCoin_cfdtx_carexc_joyrw
-          cronExpression: "0 0 0,8,12,13,16 * * * *"
+          cronExpression: "0 59 7,11,12,15,23 * * * *"
           enable: true
           argument: jd_blueCoin&jd_car_exchange&jd_joy_reward #&jd_cfdtx
     - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #京喜农场(cancel)

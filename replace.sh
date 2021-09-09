@@ -52,6 +52,9 @@ wget -O jd_wxFans.js https://raw.githubusercontent.com/star261/jd/main/scripts/j
 wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
+wget -O jd_jin_tie.js https://raw.githubusercontent.com/X1a0He/jd_scripts_fixed/main/jd_jin_tie_xh.js
+wget -O jd_car_exchange.js https://raw.githubusercontent.com/X1a0He/jd_scripts_fixed/main/jd_car_exchange_xh.js
+wget -O jd_superMarket.js https://raw.githubusercontent.com/X1a0He/jd_scripts_fixed/main/jd_superMarket_xh.js
 wget -O jddj_fruit.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
 wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js
 wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js

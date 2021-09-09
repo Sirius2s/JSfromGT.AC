@@ -30,12 +30,12 @@ inputs:
           cronExpression: "45 6 * * *"
           enable: true
           argument: jd_fruit&jd_pet&jd_unsubscribe&jd_jbczy&jd_jxlhb&jd_lsj&jd_goodMorning&jd_dpqd&jd_MMdou&jd_sign_graphics&jd_wish&jd_sgmh #&jd_cfd &jd_ppdz
-    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #东工厂 #特物Z #心相印[1-30 9,10]
+    - timer: #梦工厂 #种豆 #超级盒子[? 5,6] #点点券[smiek2221] #东工厂 #特物Z #心相印[1-30 9,10] #集卡
         parameters:
           name: dmf_pb_sbox_ddj #ddf_
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&jd_Z4B&jd_xxy #&jd_necklace&jd_jdfactory
+          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_mb&jd_Z4B&jd_xxy&jd_jika #&jd_necklace&jd_jdfactory
     - timer: #京喜牧场star
         parameters:
           name: mc

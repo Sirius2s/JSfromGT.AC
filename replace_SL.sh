@@ -36,6 +36,7 @@ wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_jxlhb.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js
+wget -O jd_connoisseur.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_connoisseur.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_xxy.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_xinxiangyin.js
 sed -i 's/&shareUuid=${$.shareUuid}//g' jd_xxy.js

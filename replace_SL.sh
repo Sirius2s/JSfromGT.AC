@@ -31,14 +31,13 @@ wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_scrip
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 wget -O z_xj.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_UnknownTask4.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
-wget -O jd_jika.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jika.js
-wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js
 wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mohe.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_jxlhb.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js
 wget -O jd_connoisseur.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_connoisseur.js
 wget -O jd_cfd_mooncake.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_mooncake.js
+wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_xxy.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_xinxiangyin.js
 wget -O jd_star_shop.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js

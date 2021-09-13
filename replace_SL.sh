@@ -29,6 +29,7 @@ wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
+wget -O z_xj.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_UnknownTask4.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 wget -O jd_jika.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jika.js
 wget -O jd_mb.js https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_mb.js
@@ -37,9 +38,10 @@ wget -O jd_mohe.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_jxlhb.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jxlhb.js
 wget -O jd_connoisseur.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_connoisseur.js
+wget -O jd_cfd_mooncake.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd_mooncake.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_xxy.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_xinxiangyin.js
-sed -i 's/&shareUuid=${$.shareUuid}//g' jd_xxy.js
+wget -O jd_star_shop.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh
@@ -47,6 +49,7 @@ sed -i 's/&shareUuid=${$.shareUuid}//g' jd_xxy.js
 ###
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
+sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./`
 ###
 wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
 wget -O jd_fruit.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js

@@ -60,6 +60,7 @@ wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/
 wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js
 wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
 wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
+wget -O z_qycl.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_qycl.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

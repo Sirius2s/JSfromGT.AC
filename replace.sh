@@ -6,7 +6,7 @@ wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/ma
 wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/index.js
 wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/tencentscf.js
 # wget -O package.json https://raw.githubusercontent.com/sirius2s/JSfromGT/remGT/package.json
-wget -O jd_wsdlb.js http://nm66.top/jd_wsdlb.js
+wget -O jd_wsdlb.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wsdlb.js
 wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 # sed -i 's/canHelp = true/canHelp = false/g' jd_cfd.js
@@ -49,7 +49,7 @@ wget -O jd_bean_sign.js https://raw.githubusercontent.com/zero205/JD_tencent_scf
 wget -O jd_bean_change.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_change.js
 wget -O jd_wxFans.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_fan.js
 # sed -i '/const activityList =/a \    {'"'actid'"':'"'a422e7bb8cee4092b3b5bc91a0d8fa61'"','"'endTime'"':1629129600000},' jd_wxFans.js
-wget -O jd_wish.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wish.js
+wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
 wget -O jd_jin_tie.js https://raw.githubusercontent.com/X1a0He/jd_scripts_fixed/main/jd_jin_tie_xh.js

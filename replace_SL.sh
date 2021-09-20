@@ -46,6 +46,7 @@ wget -O jd_star_shop.js https://raw.githubusercontent.com/star261/jd/main/script
 wget -O jd_film_museum.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_film_museum.js
 wget -O z_ddworld.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_ddworld.js
 sed -i 's/$.accessToken ?? '"'undefined'"'/$.accessToken/g' z_ddworld.js
+wget -O jd_ddwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
 ###
 wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

@@ -6,7 +6,7 @@ wget -O serverless.yml https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/ma
 wget -O index.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/index.js
 wget -O tencentscf.js https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/tencentscf.js
 # wget -O package.json https://raw.githubusercontent.com/sirius2s/JSfromGT/remGT/package.json
-wget -O jd_wsdlb.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wsdlb.js
+# wget -O jd_wsdlb.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_wsdlb.js
 wget -O jd_price.js https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 wget -O jd_cfd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 # sed -i 's/canHelp = true/canHelp = false/g' jd_cfd.js

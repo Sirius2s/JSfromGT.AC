@@ -30,12 +30,12 @@ inputs:
           cronExpression: "55 59 7,11,12,15,23 * * * *"
           enable: true
           argument: jd_blueCoin&jd_car_exchange&jd_joy_reward #&jd_cfdtx
-    - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #大老板 #东东世界 #京喜农场(cancel)
+    - timer: #东东农场 #东东萌宠 #口袋书店 #金榜创造营 #东东世界 #京喜农场(cancel)
         parameters:
-          name: fruit_pet_bshop_gcreator_dlb_ddw #_jxnc
+          name: fruit_pet_bshop_gcreator_ddw #_jxnc
           cronExpression: "0 5 6-18/6,8 * * * *"
           enable: true
-          argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_wsdlb&jd_ddworld # &jd_jxnc
+          argument: jd_fruit&jd_pet&jd_bookshop&jd_gold_creator&jd_ddworld # &jd_jxnc
     - timer: #摇钱树 #京东种豆 #京喜工厂 #东东工厂 #到家鲜豆庄园收水滴 ###宠汪汪喂食
         parameters:
           name: mTree_pBean_jxFac_jdfac_joyfd_djgp

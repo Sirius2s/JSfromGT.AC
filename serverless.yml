@@ -42,12 +42,12 @@ inputs:
           cronExpression: "0 3 */1 * * * *"
           enable: true
           argument: jd_moneyTree&jd_plantBean&jd_dreamFactory&jd_jdfactory&jddj_getPoints  #&jd_joy_feedPets
-    - timer: #东东小窝 #点点券 #电竞经理 #零食街 #健康社区 #到家果园 ###美妆 #跳跳乐
+    - timer: #东东小窝 #点点券 #电竞经理 #零食街 #健康社区 #到家果园 #美妆 ###跳跳乐
         parameters:
           name: shome_neckl_jp_em_fr_bt_hlth_djf
           cronExpression: "0 0 0-16/8,20 * * * *"
           enable: true
-          argument: jd_small_home&jd_esManager&jd_foodRunning&jd_necklace&jd_health&jddj_fruit #&jd_beauty&jd_jump
+          argument: jd_small_home&jd_esManager&jd_foodRunning&jd_necklace&jd_health&jddj_fruit&jd_beauty #&jd_jump
     - timer: #全民开红包 #进店领豆 #取关店铺商品 #京东汽车 #京东秒秒币 #领金贴 #京喜签到[AL] #领券中心签到 #到家鲜豆 #企有此礼
         parameters:
           name: redP_shop_unsub_car_ms_jtie_jxqd_cs_djb_qycl

@@ -43,15 +43,15 @@ wget -O jd_ddworld.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_xxy.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_xinxiangyin.js
 wget -O jd_star_shop.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_star_shop.js
-wget -O jd_film_museum.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_film_museum.js
 wget -O z_ddworld.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_ddworld.js
 sed -i 's/$.accessToken ?? '"'undefined'"'/$.accessToken/g' z_ddworld.js
 wget -O jd_decomp.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js
 wget -O jd_ddwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
+wget -O jd_mofang.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_mofang.js
 ###
-wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
-# chmod +x cf_getcode.sh
-sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+# wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
+# # chmod +x cf_getcode.sh
+# sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`

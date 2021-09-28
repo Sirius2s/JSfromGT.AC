@@ -35,7 +35,7 @@ inputs:
           name: dmf_pb_sbox_ddj #ddf_
           cronExpression: "18 9,20 * * *"
           enable: true
-          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_Z4B&jd_xxy&jd_connoisseur&jd_star_shop&jd_ddworld&jd_decomp&jd_mofang #&jd_necklace&jd_jdfactory
+          argument: jd_dreamFactory&jd_plantBean&adolf_superbox&jd_Z4B&jd_xxy&jd_star_shop&jd_ddworld&jd_decomp&jd_mf&jd_connoisseur #&jd_necklace&jd_jdfactory
     - timer: #京喜牧场star #跳跳乐
         parameters:
           name: mc_jump

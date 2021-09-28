@@ -47,7 +47,7 @@ wget -O z_ddworld.js https://raw.githubusercontent.com/star261/jd/main/scripts/j
 sed -i 's/$.accessToken ?? '"'undefined'"'/$.accessToken/g' z_ddworld.js
 wget -O jd_decomp.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js
 wget -O jd_ddwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
-wget -O jd_mofang.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_mofang.js
+wget -O jd_mf.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mf.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh

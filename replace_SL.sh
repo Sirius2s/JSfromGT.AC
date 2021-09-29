@@ -18,7 +18,7 @@ wget -O jd_necklace.js https://raw.githubusercontent.com/smiek2221/scripts/maste
 wget -O ZooFaker_Necklace.js https://raw.githubusercontent.com/smiek2221/scripts/master/ZooFaker_Necklace.js
 # wget -O jx_factory.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js
 wget -O jd_lsj.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lsj.js
-wget -O jd_goodMorning.js https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js
+wget -O jd_ttpt.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ttpt.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_sign_graphics.js
 wget -O JDJRValidator_Smiek.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Smiek.js

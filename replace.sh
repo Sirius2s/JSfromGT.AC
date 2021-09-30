@@ -50,6 +50,7 @@ wget -O jd_bean_change.js https://raw.githubusercontent.com/zero205/JD_tencent_s
 wget -O jd_wxFans.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_fan.js
 # sed -i '/const activityList =/a \    {'"'actid'"':'"'a422e7bb8cee4092b3b5bc91a0d8fa61'"','"'endTime'"':1629129600000},' jd_wxFans.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
+wget -O jd_kd.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_kd.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
 wget -O z_cfd.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_cfd.js
 wget -O jd_jin_tie.js https://raw.githubusercontent.com/X1a0He/jd_scripts_fixed/main/jd_jin_tie_xh.js

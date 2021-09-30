@@ -48,6 +48,7 @@ sed -i 's/$.accessToken ?? '"'undefined'"'/$.accessToken/g' z_ddworld.js
 wget -O jd_decomp.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js
 wget -O jd_ddwj.js https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
 wget -O jd_mf.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_mf.js
+wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh

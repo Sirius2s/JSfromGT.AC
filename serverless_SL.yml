@@ -47,13 +47,13 @@ inputs:
           name: redrain
           cronExpression: "0 * * * *"
           enable: true
-          argument: jd_super_redrain&jd_live_redrain&jd_ffl&jd_cfd_mooncake
-    - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
-         parameters:
-          name: half_redrain
-          cronExpression: "30 * * * *"
-          enable: true
-          argument: jd_half_redrain&jd_live_redrain
+          argument: jd_ffl&jd_cfd_mooncake  # jd_super_redrain&jd_live_redrain&
+    # - timer: # 半点京豆雨[30 16-23/1] #直播间红包雨
+    #      parameters:
+    #       name: half_redrain
+    #       cronExpression: "30 * * * *"
+    #       enable: true
+    #       argument: jd_half_redrain&jd_live_redrain
     - timer: # 京东直播 #环境测试
         parameters:
           name: live_api
@@ -65,7 +65,7 @@ inputs:
           name: mohe_jpj_hc
           cronExpression: "0 0,1-23/3 * * *"
           enable: true
-          argument: jd_mohe&jd_joypark_joy&z_cfd #&z_health_community
+          argument: jd_mohe&jd_joypark_joy #&z_health_community&z_cfd
     # - timer: #狂欢城[9-16至10-1]
     #     parameters:
     #       name: cnvcity

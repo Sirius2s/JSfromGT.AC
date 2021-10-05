@@ -28,7 +28,7 @@ wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/g
 wget -O jd_joypark_joy.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 sed -i '/\$.JOY_COIN_MAXIMIZE\s=/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joypark_joy.js
 wget -O jd_joypark_task.js https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
-wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
+# wget -O z_cfd.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 # wget -O z_cnvcity.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js
 wget -O jd_jxmc.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 wget -O jd_speed_redpocke.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed_redpocke.js

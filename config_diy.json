@@ -17,5 +17,17 @@
     "jddj_bean": [9],
     "jddj_plantBeans": [9],
     "jddj_getPoints": 5,
-    "jddj_fruit_collectWater": 2
+    "jddj_fruit_collectWater": 2,
+    "params":
+    {
+        "global":
+        {
+            "exec": "sync",
+            "timeout": 15
+        },
+        "jd_speed_sign":
+        {
+            "timeout": 50
+        }
+    }
 }

@@ -23,8 +23,6 @@ wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo
 # # chmod +x cf_getcode.sh
 # sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
-sed -i 's/const inviteCodes = /let inviteCodes = /g'  jd_health.js
-sed -i '/let reward =/i \inviteCodes = ['"''"']' jd_health.js
 sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
@@ -33,6 +31,8 @@ sed -i 's/await\shelpFriend(code)/;/g' `grep 'await\shelpFriend(code)' -rl ./`
 sed -i 's/await\shelpFriends()/;/g' `grep 'await\shelpFriends()' -rl ./`
 sed -i 's/await\sinvite()/;/g' `grep 'await\sinvite()' -rl ./`
 sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
+sed -i 's/const inviteCodes =/let inviteCodes =/g' `grep 'const inviteCodes =' -rl ./`
+sed -i '/if ($.isNode()) {/i \inviteCodes = ['"''"']' `grep 'if ($.isNode()) {' -rl ./`
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`
 sed -i '/var HELP_HW =/a HELP_HW = '"'false'"''  `grep 'var HELP_HW =' -rl ./`

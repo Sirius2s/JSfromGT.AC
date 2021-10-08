@@ -1,5 +1,4 @@
 {
-    "jd_cfd_loop": [6, 9, 12, 15, 18, 21, 23],
     "jd_jdfactory": [4, 6, 8, 10, 12, 14, 16, 18, 20, 22],
     "jd_dreamFactory": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
     "jd_bean_change": [11],
@@ -13,6 +12,7 @@
     "jd_Z4B": [8, 9],
     "jd_xxy": [9, 15],
     "jd_jieMo": [0, 9],
+    "jd_speed_sign": [8],
     "jddj_fruit": [8, 11, 17],
     "jddj_bean": [9],
     "jddj_plantBeans": [9],

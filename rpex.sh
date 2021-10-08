@@ -1,3 +1,4 @@
+# NOT_RUN: jd_wsdlb&jd_try
 # ### HW-ts
 # tsc *.ts
 # rm -rf *.ts

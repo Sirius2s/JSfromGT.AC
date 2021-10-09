@@ -1,6 +1,7 @@
 {
-    "jd_jdfactory": [4, 6, 8, 10, 12, 14, 16, 18, 20, 22],
-    "jd_dreamFactory": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+    "jd_bean_sign": [0, 12, 18],
+    "jd_jdfactory": 2,
+    "jd_dreamFactory": 1,
     "jd_bean_change": [11],
     "jd_speed": 3,
     "jd_lotteryMachine": [0],
@@ -16,7 +17,7 @@
     "jddj_fruit": [8, 11, 17],
     "jddj_bean": [9],
     "jddj_plantBeans": [9],
-    "jddj_getPoints": 5,
+    "jddj_getPoints": 4,
     "jddj_fruit_collectWater": 2,
     "params":
     {

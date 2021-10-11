@@ -1,4 +1,4 @@
-# NOT_RUN: jd_wsdlb&jd_try
+# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try
 # ### HW-ts
 # tsc *.ts
 # rm -rf *.ts

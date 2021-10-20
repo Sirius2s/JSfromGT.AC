@@ -38,7 +38,7 @@ sed -i 's/await\shelpFriends()/;/g' `grep 'await\shelpFriends()' -rl ./`
 sed -i 's/await\sinvite()/;/g' `grep 'await\sinvite()' -rl ./`
 sed -i 's/await\sinvite2()/;/g' `grep 'await\sinvite2()' -rl ./`
 sed -i 's/const inviteCodes =/let inviteCodes =/g' `grep 'const inviteCodes =' -rl ./`
-sed -i '/function shareCodesFormat()/i \inviteCodes = ['"''"']' jd_bookshop.js jd_cash.js jd_dreamFactory.js jd_health.js jd_jdfactory.js jd_sgmh.js
+sed -i '/function shareCodesFormat()/i \inviteCodes = ['"''"']' jd_bookshop.js jd_cash.js jd_dreamFactory.js jd_health.js jd_jdfactory.js jd_sgmh.js jd_city.js
 sed -i '/if ($.shareCodesArr/i \    inviteCodes = ['"''"']' jd_moneyTree_help.js
 sed -i 's/canHelp = true/canHelp = false/g' `grep 'canHelp = true' -rl ./`
 sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl ./`

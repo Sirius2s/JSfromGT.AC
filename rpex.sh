@@ -30,6 +30,7 @@ sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js
 sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
 sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
+sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

@@ -13,7 +13,6 @@ wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/mai
 wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
 wget -O jd_super_mh.js https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_super_mh.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_dpqd.js
-wget -O jd_mf_exchange.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_mofang_exchange.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js

@@ -22,9 +22,9 @@ wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_p
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 wget -O jd_redPacket_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js
 ###
-wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
-# chmod +x cf_getcode.sh
-sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+# wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
+# # chmod +x cf_getcode.sh
+# sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
 sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js

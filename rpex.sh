@@ -11,13 +11,13 @@ wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/
 wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js
 wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
 wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
-wget -O jd_super_mh.js https://raw.githubusercontent.com/Aaron-lv/JavaScript/master/Task/jd_super_mh.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_dpqd.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
+wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/activity/jd_necklace.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 wget -O jd_redPacket_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js

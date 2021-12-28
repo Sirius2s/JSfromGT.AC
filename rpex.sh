@@ -17,7 +17,6 @@ wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/g
 wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
-wget -O jd_necklace.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/activity/jd_necklace.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 wget -O jd_redPacket_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js

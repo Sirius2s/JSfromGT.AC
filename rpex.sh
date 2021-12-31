@@ -30,6 +30,16 @@ sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb
 sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
 sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
 sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
+sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
+sed -i '/let activityIdList/a \
+activityIdList = [\
+    "ae7b694110354454a037c2a977a5b4a8",\
+    "fd7a5a0d4f0d4e709d5bc0a73a508883",\
+    "ee2de79d60154ccc9d1c1be57ebd942f",\
+    "758e6bc8b7354f49839d34787dfe7ace",\
+    "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
+    "2c4f6b05ae0d420092773b7de2f816b5",\
+    ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

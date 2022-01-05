@@ -33,10 +33,6 @@
         "jd_speed_sign":
         {
             "timeout": 59
-        },
-        "jd_wxCollectionActivity":
-        {
-            "timeout": 50
         }
     }
 }

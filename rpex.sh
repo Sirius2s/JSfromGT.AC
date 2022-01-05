@@ -20,7 +20,7 @@ wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scrip
 wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 wget -O jd_redPacket_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js
-wget -O jd_wxCollectionActivity.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/jd_wxCollectionActivity.js
+# wget -O jd_wxCollectionActivity.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/jd_wxCollectionActivity.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh
@@ -31,7 +31,7 @@ sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb
 sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
 sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
 sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
-sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
+# sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/let activityIdList/a \
 activityIdList = [\
     "ae7b694110354454a037c2a977a5b4a8",\

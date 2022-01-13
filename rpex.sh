@@ -34,10 +34,13 @@ sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/let activityIdList/a \
 activityIdList = [\
+    "36314cdffb454bc08a9f4b63a6588c4b",\
     "fd7a5a0d4f0d4e709d5bc0a73a508883",\
     "ee2de79d60154ccc9d1c1be57ebd942f",\
-    "3a9885564c6a4633b55b6bfcd083d3a4",\
     "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
+    "3a9885564c6a4633b55b6bfcd083d3a4",\
+    "46f1ee7d1621433c8e69ffeb274c3090",\
+    "c92fe35e1e234856ba06d9a8b9e250fd",\
     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

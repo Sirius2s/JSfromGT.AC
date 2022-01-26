@@ -3,6 +3,7 @@
 # tsc *.ts
 # rm -rf *.ts
 # ### 
+wget -O index.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/74757e842132ddb1a5bd0908cd3bbbd3bc4ece47/index.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js

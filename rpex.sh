@@ -3,7 +3,7 @@
 # tsc *.ts
 # rm -rf *.ts
 # ### 
-wget -O index.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/74757e842132ddb1a5bd0908cd3bbbd3bc4ece47/index.js
+wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_z5.js
 wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
@@ -37,12 +37,8 @@ sed -i '/let activityIdList/a \
 activityIdList = [\
     "36314cdffb454bc08a9f4b63a6588c4b",\
     "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
-    "3a9885564c6a4633b55b6bfcd083d3a4",\
-    "46f1ee7d1621433c8e69ffeb274c3090",\
     "c92fe35e1e234856ba06d9a8b9e250fd",\
     "fd146d962644400d934b045d737fad2b",\
-    "be0626a6c61344ddb11355ba19d096e6",\
-    "ce4917ec5a41440ebd7780f90dc1fdf0",\
     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

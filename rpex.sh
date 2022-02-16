@@ -3,24 +3,25 @@
 # tsc *.ts
 # rm -rf *.ts
 # ### 
-wget -O index.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/74757e842132ddb1a5bd0908cd3bbbd3bc4ece47/index.js
-wget -O jd_speed.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_speed.js
-wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_lotteryMachine.js
-wget -O jd_unsubLive.js https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_unsubscriLive.js
+wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_z5.js
+wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remZ5/sendNotify.js
+wget -O jd_speed.js https://raw.githubusercontent.com/gys619/banana1/main/jd_speed.js
+wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
+wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
 wget -O jddj_fruit.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
 wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js
 wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js
 wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
 wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
-wget -O jd_dpqd.js https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_dpqd.js
-wget -O jd_MMdou.js https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
+wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
+wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
-wget -O jd_jump.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_jump.js
-wget -O jd_foodRunning.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_foodRunning.js
-wget -O jd_esManager.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_esManager.js
-wget -O jd_Z4B.js https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
+wget -O jd_jump.js https://raw.githubusercontent.com/gys619/banana1/main/jd_jump.js
+wget -O jd_foodRunning.js https://raw.githubusercontent.com/gys619/banana1/main/jd_foodRunning.js
+wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
+wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
-wget -O jd_redPacket_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js
+wget -O jd_redPacket_h.js https://raw.githubusercontent.com/gys619/banana1/main/jd_redPacket.js
 # wget -O jd_wxCollectionActivity.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/jd_wxCollectionActivity.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
@@ -37,12 +38,8 @@ sed -i '/let activityIdList/a \
 activityIdList = [\
     "36314cdffb454bc08a9f4b63a6588c4b",\
     "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
-    "3a9885564c6a4633b55b6bfcd083d3a4",\
-    "46f1ee7d1621433c8e69ffeb274c3090",\
     "c92fe35e1e234856ba06d9a8b9e250fd",\
     "fd146d962644400d934b045d737fad2b",\
-    "be0626a6c61344ddb11355ba19d096e6",\
-    "ce4917ec5a41440ebd7780f90dc1fdf0",\
     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

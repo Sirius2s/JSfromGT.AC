@@ -5,6 +5,7 @@
     "jd_dreamFactory": 1,
     "jd_bean_change": [11],
     "jd_speed": 3,
+    "jd_sgmh": [8, 20],
     "jd_lotteryMachine": [0],
     "jd_dpqd": [0],
     "jd_wxCollectionActivity": [1],
@@ -18,11 +19,6 @@
     "jd_redPacket_h": [0],
     "jd_jieMo": [0, 9],
     "jd_speed_sign": [8],
-    "jddj_fruit": [8, 11, 17],
-    "jddj_bean": [9],
-    "jddj_plantBeans": [9],
-    "jddj_getPoints": 4,
-    "jddj_fruit_collectWater": 2,
     "params":
     {
         "global":

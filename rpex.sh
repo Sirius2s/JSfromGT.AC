@@ -8,11 +8,11 @@ wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/remZ5/
 wget -O jd_speed.js https://raw.githubusercontent.com/gys619/banana1/main/jd_speed.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
-wget -O jddj_fruit.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
-wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js
-wget -O jddj_bean.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js
-wget -O jddj_plantBeans.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js
-wget -O jddj_getPoints.js https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js
+wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
+wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit_collectWater.js
+wget -O jddj_bean.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_bean.js
+wget -O jddj_plantBeans.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_plantBeans.js
+wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
@@ -32,7 +32,7 @@ sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js
 sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
 sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
-sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
+# sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/let activityIdList/a \
 activityIdList = [\

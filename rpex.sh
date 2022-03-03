@@ -17,6 +17,7 @@ wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
 wget -O jd_jump.js https://raw.githubusercontent.com/gys619/banana1/main/jd_jump.js
+wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_foodRunning.js https://raw.githubusercontent.com/gys619/banana1/main/jd_foodRunning.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js

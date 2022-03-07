@@ -47,6 +47,7 @@ activityIdList = [\
     "cb90f4749d974a9bb118f73104b8fc45",\
     "5fb9a2dad5604c85b2144b5156c6140d",\
     "26806f48bb934932b939ad7220d6e186",\
+    "e33d68e4ec884006b61649f3ca236048",\
     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

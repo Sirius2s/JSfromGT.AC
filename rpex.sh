@@ -35,6 +35,7 @@ sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
 sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
+sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
 sed -i '/let activityIdList/a \
 activityIdList = [\
     "36314cdffb454bc08a9f4b63a6588c4b",\

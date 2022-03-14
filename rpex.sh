@@ -1,11 +1,11 @@
-# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try
+# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try&jd_qqxing&jd_moneyTree&jd_moneyTree_help&jd_gold_sign&jd_freshgoods&jx_ttysq&jd_sxLottery&jd_fanli
 # ### HW-ts
 # tsc *.ts
 # rm -rf *.ts
 # ### 
 wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_z5.js
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
-wget -O jd_speed.js https://raw.githubusercontent.com/gys619/banana1/main/jd_speed.js
+wget -O jd_m_sign.js https://raw.githubusercontent.com/acoolbook/scripts/main/jd_m_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
 wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
@@ -16,15 +16,15 @@ wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/mast
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
-wget -O jd_jump.js https://raw.githubusercontent.com/gys619/banana1/main/jd_jump.js
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
-wget -O jd_foodRunning.js https://raw.githubusercontent.com/gys619/banana1/main/jd_foodRunning.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
-wget -O jd_redPacket_h.js https://raw.githubusercontent.com/gys619/banana1/main/jd_redPacket.js
 # wget -O jd_wxCollectionActivity.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/jd_wxCollectionActivity.js
+wget -O jd_mpdzcar.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar.js
+wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
+wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh
@@ -32,25 +32,23 @@ wget -O jd_redPacket_h.js https://raw.githubusercontent.com/gys619/banana1/main/
 ###
 sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js
-sed -i 's/await jinli_h5assist/\/\/  await jinli_h5assist/g' jd_redPacket*.js
-sed -i 's/i === 0/i < 0/g' jd_redPacket_h.js
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
-sed -i '/let activityIdList/a \
-activityIdList = [\
-    "36314cdffb454bc08a9f4b63a6588c4b",\
-    "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
-    "c92fe35e1e234856ba06d9a8b9e250fd",\
-    "fd146d962644400d934b045d737fad2b",\
-    "862fb53b62f64bbf9932ac0910df167f",\
-    "ccb802faf6f94aaa8ab6257920d6627f",\
-    "cb90f4749d974a9bb118f73104b8fc45",\
-    "5fb9a2dad5604c85b2144b5156c6140d",\
-    "26806f48bb934932b939ad7220d6e186",\
-    "e33d68e4ec884006b61649f3ca236048",\
-    "3002cc73f9214a519b2734e114e469c8",\
-    ]' jd_sevenDay.js
+# sed -i '/let activityIdList/a \
+# activityIdList = [\
+#     "36314cdffb454bc08a9f4b63a6588c4b",\
+#     "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
+#     "c92fe35e1e234856ba06d9a8b9e250fd",\
+#     "fd146d962644400d934b045d737fad2b",\
+#     "862fb53b62f64bbf9932ac0910df167f",\
+#     "ccb802faf6f94aaa8ab6257920d6627f",\
+#     "cb90f4749d974a9bb118f73104b8fc45",\
+#     "5fb9a2dad5604c85b2144b5156c6140d",\
+#     "26806f48bb934932b939ad7220d6e186",\
+#     "e33d68e4ec884006b61649f3ca236048",\
+#     "3002cc73f9214a519b2734e114e469c8",\
+#     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

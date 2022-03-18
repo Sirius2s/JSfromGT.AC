@@ -8,11 +8,11 @@ wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup
 wget -O jd_m_sign.js https://raw.githubusercontent.com/acoolbook/scripts/main/jd_m_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
-wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
-wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit_collectWater.js
-wget -O jddj_bean.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_bean.js
-wget -O jddj_plantBeans.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_plantBeans.js
-wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
+# wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
+# wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit_collectWater.js
+# wget -O jddj_bean.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_bean.js
+# wget -O jddj_plantBeans.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_plantBeans.js
+# wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
@@ -64,5 +64,5 @@ sed -i 's/helpAuthor = true/helpAuthor = false/g' `grep 'helpAuthor = true' -rl 
 sed -i '/var HELP_HW =/a HELP_HW = '"'false'"''  `grep 'var HELP_HW =' -rl ./`
 sed -i '/var HELP_POOL =/a HELP_POOL = '"'false'"''  `grep 'var HELP_POOL =' -rl ./`
 sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./`
-sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
-sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`
+# sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
+# sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`

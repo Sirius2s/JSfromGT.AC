@@ -1,5 +1,6 @@
 {
-    "jd_bean_sign": [0, 12, 18],
+    "jd_bean_sign": [0, 12],
+    "jd_sign_graphics": [5, 17],
     "jd_esManager": [13],
     "jd_jdfactory": 1,
     "jd_dreamFactory": 1,

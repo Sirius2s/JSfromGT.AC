@@ -15,7 +15,7 @@ wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd
 # wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
-# wget -O jd_carnivalcity.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js
+wget -O jd_carnivalcity.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_wish.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_wish.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
@@ -30,9 +30,9 @@ wget -O jd_dreamFactory.js https://raw.githubusercontent.com/JDHelloWorld/jd_scr
 wget -O jd_plantBean.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
 wget -O jd_pet.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
 ###
-# wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
-# # chmod +x cf_getcode.sh
-# sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
+wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
+# chmod +x cf_getcode.sh
+sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
 sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js

@@ -25,10 +25,6 @@ wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo
 wget -O jd_mpdzcar.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar.js
 wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
-wget -O jd_fruit_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
-wget -O jd_dreamFactory_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
-wget -O jd_plantBean_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
-wget -O jd_pet_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
 ###
 wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh
@@ -70,3 +66,8 @@ sed -i '/var HELP_POOL =/a HELP_POOL = '"'false'"''  `grep 'var HELP_POOL =' -rl
 sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./`
 # sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
 # sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`
+###
+wget -O jd_fruit_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
+wget -O jd_dreamFactory_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
+wget -O jd_plantBean_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
+wget -O jd_pet_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js

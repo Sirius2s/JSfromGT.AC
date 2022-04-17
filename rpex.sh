@@ -25,6 +25,7 @@ wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo
 wget -O jd_mpdzcar.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar.js
 wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
+wget -O jd_big_winner.js https://raw.githubusercontent.com/gys619/banana1/main/jd_big_winner.js
 ###
 wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # chmod +x cf_getcode.sh

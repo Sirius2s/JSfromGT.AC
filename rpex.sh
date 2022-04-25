@@ -1,4 +1,4 @@
-# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try&jd_qqxing&jd_moneyTree&jd_moneyTree_help&jd_gold_sign&jd_freshgoods&jx_ttysq&jd_sxLottery&jd_fanli
+# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try&jd_qqxing&jd_moneyTree&jd_moneyTree_help&jd_gold_sign&jd_freshgoods&jx_ttysq&jd_sxLottery&jd_fanli&jd_dreamFactory
 # ### HW-ts
 # tsc *.ts
 # rm -rf *.ts

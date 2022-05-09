@@ -37,7 +37,7 @@ if __name__ == "__main__":
             code_type="zip"
         )
         response = client.update_function_code(request)
-        print(response)
+        print('部署成功',format(response["code_size"]/1024/1024, '.2f'))
     except exceptions.ClientRequestException as e:
         print(e.status_code)
         print(e.request_id)

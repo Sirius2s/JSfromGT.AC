@@ -5,7 +5,7 @@
 # ### 
 wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_z5.js
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
-wget -O jd_m_sign.js https://raw.githubusercontent.com/acoolbook/scripts/main/jd_m_sign.js
+wget -O jd_m_sign.js https://raw.githubusercontent.com/KingRan/KR/main/jd_m_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
 # wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
@@ -14,6 +14,8 @@ wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd
 # wget -O jddj_plantBeans.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_plantBeans.js
 # wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
+wget -O jd_dpqd2.js https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js
+wget -O jd_dpqd3.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_dpsign.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
@@ -68,7 +70,7 @@ sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./
 # sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
 # sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`
 ###
-wget -O jd_fruit_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
-wget -O jd_dreamFactory_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
-wget -O jd_plantBean_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
-wget -O jd_pet_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
+# wget -O jd_fruit_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
+# wget -O jd_dreamFactory_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
+# wget -O jd_plantBean_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
+# wget -O jd_pet_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js

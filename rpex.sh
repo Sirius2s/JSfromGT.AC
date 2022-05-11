@@ -40,20 +40,14 @@ sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
-# sed -i '/let activityIdList/a \
-# activityIdList = [\
-#     "36314cdffb454bc08a9f4b63a6588c4b",\
-#     "ba2d672b1fc44814aef1c3ee4c3ac5fa",\
-#     "c92fe35e1e234856ba06d9a8b9e250fd",\
-#     "fd146d962644400d934b045d737fad2b",\
-#     "862fb53b62f64bbf9932ac0910df167f",\
-#     "ccb802faf6f94aaa8ab6257920d6627f",\
-#     "cb90f4749d974a9bb118f73104b8fc45",\
-#     "5fb9a2dad5604c85b2144b5156c6140d",\
-#     "26806f48bb934932b939ad7220d6e186",\
-#     "e33d68e4ec884006b61649f3ca236048",\
-#     "3002cc73f9214a519b2734e114e469c8",\
-#     ]' jd_sevenDay.js
+sed -i '/let activityIdList/a \
+activityIdList = [\
+    "a5813c5465954aa187d720ce2eeac26f",\
+    "64c32fa993e94f77ba9a2cab34584199",\
+    "fb8cbc0f6de34e0d9f33f4bcc0fca33d",\
+    "b66329910551445891a7419027beba4a",\
+    "323f8b4d8d5d45f98332c669169d4bec",\
+    ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

@@ -43,10 +43,14 @@ sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
 sed -i '/let activityIdList/a \
 activityIdList = [\
     "a5813c5465954aa187d720ce2eeac26f",\
-    "64c32fa993e94f77ba9a2cab34584199",\
+    "154849de8f394afc8ff6f45742643226",\
     "fb8cbc0f6de34e0d9f33f4bcc0fca33d",\
     "b66329910551445891a7419027beba4a",\
     "323f8b4d8d5d45f98332c669169d4bec",\
+    "93ec92b03d144314b051e57f4e2beab3",\
+    "72509958eb594319888fa77d693c3533",\
+    "5b03a551781944c1bd159b32e76d7526",\
+    "963e947489644632a8a6c4a4b0a70697",\
     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`

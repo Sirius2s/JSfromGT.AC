@@ -18,6 +18,7 @@ wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
 wget -O jd_dpqd2.js https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js
 wget -O jd_dpqd3.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_dpsign.js
+wget -O jd_sign_graphics.js https://raw.githubusercontent.com/KingRan/KR/main/jd_sign_graphics.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js

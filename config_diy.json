@@ -11,7 +11,7 @@
     "jd_dpqd": [0],
     "jd_dpqd2": [0],
     "jd_dpqd3": [0],
-    "jd_fan": [0],
+    "jd_fan": [0, 1],
     "jd_tanwei": [1, 13],
     "jd_sevenDay": [0, 12],    
     "jd_unsubscribe": [7],

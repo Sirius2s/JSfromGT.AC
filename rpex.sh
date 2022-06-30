@@ -73,7 +73,11 @@ sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./
 # sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
 # sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`
 ###
-# wget -O jd_fruit_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js
-# wget -O jd_dreamFactory_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
-# wget -O jd_plantBean_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
-# wget -O jd_pet_h.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
+wget -O jd_cfd.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_cfd.js
+wget -O jd_dreamFactory.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_dreamFactory.js
+wget -O jd_fruit.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_fruit.js
+wget -O jd_health.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health.js
+wget -O jd_jdfactory.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdfactory.js
+wget -O jd_pet.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_pet.js
+wget -O jd_plantBean.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_plantBean.js
+wget -O jd_sgmh.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_sgmh.js

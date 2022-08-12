@@ -25,6 +25,7 @@ wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MM
 wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_wish.js https://raw.githubusercontent.com/KingRan/KR/main/jd_wish.js
 wget -O jd_fan.js https://raw.githubusercontent.com/KingRan/KR/main/jd_fan.js
+wget -O jd_beauty.js https://raw.githubusercontent.com/KingRan/KR/main/jd_beauty.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
 wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
@@ -43,18 +44,18 @@ sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
-sed -i '/let activityIdList/a \
-activityIdList = [\
-    "a5813c5465954aa187d720ce2eeac26f",\
-    "fb8cbc0f6de34e0d9f33f4bcc0fca33d",\
-    "b66329910551445891a7419027beba4a",\
-    "323f8b4d8d5d45f98332c669169d4bec",\
-    "93ec92b03d144314b051e57f4e2beab3",\
-    "5b03a551781944c1bd159b32e76d7526",\
-    "50fb941af214437cbd2cb05b6ee1b5c4",\
-    "bf1f97a0180b4a159a00431a6ad6ef54",\
-    "d3f04569638a4a3399feb878ddfb9755",\
-    ]' jd_sevenDay.js
+# sed -i '/let activityIdList/a \
+# activityIdList = [\
+#     "a5813c5465954aa187d720ce2eeac26f",\
+#     "fb8cbc0f6de34e0d9f33f4bcc0fca33d",\
+#     "b66329910551445891a7419027beba4a",\
+#     "323f8b4d8d5d45f98332c669169d4bec",\
+#     "93ec92b03d144314b051e57f4e2beab3",\
+#     "5b03a551781944c1bd159b32e76d7526",\
+#     "50fb941af214437cbd2cb05b6ee1b5c4",\
+#     "bf1f97a0180b4a159a00431a6ad6ef54",\
+#     "d3f04569638a4a3399feb878ddfb9755",\
+#     ]' jd_sevenDay.js
 ###
 sed -i 's/await\sdoHelp()/;/g' `grep 'await\sdoHelp()' -rl ./`
 sed -i 's/await\shelpFriend()/;/g' `grep 'await\shelpFriend()' -rl ./`

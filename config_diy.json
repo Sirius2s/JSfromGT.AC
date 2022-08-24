@@ -21,6 +21,7 @@
     "jd_jieMo": [0, 9],
     "jd_speed_sign": [8],
     "jd_beauty": [7, 12, 19],
+    "z_ft": [7],
     "params":
     {
         "global":
@@ -29,6 +30,10 @@
             "timeout": 15
         },
         "jd_speed_sign":
+        {
+            "timeout": 59
+        },
+        "z_ft":
         {
             "timeout": 59
         }

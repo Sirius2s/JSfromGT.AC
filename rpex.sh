@@ -7,6 +7,7 @@ wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/inde
 wget -O index_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_hw.js
 wget -O jdCookie_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jdCookie_hw.js
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
+wget -O z_ft.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/z_ft.js
 wget -O jd_m_sign.js https://raw.githubusercontent.com/KingRan/KR/main/jd_m_sign.js
 wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js

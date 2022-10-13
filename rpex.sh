@@ -8,8 +8,8 @@ wget -O index_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/i
 wget -O jdCookie_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jdCookie_hw.js
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
 wget -O z_ft.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/z_ft.js
-wget -O jd_m_sign.js https://raw.githubusercontent.com/KingRan/KR/main/jd_m_sign.js
-wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
+# wget -O jd_m_sign.js https://raw.githubusercontent.com/KingRan/KR/main/jd_m_sign.js
+# wget -O jd_lotteryMachine.js https://raw.githubusercontent.com/gys619/banana1/main/jd_lotteryMachine.js
 wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd_unsubscriLive.js
 # wget -O jddj_fruit.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit.js
 # wget -O jddj_fruit_collectWater.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_fruit_collectWater.js
@@ -17,22 +17,22 @@ wget -O jd_unsubLive.js https://raw.githubusercontent.com/gys619/banana1/main/jd
 # wget -O jddj_plantBeans.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_plantBeans.js
 # wget -O jddj_getPoints.js https://raw.githubusercontent.com/okyyds/yydspure/master/jddj_getPoints.js
 wget -O jd_dpqd.js https://raw.githubusercontent.com/xdhgsq/xdh/main/js/jd_dpqd.js
-wget -O jd_dpqd2.js https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js
+# wget -O jd_dpqd2.js https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js
 wget -O jd_dpqd3.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_dpsign.js
-wget -O jd_tanwei.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_tanwei.js
+# wget -O jd_tanwei.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_tanwei.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/KingRan/KR/main/jd_sign_graphics.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/gua_MMdou.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
-wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
+# wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_wish.js https://raw.githubusercontent.com/KingRan/KR/main/jd_wish.js
-wget -O jd_fan.js https://raw.githubusercontent.com/KingRan/KR/main/jd_fan.js
+# wget -O jd_fan.js https://raw.githubusercontent.com/KingRan/KR/main/jd_fan.js
 wget -O jd_beauty.js https://raw.githubusercontent.com/KingRan/KR/main/jd_beauty.js
 wget -O jd_esManager.js https://raw.githubusercontent.com/gys619/banana1/main/jd_EsportsManager.js
-wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js
+# wget -O jd_Z4B.js https://raw.githubusercontent.com/gys619/banana1/main/jd_productZ4Brand11.js
 wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo.js
 # wget -O jd_wxCollectionActivity.js https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/jd_wxCollectionActivity.js
-wget -O jd_mpdzcar.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar.js
-wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
+# wget -O jd_mpdzcar.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar.js
+# wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
 # wget -O jd_big_winner.js https://raw.githubusercontent.com/gys619/banana1/main/jd_big_winner.js
 ###
@@ -77,7 +77,7 @@ sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./
 ###
 wget -O jd_cfd.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_cfd.js
 wget -O jd_dreamFactory.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_dreamFactory.js
-wget -O jd_fruit.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_fruit.js
+# wget -O jd_fruit.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_fruit.js
 wget -O jd_health.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health.js
 wget -O jd_jdfactory.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdfactory.js
 wget -O jd_pet.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_pet.js

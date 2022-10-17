@@ -40,6 +40,7 @@ wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_cc
 # # chmod +x cf_getcode.sh
 # sh cf_getcode.sh jd_carnivalcity.js 互助码】 】
 ###
+sed -i '/"got":/a \    "moment": "^2.29.4",' package.json
 sed -i '/let reward =/a \reward = '"'20'"'' jd_health.js
 sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb.js
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js

@@ -46,6 +46,7 @@ sed -i -e 's/await help/\/\/  await help/g' -e '/await help/a \        ;' jd_zjb
 # sed -i 's/=> help(/=> main(/g' jd_xsqjd.js
 # sed -i '1i process.env.FS_LEVEL = "car"\n' jd_wxCollectionActivity.js
 sed -i '/$.JOY_COIN_MAXIMIZE =/a \$.JOY_COIN_MAXIMIZE = '"'1'"'' jd_joy_park.js
+sed -i 's/fs.mkdirSync/\/\/  fs.mkdirSync/g' jd_bean_change.js
 # sed -i '/let activityIdList/a \
 # activityIdList = [\
 #     "a5813c5465954aa187d720ce2eeac26f",\

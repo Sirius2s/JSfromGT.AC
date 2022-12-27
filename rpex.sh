@@ -1,4 +1,4 @@
-# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try&jd_qqxing&jd_moneyTree&jd_moneyTree_help&jd_gold_sign&jd_freshgoods&jx_ttysq&jd_sxLottery&jd_fanli&jd_dreamFactory
+# NOT_RUN: jd_pigPet&jd_wsdlb&jd_try&jd_qqxing&jd_moneyTree&jd_moneyTree_help&jd_gold_sign&jd_freshgoods&jx_ttysq&jd_sxLottery&jd_fanli&jd_dreamFactory&jd_jdfactory
 # ### HW-ts
 # tsc *.ts
 # rm -rf *.ts
@@ -35,6 +35,7 @@ wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo
 # wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
 # wget -O jd_big_winner.js https://raw.githubusercontent.com/gys619/banana1/main/jd_big_winner.js
+wget -O jd_zns.js https://raw.githubusercontent.com/gys619/banana1/main/jd_zns.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh

@@ -6,6 +6,7 @@
 wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_z5.js
 wget -O index_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_hw.js
 wget -O jdCookie_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jdCookie_hw.js
+wget -O config.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/config.json
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
 wget -O z_ft.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/z_ft.js
 # wget -O jd_m_sign.js https://raw.githubusercontent.com/KingRan/KR/main/jd_m_sign.js
@@ -77,11 +78,11 @@ sed -i 's/&shareUuid=${$.shareUuid}//g' `grep '&shareUuid=${$.shareUuid}' -rl ./
 # sed -i 's/"root.json"/"\/tmp\/root.json"/g' `grep '"root.json"' -rl --include="jddj*.js" ./`
 # sed -i 's/`${this.name}.json`/`\/tmp\/${this.name}.json`/g' `grep '\`${this.name}.json\`' -rl --include="jddj*.js" ./`
 ###
-wget -O jd_cfd.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_cfd.js
-wget -O jd_dreamFactory.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_dreamFactory.js
+# wget -O jd_cfd.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_cfd.js
+# wget -O jd_dreamFactory.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_dreamFactory.js
 wget -O jd_fruit.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_fruit.js
 wget -O jd_health.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_health.js
-wget -O jd_jdfactory.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_jdfactory.js
-wget -O jd_pet.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_pet.js
+# wget -O jd_jdfactory.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_jdfactory.js
+# wget -O jd_pet.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_pet.js
 wget -O jd_plantBean.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_plantBean.js
-wget -O jd_sgmh.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_sgmh.js
+# wget -O jd_sgmh.js https://raw.githubusercontent.com/he1pu/JSHe1per/main/jd_sgmh.js

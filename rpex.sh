@@ -23,6 +23,8 @@ wget -O jd_dpqd3.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_dpsi
 # wget -O jd_tanwei.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_tanwei.js
 wget -O jd_sign_graphics.js https://raw.githubusercontent.com/KingRan/KR/main/jd_sign_graphics.js
 wget -O jd_MMdou.js https://raw.githubusercontent.com/gys619/banana1/main/jd_gua_MMdou_Mod.js
+wget -O jd_signbeanact.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_signbeanact.js
+wget -O jd_cashsign.js https://raw.githubusercontent.com/6dylan6/jdpro/main/jd_cashsign.js
 # wget -O jd_carnivalcity.js https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
 # wget -O jd_nzmh.js https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_nzmh.js
 wget -O jd_wish.js https://raw.githubusercontent.com/KingRan/KR/main/jd_wish.js

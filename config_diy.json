@@ -10,6 +10,7 @@
     "jd_signbeanact": [7],
     "jd_speed_sign": [8],
     "jd_kuaidi": [7, 22],
+    "jd_twcyz": [10, 15],
     "params":
     {
         "global":

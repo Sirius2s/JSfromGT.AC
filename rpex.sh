@@ -7,6 +7,7 @@ wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/inde
 wget -O index_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_hw.js
 wget -O jdCookie_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jdCookie_hw.js
 wget -O config.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/config.json
+wget -O package.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/package.json
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_speed_sign.js
 wget -O z_ft.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/z_ft.js
@@ -40,6 +41,11 @@ wget -O jd_jieMo.js https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jieMo
 # wget -O jd_mpdzcar_game.js https://raw.githubusercontent.com/gys619/banana1/main/jd_mpdzcar_game.js
 wget -O jd_ccSign.js https://raw.githubusercontent.com/gys619/banana1/main/jd_ccSign.js
 # wget -O jd_big_winner.js https://raw.githubusercontent.com/gys619/banana1/main/jd_big_winner.js
+wget -O utils/Env.js https://raw.githubusercontent.com/nyqty/scripts/main/utils/Env.js
+wget -O utils/h5st.js https://raw.githubusercontent.com/nyqty/scripts/main/utils/h5st.js
+# wget -O function/krgetSign.js https://raw.githubusercontent.com/nyqty/scripts/main/function/krgetSign.js
+# wget -O function/krgetToken.js https://raw.githubusercontent.com/nyqty/scripts/main/function/krgetToken.js
+# wget -O function/cache/index.js https://raw.githubusercontent.com/nyqty/scripts/main/function/cache/index.js
 ###
 # wget -O cf_getcode.sh https://raw.githubusercontent.com/sirius2s/JSfromGT.AC/main/cf_getcode.sh
 # # chmod +x cf_getcode.sh

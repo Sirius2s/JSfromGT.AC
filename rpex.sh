@@ -7,7 +7,7 @@ wget -O index.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/inde
 wget -O index_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/index_hw.js
 wget -O jdCookie_hw.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jdCookie_hw.js
 wget -O config.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/config.json
-wget -O package.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/package.json
+# wget -O package.json https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/package.json
 wget -O sendNotify.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/sendNotify.js
 wget -O jd_speed_sign.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/jd_speed_sign.js
 wget -O z_ft.js https://raw.githubusercontent.com/Sirius2s/JSfromGT/backup/z_ft.js
